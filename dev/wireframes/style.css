@@ -1,0 +1,10 @@
+body {
+  margin: 0 auto;
+  padding: 1em;
+}
+
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
