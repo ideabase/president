@@ -1,11 +1,19 @@
 body{
 	font-family: 'Lato', sans-serif;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 2em;
 }
 
 #header{
 	margin-top: 5%;
 	font-size: 2em;
 	text-align: center;
+}
+
+.logo {
+	max-width: 100%;
+	width: 200px;
 }
 
 #navigation{
@@ -24,7 +32,7 @@ body{
 #navigation ul li a {
 	color: black;
 	font-size: 2em;
-	float: left; 
+	float: left;
 	text-decoration: none;
 	padding: 20px;
 }
@@ -32,4 +40,3 @@ body{
 #navigation ul li a:visited {
 	color: black;
 }
-

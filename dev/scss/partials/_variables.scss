@@ -1,0 +1,33 @@
+// Colors //
+
+$gold: rgb(234,171,0);
+$blue: rgb(0,38,100);
+
+$gradient: linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%);
+
+// Fonts //
+
+$sans-serif: Helvetica, Arial, sans-serif;
+
+// Layout
+
+$globalpadding: 1rem;
+
+// Media Queries
+
+$tiny: "(min-width: 31.25em)"; // 500 pixels wide //
+$small: "(min-width: 37.5em)"; // 600 pixels wide //
+$small-ish: "(min-width: 43.75em)"; // 700 pixels wide //
+$medium: "(min-width: 50em)"; // 800 pixels wide //
+$medium-ish: "(min-width: 56.25em)"; // 900 pixels wide //
+$large: "(min-width: 75em)"; // 1200 pixels wide //
+$x-large: "(min-width: 93.75em)"; // 1500 pixels wide //
+
+
+// Mixins/Extends //
+
+.plain-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

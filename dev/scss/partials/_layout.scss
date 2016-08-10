@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background: url(https://mdn.mozillademos.org/files/11307/bubbles.png), $gradient;
+}
+
+main {
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.8);
+  min-height: 200px;
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
