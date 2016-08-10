@@ -4,7 +4,6 @@
     <title>President Strategic Visioning</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" media="all" />
 </head>
 <body>
 <?php //Get URL Parameter

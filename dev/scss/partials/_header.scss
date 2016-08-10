@@ -16,9 +16,9 @@ header {
   font-size: 1em;
   margin-top: 2em;
   text-transform: uppercase;
-  font-style: italic;
-  font-weight: normal;
   line-height: 1.3;
+  @include NationalBoldItalic;
+  letter-spacing: 1px;
   @media #{$medium} {
     text-align: right;
     width: 75%;
@@ -31,8 +31,8 @@ header {
 }
 
 .header-title strong {
-  font-weight: bold;
   color: $gold;
+  @include NationalBlackItalic;
   display: block;
   @media #{$small} {
     display: inline-block;

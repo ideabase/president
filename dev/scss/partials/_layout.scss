@@ -3,10 +3,9 @@ html {
 }
 body {
   height: 100%;
-  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png);
+  background: url(../../assets/img/compass.svg), $gradient;
   background-repeat: no-repeat;
-  background-position: bottom right;
-  background: url(https://mdn.mozillademos.org/files/11307/bubbles.png), $gradient;
+  background-position: bottom left;
 }
 
 main {

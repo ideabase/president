@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+
+@font-face {
+    font-family: "National";
+    font-weight: 300;
+    src: url("../font/National-Light.woff2") format("woff2"),
+         url("../font/National-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "National";
+    font-weight: 300;
+    font-style: italic;
+    src: url("../font/National-LightItalic.woff2") format("woff2"),
+         url("../font/National-LightItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "National";
+    font-weight: 700;
+    src: url("../font/National-Bold.woff2") format("woff2"),
+         url("../font/National-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "National";
+    font-weight: 700;
+    font-style: italic;
+    src: url("../font/National-BoldItalic.woff2") format("woff2"),
+         url("../font/National-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "National";
+    font-weight: 900;
+    font-style: italic;
+    src: url("../font/National-BlackItalic.woff2") format("woff2"),
+         url("../font/National-BlackItalic.woff") format("woff");
+}
+
+$font-family-sans-serif: "National", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif: "Roboto Slab", Georgia, "Times New Roman", Times, serif !default;
+
+
+@mixin NationalLight {
+    font-family: $font-family-sans-serif;
+    font-weight: 300;
+}
+
+@mixin NationalLightItalic {
+    font-family: $font-family-sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+@mixin NationalBold {
+    font-family: $font-family-sans-serif;
+    font-weight: 700;
+}
+
+@mixin NationalBoldItalic {
+    font-family: $font-family-sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+@mixin NationalBlackItalic {
+    font-family: $font-family-sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+@mixin RobotoRegular {
+	font-family: $font-family-serif;
+	font-weight:400;
+}
+
+@mixin RobotoLight {
+	font-family: $font-family-serif;
+	font-weight: 300;
+}
+@mixin RobotoBold {
+	font-family: $font-family-serif;
+	font-weight:700;
+}

@@ -1,8 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 .plain-list { list-style-type: none; margin: 0; padding: 0; }
 
+@font-face { font-family: "National"; font-weight: 300; src: url("../font/National-Light.woff2") format("woff2"), url("../font/National-Light.woff") format("woff"); }
+@font-face { font-family: "National"; font-weight: 300; font-style: italic; src: url("../font/National-LightItalic.woff2") format("woff2"), url("../font/National-LightItalic.woff") format("woff"); }
+@font-face { font-family: "National"; font-weight: 700; src: url("../font/National-Bold.woff2") format("woff2"), url("../font/National-Bold.woff") format("woff"); }
+@font-face { font-family: "National"; font-weight: 700; font-style: italic; src: url("../font/National-BoldItalic.woff2") format("woff2"), url("../font/National-BoldItalic.woff") format("woff"); }
+@font-face { font-family: "National"; font-weight: 900; font-style: italic; src: url("../font/National-BlackItalic.woff2") format("woff2"), url("../font/National-BlackItalic.woff") format("woff"); }
 html { height: 100%; }
 
-body { height: 100%; background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png); background-repeat: no-repeat; background-position: bottom right; background: url(https://mdn.mozillademos.org/files/11307/bubbles.png), -webkit-linear-gradient(bottom, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background: url(https://mdn.mozillademos.org/files/11307/bubbles.png), linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); }
+body { height: 100%; background: url(../../assets/img/compass.svg), -webkit-linear-gradient(bottom, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background: url(../../assets/img/compass.svg), linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background-repeat: no-repeat; background-position: bottom left; }
 
 main { background-color: white; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); min-height: 200px; }
 
@@ -145,11 +151,11 @@ header { border-bottom: 7px solid #eaab00; color: white; padding: 2em; }
 @media (min-width: 50em) { header { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; } }
 @media (min-width: 75em) { header { padding: 2em 0; } }
 
-.header-title { font-size: 1em; margin-top: 2em; text-transform: uppercase; font-style: italic; font-weight: normal; line-height: 1.3; }
+.header-title { font-size: 1em; margin-top: 2em; text-transform: uppercase; line-height: 1.3; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; letter-spacing: 1px; }
 @media (min-width: 50em) { .header-title { text-align: right; width: 75%; margin: 0; padding: 0; } }
 @media (min-width: 75em) { .header-title { padding-right: 0; } }
 
-.header-title strong { font-weight: bold; color: #eaab00; display: block; }
+.header-title strong { color: #eaab00; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; display: block; }
 @media (min-width: 37.5em) { .header-title strong { display: inline-block; } }
 
 @media (min-width: 50em) { .header-logo { width: 25%; } }
