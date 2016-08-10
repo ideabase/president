@@ -1,2 +1,52 @@
 footer {
+  color: white;
+}
+
+.footer-links {
+  text-align: center;
+}
+
+.footer-contact__list, .footer-social__list, .footer-supplemental__list {
+  @extend .plain-list;
+}
+
+.footer-supplemental__list, .footer-social__list, .footer-contact__list, .footer-contact__list__item__definition {
+  @media #{$small-ish} {
+    display: flex;
+  }
+}
+
+.footer-supplemental__list__item, .footer-contact__list__item {
+  @media #{$small-ish} {
+    &:after {
+      content: "|";
+      color: $gold;
+      padding: 0 .25em 0 .25em;
+    }
+  }
+}
+
+.footer-supplemental__list__item__link, .footer-contact__list__item__link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-supplemental__list__item:last-child, .footer-social__list__item:last-child {
+  @media #{$small-ish} {
+      &:after {
+      content: "";
+      margin: inherit;
+    }
+  }
+}
+
+.footer-supplemental, .footer-social {
+  margin: 0 auto;
+  @media #{$small-ish} {
+    display: inline-block;
+  }
+}
+
+.footer-copyright {
+  text-align: center;
 }

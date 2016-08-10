@@ -1,7 +1,7 @@
 header {
   border-bottom: 7px solid $gold;
   color: white;
-  padding: 2em;
+  padding: $globalpadding*2;
   @media #{$medium} {
     display: flex;
     align-items: center;

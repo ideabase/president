@@ -1,17 +1,16 @@
 html {
   height: 100%;
 }
+
 body {
   height: 100%;
-  background: url(../../assets/img/compass.svg), $gradient;
-  background-repeat: no-repeat;
-  background-position: bottom left;
 }
 
-main {
-  background-color: white;
-  box-shadow: 2px 2px 5px rgba(0,0,0,.8);
-  min-height: 200px;
+header, footer {
+  padding: $globalpadding*2;
+  @media #{$large} {
+    padding: $globalpadding*2 0;
+  }
 }
 
 .page-wrapper {
