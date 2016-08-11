@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>President Strategic Visioning</title>
+    <title>President Strategic Visioning - Patterns</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
 </head>
@@ -9,7 +9,7 @@
 <?php //Get URL Parameter
 	$src = (empty($_GET['url'])) ? 'http://bradfrostweb.com/blog/post/ish-2-0/' : addslashes(filter_input(INPUT_GET, 'url', FILTER_SANITIZE_URL));
 ?>
-<header class="sg-header" role="banner">
+<header class="sg-header">
 	<div class="nav url-change">
 		<a href="/index.html">< Back to Contents</a>
 	</div>
@@ -41,16 +41,18 @@
 <div id="sg-vp-wrap">
 	<div id="sg-cover"></div>
 	<div id="sg-gen-container">
-		<iframe id="sg-viewport" src="<?php echo $src; ?>" sandbox="allow-same-origin allow-scripts allow-forms"></iframe>
+		<iframe id="sg-viewport" src="<?php echo $src; ?>" sandbox="allow-same-origin allow-scripts allow-forms">
+    </iframe>
 		<div id="sg-rightpull-container">
 			<div id="sg-rightpull"></div>
 		</div>
 	</div>
 </div>
 <!--end iFrame-->
-<link href="../../assets/css/ish.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="../../../assets/css/ish.css" rel="stylesheet" type="text/css" media="screen" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script type="text/javascript" src="../../assets/js/url-handler.js "></script>
-<script type="text/javascript" src="../../assets/js/init.js "></script>
+<script type="text/javascript" src="../../../assets/js/url-handler.js "></script>
+<script type="text/javascript" src="../../..assets/js/init.js "></script>
 </body>
 </html>
