@@ -2,13 +2,16 @@ header {
   border-bottom: 7px solid $gold;
   color: white;
   padding: $globalpadding*2;
+  background-image: $gradient;
   @media #{$medium} {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: $globalpadding*2 $globalpadding*2 $globalpadding*2.5 $globalpadding*2;
   }
   @media #{$large} {
     padding: 2em 0;
+    background-image: none;
   }
 }
 

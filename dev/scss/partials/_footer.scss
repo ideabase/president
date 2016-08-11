@@ -1,27 +1,76 @@
 footer {
   color: white;
+  @include NationalBold;
 }
 
 .footer-links {
-  text-align: center;
+  @media #{$medium-ish} {
+    width: 100%;
+    display: flex;
+    margin-bottom: $globalpadding/2;
+  }
 }
 
-.footer-contact__list, .footer-social__list, .footer-supplemental__list {
+.footer-contact__list, .footer-social__list, .footer-social__list, .footer-supplemental__list {
   @extend .plain-list;
 }
 
-.footer-supplemental__list, .footer-social__list, .footer-contact__list, .footer-contact__list__item__definition {
-  @media #{$small-ish} {
+.footer-supplemental__list, .footer-social__list, .footer-contact__list {
+  @media #{$small} {
     display: flex;
   }
 }
 
+.footer-contact__list__item__definition {
+  display: inline-block;
+}
+
+.footer-social__list {
+  display: flex;
+  margin: $globalpadding 0;
+  @media #{$small} {
+    margin: inherit;
+  }
+}
+
+.footer-social__list__item {
+  text-indent: -9999px;
+  overflow: hidden;
+  margin-right: 1em;
+}
+
+.footer-social__list__item:last-child {
+  margin-right: 0;
+}
+
+.footer-social__list__item__link {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-size: 100% auto;
+  &.facebook {
+    background-image: url(../img/facebook.svg);
+  }
+  &.twitter {
+    background-image: url(../img/twitter.svg);
+  }
+  &.instagram {
+    background-image: url(../img/instagram.svg);
+  }
+  &.flickr {
+    background-image: url(../img/flickr.svg);
+  }
+  &.linkedin {
+    background-image: url(../img/linkedin.svg);
+  }
+}
+
 .footer-supplemental__list__item, .footer-contact__list__item {
-  @media #{$small-ish} {
+  @media #{$small} {
     &:after {
       content: "|";
       color: $gold;
-      padding: 0 .25em 0 .25em;
+      padding: 0 .5em 0 .45em;
     }
   }
 }
@@ -31,8 +80,8 @@ footer {
   text-decoration: none;
 }
 
-.footer-supplemental__list__item:last-child, .footer-social__list__item:last-child {
-  @media #{$small-ish} {
+.footer-supplemental__list__item:last-child, .footer-contact__list__item:last-child {
+  @media #{$small} {
       &:after {
       content: "";
       margin: inherit;
@@ -44,9 +93,15 @@ footer {
   margin: 0 auto;
   @media #{$small-ish} {
     display: inline-block;
+    margin: inherit;
   }
 }
 
+.footer-social {
+  margin-left: auto;
+}
+
 .footer-copyright {
-  text-align: center;
+  @include NationalLight;
+  margin-top: $globalpadding;
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>1470433804_online_social_media_flickr</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.06 32 32 32 32 0 0.06 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1470433804_online_social_media_flickr">
+            <g id="Group-3">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M16,0 C7.163,0 0,7.163 0,16 C0,24.836 7.163,32 16,32 C24.837,32 32,24.836 32,16 C32,7.163 24.837,0 16,0" id="Fill-1" fill="#3583B8" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M10.324,11.585 C12.762,11.585 14.739,13.562 14.739,16 C14.739,18.438 12.762,20.415 10.324,20.415 C7.886,20.415 5.909,18.438 5.909,16 C5.909,13.562 7.886,11.585 10.324,11.585" id="Fill-4" fill="#FFFFFF"></path>
+            <path d="M21.676,11.585 C24.114,11.585 26.091,13.562 26.091,16 C26.091,18.438 24.114,20.415 21.676,20.415 C19.238,20.415 17.261,18.438 17.261,16 C17.261,13.562 19.238,11.585 21.676,11.585" id="Fill-5" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

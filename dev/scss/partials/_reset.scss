@@ -32,6 +32,28 @@ body {
   margin: 0;
 }
 
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+address {
+  font-style: normal;
+  display: inline;
+}
+
+dd {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
 /* HTML5 display definitions
    ========================================================================== */
 
