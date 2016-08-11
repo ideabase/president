@@ -1,8 +1,12 @@
 body {
   @include NationalLight;
-  background: url(../../assets/img/compass.svg), $gradient;
-  background-repeat: no-repeat;
-  background-position: bottom left;
+  background-image: $gradient;
+  @media #{$medium} {
+    background-image: url(../../assets/img/compass.svg), $gradient;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 25% auto, cover;
+  }
 }
 
 main {

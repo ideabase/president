@@ -32,6 +32,10 @@ body {
   margin: 0;
 }
 
+figure, figcaption {
+  margin: 0;
+}
+
 dl {
   margin: 0;
   padding: 0;
@@ -263,10 +267,6 @@ samp {
 /**
  * Add the correct margin in IE 8.
  */
-
-figure {
-  margin: 1em 40px;
-}
 
 /**
  * 1. Add the correct box sizing in Firefox.

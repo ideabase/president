@@ -20,6 +20,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dev\/assets\/img\/home-default.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 832238,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/home-default.png",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/home-default.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/assets\/img\/home-large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.29882e+06,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/home-large.png",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/home-large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dev\/assets\/img\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -58,6 +80,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/assets\/js\/init.js",
 		"outputAbbreviatedPath": "\/dev\/assets\/js\/min\/init-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/dev\/assets\/js\/picturefill.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/assets\/js\/picturefill.min.js",
+		"outputAbbreviatedPath": "\/dev\/assets\/js\/min\/picturefill.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -129,6 +162,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/prototype\/patterns\/partials\/ish-pattern.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dev\/prototype\/patterns\/partials\/splash.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/prototype\/patterns\/partials\/splash.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -313,6 +355,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/scss\/partials\/_reset.scss",
 		"outputAbbreviatedPath": "\/dev\/scss\/css\/_reset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/dev\/scss\/partials\/_splash.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/scss\/partials\/_splash.scss",
+		"outputAbbreviatedPath": "\/dev\/scss\/css\/_splash.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
