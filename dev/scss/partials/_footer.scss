@@ -1,13 +1,15 @@
 footer {
   color: white;
   @include NationalBold;
+  padding-bottom: $globalpadding*4;
 }
 
 .footer-links {
   @media #{$medium-ish} {
     width: 100%;
     display: flex;
-    margin-bottom: $globalpadding/2;
+    margin-bottom: $globalpadding;
+    align-items: center;
   }
 }
 
@@ -15,9 +17,23 @@ footer {
   @extend .plain-list;
 }
 
-.footer-supplemental__list, .footer-social__list, .footer-contact__list {
+.footer-supplemental__list, .footer-social__list {
   @media #{$small} {
     display: flex;
+    align-items: center;
+  }
+  @media #{$medium} {
+    font-size: 1.1em;
+  }
+}
+
+.footer-contact__list {
+  text-align: center;
+  margin-top: $globalpadding*2;
+  font-size: .95em;
+  @media #{$medium} {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -28,8 +44,8 @@ footer {
 .footer-social__list {
   display: flex;
   margin: $globalpadding 0;
-  @media #{$small} {
-    margin: inherit;
+  @media #{$medium} {
+    margin: 0;
   }
 }
 
@@ -44,10 +60,14 @@ footer {
 }
 
 .footer-social__list__item__link {
-  width: 30px;
-  height: 30px;
+  width: 22px;
+  height: 22px;
   display: block;
   background-size: 100% auto;
+  @media #{$small-ish} {
+    width: 30px;
+    height: 30px;
+  }
   &.facebook {
     background-image: url(../img/facebook.svg);
   }
@@ -65,8 +85,19 @@ footer {
   }
 }
 
-.footer-supplemental__list__item, .footer-contact__list__item {
+.footer-supplemental__list__item {
   @media #{$small} {
+    display: inherit;
+    &:after {
+      content: "|";
+      color: $gold;
+      padding: 0 .5em 0 .45em;
+    }
+  }
+}
+
+.footer-contact__list__item {
+  @media #{$medium} {
     &:after {
       content: "|";
       color: $gold;
@@ -104,4 +135,8 @@ footer {
 .footer-copyright {
   @include NationalLight;
   margin-top: $globalpadding;
+  text-align: center;
+  @media #{$medium} {
+    margin-top: inherit;
+  }
 }
