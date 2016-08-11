@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>1470433762_online_social_media_facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.06 32 32 32 32 0 0.06 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1470433762_online_social_media_facebook">
+            <g id="Group-3">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M16,0 C7.163,0 0,7.163 0,16 C0,24.836 7.163,32 16,32 C24.837,32 32,24.836 32,16 C32,7.163 24.837,0 16,0" id="Fill-1" fill="#3583B8" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M13.69,24.903 L17.369,24.903 L17.369,15.999 L19.823,15.999 L20.148,12.931 L17.369,12.931 L17.373,11.395 C17.373,10.595 17.449,10.166 18.597,10.166 L20.131,10.166 L20.131,7.097 L17.676,7.097 C14.727,7.097 13.69,8.586 13.69,11.089 L13.69,12.931 L11.852,12.931 L11.852,16 L13.69,16 L13.69,24.903" id="Fill-4" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
