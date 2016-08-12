@@ -11,7 +11,8 @@
 ?>
 <header class="sg-header" role="banner">
 	<div class="nav url-change">
-		<a href="/index.html">< Back to Contents</a>
+		<a href="/index.html" class="extra-link">< Back to Contents</a>
+    <a href="<?php echo $src; ?>" class="extra-link">Remove Controls</a>
 	</div>
 	<div class="sg-controls" id="sg-controls">
 		<div class="sg-control-content">

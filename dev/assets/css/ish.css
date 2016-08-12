@@ -2,6 +2,8 @@ body {
   background: #ddd;
 }
 
+
+
 /* Header */
 .sg-header {
   height: 33px;
@@ -535,3 +537,8 @@ body {
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased; }
+
+
+  .extra-link {
+    display: inline-block !important;
+  }

@@ -9,3 +9,8 @@ header, footer {
   max-width: 1150px;
   margin: 0 auto;
 }
+
+.inner-wrapper {
+  padding: .5em $globalpadding*2 $globalpadding*2 $globalpadding*2;
+  margin: 0 auto;
+}
