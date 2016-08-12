@@ -1,0 +1,31 @@
+main ul {
+  @include NationalBoldItalic;
+}
+
+main ul {
+  list-style-type: none;
+  li {
+    position: relative;
+    margin-bottom: 1em;
+  }
+  li:before {
+    content: "\25a0";
+    @include NationalLight;
+    font-size: .65em;
+    margin-left: -1.5em;
+    position: absolute;
+    top: 5px;
+  }
+}
+
+// Themes
+
+main .section-default ul {
+  color: white;
+}
+
+main .section-default ul {
+  li:before {
+    color: $gold;
+  }
+}

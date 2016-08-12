@@ -1,0 +1,14 @@
+aside {
+  border: 1px solid $seafoam;
+  padding: .5em 1em;
+  margin-top: 2em;
+  p {
+    @include NationalBoldItalic;
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+  ul {
+    font-size: 1.2em;
+    margin-top: .5em;
+  }
+}

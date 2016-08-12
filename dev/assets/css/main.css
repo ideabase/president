@@ -12,11 +12,42 @@ header, footer { padding: 2rem; }
 .page-wrapper { max-width: 1150px; margin: 0 auto; }
 
 .inner-wrapper { padding: 0.5em 2rem 2rem 2rem; margin: 0 auto; }
+@media (min-width: 75em) { .inner-wrapper { padding: 0.5em 3rem 3rem 3rem; } }
 
 body { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; background-image: -webkit-linear-gradient(bottom, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background-image: linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); }
 @media (min-width: 50em) { body { background-image: url(../../assets/img/compass.svg), -webkit-linear-gradient(bottom, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background-image: url(../../assets/img/compass.svg), linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background-repeat: no-repeat; background-position: bottom left; background-size: 25% auto, cover; } }
 
 main { background-color: white; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); min-height: 200px; }
+
+.section-default { background-color: #002664; }
+
+h2 { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; text-transform: uppercase; }
+
+h3 { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 0; }
+
+.section-default h2 { color: #eaab00; }
+
+.section-default h3 { color: #5ec4df; }
+
+p { font-size: 1.1em; }
+
+p em { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; }
+
+p strong { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; }
+
+.section-default p { color: white; }
+.section-default em { color: #eaab00; }
+.section-default strong { color: #5ec4df; }
+
+main ul { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; }
+
+main ul { list-style-type: none; }
+main ul li { position: relative; margin-bottom: 1em; }
+main ul li:before { content: "\25a0"; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; font-size: .65em; margin-left: -1.5em; position: absolute; top: 5px; }
+
+main .section-default ul { color: white; }
+
+main .section-default ul li:before { color: #eaab00; }
 
 /* Additional Default Styles for Responsive */
 html { box-sizing: border-box; }
@@ -214,7 +245,7 @@ header[role="banner"] { border-bottom: 7px solid #eaab00; color: white; padding:
 @media (min-width: 50em) { .header-title__text { text-align: right; margin: 0; padding: 0; font-size: 1.2em; } }
 @media (min-width: 75em) { .header-title__text { padding-right: 0; } }
 
-.header-title__text strong { color: #eaab00; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; display: block; }
+.header-title__text strong { color: #eaab00; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; display: block; }
 @media (min-width: 39.5em) { .header-title__text strong { display: inline-block; } }
 
 @media (min-width: 50em) { .header-logo { width: 25%; } }
@@ -231,17 +262,50 @@ header[role="banner"] { border-bottom: 7px solid #eaab00; color: white; padding:
 .splash-headline { position: absolute; bottom: 7%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; width: 100%; line-height: 1; }
 @media (min-width: 50em) { .splash-headline { bottom: 7%; } }
 
-.splash-headline__level1 { display: block; margin-left: -10%; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; color: #002664; font-size: .9em; }
+.splash-headline__level1 { display: block; margin-left: -10%; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; color: #002664; font-size: .9em; text-transform: none; }
 @media (min-width: 50em) { .splash-headline__level1 { margin-left: -20%; font-size: 1em; } }
 
-.splash-headline__level2 { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; color: white; text-transform: uppercase; margin-right: .3em; letter-spacing: 1px; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
+.splash-headline__level2 { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; color: white; text-transform: uppercase; margin-right: 0em; letter-spacing: 1px; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
 @media (min-width: 50em) { .splash-headline__level2 { font-size: 160%; } }
 @media (min-width: 75em) { .splash-headline__level2 { font-size: 200%; } }
 
-.splash-headline__level3 { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; color: #002664; text-transform: uppercase; letter-spacing: 1px; }
+.splash-headline__level3 { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; color: #002664; text-transform: uppercase; letter-spacing: 1px; }
 @media (min-width: 50em) { .splash-headline__level3 { font-size: 160%; } }
 @media (min-width: 75em) { .splash-headline__level3 { font-size: 200%; } }
 
-.section-contents { background-color: lightblue; }
+.section-contents { background-color: #5ec4df; }
 
-.contents__title { color: white; }
+.contents__title { color: white; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; padding-left: 2em; position: relative; margin-bottom: 1.25em; }
+@media (min-width: 50em) { .contents__title { font-size: 2.2em; } }
+.contents__title:before { content: ""; background-image: url(../../assets/img/map-marker.svg); position: absolute; left: 0; top: 0px; width: 30px; height: 50px; background-repeat: no-repeat; background-size: 100% auto; }
+@media (min-width: 50em) { .contents__title:before { width: 40px; height: 60px; } }
+
+.contents__subtitle { width: 100%; display: block; background: #002664; color: white; text-align: center; text-decoration: none; font-size: 1.2em; padding: .5em; border-radius: 3px; }
+@media (min-width: 50em) { .contents__subtitle { font-size: 1.7em; } }
+
+.contents__subtitle__text { margin: 0; padding: 0; }
+
+.priority-list { margin-top: 1em; margin-bottom: 1em; display: block; background-color: #aeeae5; }
+@media (min-width: 50em) { .priority-list { width: 48%; } }
+
+.priority-list__term { width: 100%; display: block; }
+
+.priority-list__name { background: #eaab00; display: block; color: #002664; text-decoration: none; font-size: 1.2em; padding: .5em 1em; }
+.priority-list__name strong { color: white; margin-right: .35em; }
+@media (min-width: 56.25em) { .priority-list__name { font-size: 1.5em; } }
+
+.priority-list__name__text { margin: 0; padding: 0; display: block; }
+
+.priority-list__description { padding: .5em 1em .75em 1em; font-size: 1.1em; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; }
+@media (min-width: 50em) { .priority-list__description { font-size: 1.3em; } }
+
+@media (min-width: 50em) { .priority { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; } }
+
+.button { background-color: #002664; color: white; text-decoration: none; padding: .5em 1em; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; margin-top: 2em; display: inline-block; margin-right: .5em; }
+@media (min-width: 50em) { .button { font-size: 1.2em; } }
+
+.button--gold { color: #eaab00; }
+
+aside { border: 1px solid #5ec4df; padding: .5em 1em; margin-top: 2em; }
+aside p { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; font-size: 1.2em; margin-top: 0; }
+aside ul { font-size: 1.2em; margin-top: .5em; }

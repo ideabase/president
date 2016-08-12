@@ -1,0 +1,20 @@
+h2 {
+  @include NationalBlackItalic;
+  text-transform: uppercase;
+}
+
+h3 {
+  @include NationalBlackItalic;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+// Themes
+
+.section-default h2 {
+  color: $gold;
+}
+
+.section-default h3 {
+  color: $seafoam;
+}

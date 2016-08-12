@@ -1,0 +1,25 @@
+p {
+  font-size: 1.1em;
+}
+
+p em {
+  @include NationalBlackItalic;
+}
+
+p strong {
+  @include NationalBlackItalic;
+}
+
+// Themes
+
+.section-default {
+  p {
+    color: white;
+  }
+  em {
+    color: $gold;
+  }
+  strong {
+    color: $seafoam;
+  }
+}
