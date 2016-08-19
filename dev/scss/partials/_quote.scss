@@ -1,0 +1,37 @@
+.quote {
+  width: 80%;
+  @media #{$small} {
+    width: 50%;
+  }
+}
+
+blockquote {
+  @include NationalBoldItalic;
+  margin: 0;
+  padding: 0;
+  @media #{$medium} {
+    font-size: 1.2em;
+  }
+  &:before {
+    content: "“";
+  }
+  &:after {
+    content: "”";
+  }
+}
+
+cite {
+  display: block;
+  text-align: right;
+  margin-top: 1em;
+  font-style: normal;
+  @include NationalBold;
+  &:before {
+    content: "-";
+    margin-right: .25em;
+  }
+}
+
+.section-default blockquote, .section-default cite {
+  color: white;
+}

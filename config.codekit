@@ -42,6 +42,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dev\/assets\/img\/Nirmala_Ghimirey_feature_image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209903,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/Nirmala_Ghimirey_feature_image.jpg",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/Nirmala_Ghimirey_feature_image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dev\/assets\/img\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -62,6 +73,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/dev\/assets\/img\/students-first_image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153607,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/students-first_image.jpg",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/students-first_image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/dev\/assets\/js\/init-ck.js": {
 		"fileType": 64,
@@ -220,11 +242,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/dev\/prototype\/patterns\/partials\/priority-header.html": {
+	"\/dev\/prototype\/patterns\/partials\/priority-header.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/prototype\/patterns\/partials\/priority-header.html",
+		"inputAbbreviatedPath": "\/dev\/prototype\/patterns\/partials\/priority-header.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -631,6 +653,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/dev\/scss\/partials\/_priority.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/scss\/partials\/_priority.scss",
+		"outputAbbreviatedPath": "\/dev\/scss\/css\/_priority.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/dev\/scss\/partials\/_quote.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/scss\/partials\/_quote.scss",
+		"outputAbbreviatedPath": "\/dev\/scss\/css\/_quote.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/dev\/scss\/partials\/_reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -656,6 +710,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/scss\/partials\/_splash.scss",
 		"outputAbbreviatedPath": "\/dev\/scss\/css\/_splash.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/dev\/scss\/partials\/_story.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/scss\/partials\/_story.scss",
+		"outputAbbreviatedPath": "\/dev\/scss\/css\/_story.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 .plain-list, .footer-contact__list, .footer-social__list, .footer-supplemental__list { list-style-type: none; margin: 0; padding: 0; }
 
@@ -309,3 +310,34 @@ header[role="banner"] { border-bottom: 7px solid #eaab00; color: white; padding:
 aside { border: 1px solid #5ec4df; padding: .5em 1em; margin-top: 2em; }
 aside p { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; font-size: 1.2em; margin-top: 0; }
 aside ul { font-size: 1.2em; margin-top: .5em; }
+
+.quote { width: 80%; }
+@media (min-width: 39.5em) { .quote { width: 50%; } }
+
+blockquote { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; margin: 0; padding: 0; }
+@media (min-width: 50em) { blockquote { font-size: 1.2em; } }
+blockquote:before { content: "“"; }
+blockquote:after { content: "”"; }
+
+cite { display: block; text-align: right; margin-top: 1em; font-style: normal; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; }
+cite:before { content: "-"; margin-right: .25em; }
+
+.section-default blockquote, .section-default cite { color: white; }
+
+.priority-header { background-color: green; background-size: cover; position: relative; min-height: 300px; }
+
+.priority-header__heading { position: absolute; bottom: 0; background-color: #e5e854; display: inline-block; margin: 0; font-size: 2em; width: 80%; text-transform: none; text-align: right; }
+@media (min-width: 39.5em) { .priority-header__heading { width: 50%; } }
+
+.section-default .priority-header__heading { color: #002664; }
+
+.priority-header__heading span { position: absolute; bottom: 0; color: white; left: 3rem; font-size: 3em; line-height: 1; }
+
+.priority-introduction { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; }
+
+.section-default .priority-introduction { color: #e5e854; }
+
+.story-header { min-height: 300px; background-size: cover; background-repeat: no-repeat; }
+
+.story-header__title { margin: 0; padding: 0; color: white; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; text-transform: uppercase; }
+@media (min-width: 75em) { .story-header__title { margin-left: 3rem; } }

@@ -1,0 +1,42 @@
+.priority-header {
+  background-color: green;
+  background-size: cover;
+  position: relative;
+  min-height: 300px;
+}
+
+.priority-header__heading {
+  position: absolute;
+  bottom: 0;
+  background-color: $yellow;
+  display: inline-block;
+  margin: 0;
+  font-size: 2em;
+  width: 80%;
+  text-transform: none;
+  text-align: right;
+  @media #{$small} {
+    width: 50%;
+  }
+}
+
+.section-default .priority-header__heading {
+  color: $blue;
+}
+
+.priority-header__heading span {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  left: 3rem;
+  font-size: 3em;
+  line-height: 1;
+}
+
+.priority-introduction {
+  @include NationalBoldItalic;
+}
+
+.section-default .priority-introduction {
+  color: $yellow;
+}
