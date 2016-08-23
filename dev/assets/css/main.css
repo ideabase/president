@@ -341,3 +341,9 @@ cite:before { content: "-"; margin-right: .25em; }
 
 .story-header__title { margin: 0; padding: 0; color: white; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; text-transform: uppercase; }
 @media (min-width: 75em) { .story-header__title { margin-left: 3rem; } }
+
+img:not([alt]) { outline: 1em red solid; }
+
+#skip-to-content { padding: 1em; position: absolute; top: -40px; right: 1em; z-index: 1000; color: white; }
+
+#skip-to-content:focus { position: absolute; top: 0; background: #4593ff; }
