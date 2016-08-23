@@ -1,5 +1,5 @@
 <!-- Include Header.php -->
-  <?php include("../patterns/partials/header.html") ?>
+  <?php include("../patterns/partials/header.php") ?>
 
   <div class="section-default">
     <?php include("../patterns/partials/story-header.html") ?>

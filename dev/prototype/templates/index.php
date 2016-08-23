@@ -1,5 +1,5 @@
 <!-- Include Header.php -->
-  <?php include("../patterns/partials/header.html") ?>
+  <?php include("../patterns/partials/header.php") ?>
 
   <?php include("../patterns/partials/splash.html") ?>
 

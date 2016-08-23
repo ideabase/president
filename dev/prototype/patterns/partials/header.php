@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>President's Strategic Initiative Report</title>
+    <meta name="description" content="Page Description Goes Here">
+    <script>
+      // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    </script>
+  </head>
+  <body id="oc-container" class="oc-container">
+    <div class="oc-pusher">
+    <div class="page-wrapper">
+      	<header role="banner">
+          <a id="skip-to-content" href="#content">skip to main content</a>
+          <div class="header-logo">
+            <a href="http://www.kent.edu">
+              <img src="../../assets/img/kentstate-logo.svg" alt="Kent State University" />
+            </a>
+          </div>
+          <a class="header-title" href="index.php">
+            <h1 class="header-title__text">A Strategic Roadmap <strong>To A Distinctive Kent State</strong></h1>
+          </a>
+      	</header>
+        <div id="oc-trigger">
+          <button id="menu-button" data-effect="oc-push">Menu</button>
+        </div>
+        <?php include("../patterns/partials/menu.html") ?>
+        <main id="content" class="oc-content" role="main">
