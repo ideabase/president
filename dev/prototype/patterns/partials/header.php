@@ -13,6 +13,7 @@
   </head>
   <body id="oc-container" class="oc-container">
     <div class="oc-pusher">
+      <?php include("../patterns/partials/menu.html") ?>
     <div class="page-wrapper">
       	<header role="banner">
           <a id="skip-to-content" href="#content">skip to main content</a>
@@ -28,5 +29,4 @@
         <div id="oc-trigger">
           <button class="menu-trigger" id="menu-button" data-effect="oc-push">Menu</button>
         </div>
-        <?php include("../patterns/partials/menu.html") ?>
         <main id="content" class="oc-content" role="main">
