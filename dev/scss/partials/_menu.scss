@@ -4,8 +4,10 @@
   height: 100%;
 }
 
-.oc-content {
-  overflow-y: scroll;
+.menu-trigger {
+  position: absolute;
+  z-index: 50;
+  right: 0;
 }
 
 .oc-content,
@@ -20,16 +22,26 @@
 }
 
 .menu {
-  height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   -webkit-transition: all 400ms;
   transition: all 400ms;
   visibility: hidden;
-  width: 225px;
+  width: 250px;
   z-index: 100;
-  background: #999999;
+}
+
+.primary-menu, .secondary-menu {
+  @extend .plain-list;
+  @include NationalBoldItalic;
+  text-transform: uppercase;
+}
+
+.menu__item__link {
+  background-color: $lightblue;
+  display: block;
+  color: $blue;
 }
 
 .oc-pusher {
@@ -82,19 +94,24 @@
 }
 
 .oc-push.menu {
-  -webkit-transform: translate3d(-100%, 0, 0);
-  transform: translate3d(-100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
 }
 .oc-push.menu::after {
   display: none;
 }
 .oc-push.menu-open .oc-pusher {
-  -webkit-transform: translate3d(225px, 0, 0);
-  transform: translate3d(225px, 0, 0);
+  transform: translate3d(-250px, 0, 0);
+}
+
+.menu-open .oc-pusher::after {
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: opacity 400ms;
+  transition: opacity 400ms;
+  width: 100%;
 }
 
 .oc-push.menu-open .oc-push.menu {
-  overflow: scroll;
   -webkit-transition: -webkit-transform 400ms;
   transition: transform 400ms;
   visibility: visible;

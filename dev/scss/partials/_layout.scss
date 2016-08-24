@@ -7,7 +7,9 @@ header, footer {
 
 .page-wrapper {
   max-width: 1150px;
+  position: relative;
   margin: 0 auto;
+  z-index:0;
 }
 
 .inner-wrapper {

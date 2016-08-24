@@ -26,7 +26,7 @@
           </a>
       	</header>
         <div id="oc-trigger">
-          <button id="menu-button" data-effect="oc-push">Menu</button>
+          <button class="menu-trigger" id="menu-button" data-effect="oc-push">Menu</button>
         </div>
         <?php include("../patterns/partials/menu.html") ?>
         <main id="content" class="oc-content" role="main">
