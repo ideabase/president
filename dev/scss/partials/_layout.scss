@@ -13,7 +13,7 @@ header, footer {
 }
 
 .inner-wrapper {
-  padding: .5em $globalpadding*2 $globalpadding*2 $globalpadding*2;
+  padding: $globalpadding*2  $globalpadding*2 $globalpadding*2 $globalpadding*2;
   margin: 0 auto;
   @media #{$large} {
     padding: .5em $globalpadding*3 $globalpadding*3 $globalpadding*3;

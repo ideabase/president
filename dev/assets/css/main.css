@@ -12,11 +12,11 @@ header, footer { padding: 2rem; }
 
 .page-wrapper { max-width: 1150px; position: relative; margin: 0 auto; z-index: 0; }
 
-.inner-wrapper { padding: 0.5em 2rem 2rem 2rem; margin: 0 auto; }
+.inner-wrapper { padding: 2rem 2rem 2rem 2rem; margin: 0 auto; }
 @media (min-width: 75em) { .inner-wrapper { padding: 0.5em 3rem 3rem 3rem; } }
 
 body { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; background-image: -webkit-linear-gradient(bottom, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background-image: linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); }
-@media (min-width: 50em) { body { background-image: url(../../assets/img/compass.svg), -webkit-linear-gradient(bottom, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background-image: url(../../assets/img/compass.svg), linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background-repeat: no-repeat; background-position: bottom left; background-size: 25% auto, cover; } }
+@media (min-width: 50em) { body { background-image: url(../../assets/img/compass.svg), url(../../assets/img/zig-zag.svg), -webkit-linear-gradient(bottom, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background-image: url(../../assets/img/compass.svg), url(../../assets/img/zig-zag.svg), linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%); background-repeat: no-repeat; background-position: bottom left, top right, bottom left; background-size: 25% auto, 100% auto, cover; } }
 
 main { background-color: white; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); min-height: 200px; }
 
@@ -350,21 +350,23 @@ img:not([alt]) { outline: 1em red solid; }
 
 .oc-container, .oc-pusher, .oc-content { height: 100%; }
 
-.menu-trigger { position: absolute; z-index: 50; right: 0; }
+.menu-trigger { position: absolute; z-index: 50; right: 0; background-color: transparent; border: 1px solid #eaab00; color: #eaab00; width: 125px; text-transform: uppercase; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; margin: .5em; border-radius: 4px; padding: .25em .25em .35em .25em; font-size: 1.15em; }
 
 .oc-content, .oc-content-inner { position: relative; }
 
 .oc-container { position: relative; overflow: hidden; overflow-y: scroll; }
 
-.menu { position: absolute; top: 3rem; right: 0; -webkit-transition: all 400ms; transition: all 400ms; visibility: hidden; width: 235px; z-index: 100; }
+.menu { position: absolute; top: 3rem; right: 0; visibility: hidden; width: 235px; z-index: 100; }
 
 .primary-menu, .secondary-menu { font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; text-transform: uppercase; margin-left: 1em; }
 
 .menu__item__link { background-color: #aeeae5; display: block; color: #002664; padding: .75em 1em; border-bottom: 2px solid #002664; text-decoration: none; }
 
+.primary-menu li:last-child .menu__item__link { background-color: #e5e854; }
+
 .secondary-menu { margin-top: .5em; }
 
-.secondary-menu .menu__item__link { background-color: #e5e854; padding: .5em 1em; }
+.secondary-menu .menu__item__link { background-color: #f8eb61; padding: .5em 1em; }
 
 .oc-pusher { height: auto; position: relative; left: 0; -webkit-transition: -webkit-transform 400ms; transition: -webkit-transform 400ms; transition: transform 400ms; transition: transform 400ms, -webkit-transform 400ms; z-index: 99; overflow: hidden; }
 
