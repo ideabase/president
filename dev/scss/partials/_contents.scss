@@ -1,5 +1,21 @@
 .section-contents {
   background-color: $seafoam;
+  background-image:  url(../../assets/img/library-background.jpg);
+  background-size: cover;
+  background-position: top right;
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(94,196,223,1) 0%, rgba(94,196,223,.8) 75%, rgba(94,196,223,.5) 100%);;
+    z-index: 2;
+  }
+  @media #{$medium-ish} {
+    padding-top: 3em;
+  }
 }
 
 .contents__title {
@@ -25,6 +41,10 @@
       width:40px;
       height: 60px;
     }
+    @media #{$large} {
+      width:50px;
+      height: 80px;
+    }
   }
 }
 
@@ -39,7 +59,11 @@
   padding: .5em;
   border-radius: 3px;
   @media #{$medium} {
-    font-size: 1.7em;
+    font-size: 1.4em;
+  }
+  @media #{$large} {
+    font-size: 1.2em;
+    width: 48%;
   }
 }
 
@@ -75,7 +99,7 @@
     margin-right: .35em;
   }
   @media #{$medium-ish} {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 }
 
@@ -90,7 +114,7 @@
   font-size: 1.1em;
   @include NationalBoldItalic;
   @media #{$medium} {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 }
 

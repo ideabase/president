@@ -8,7 +8,8 @@
       opacity: .5;
       background-image: url(../../assets/img/compass-alt.svg);
       background-repeat: no-repeat;
-      background-position: right 50px bottom 75px;
+      background-size: 40% auto;
+      background-position: right -100px bottom  150px;
       top: 0;
       left: 0;
       display: block;
@@ -27,12 +28,18 @@
 
 .splash-headline {
   position: absolute;
-  bottom: 7%;
+  bottom: 1%;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   line-height: 1;
+  @media #{$tiny} {
+    bottom: 4%;
+  }
+  @media #{$small-ish} {
+    bottom: 7%;
+  }
   @media #{$medium} {
     bottom: 7%;
   }
@@ -40,14 +47,21 @@
 
 .splash-headline__level1 {
   display: block;
-  margin-left: -10%;
+  margin-left: -2%;
   @include NationalBoldItalic;
   color: $blue;
-  font-size: .9em;
+  font-size: .7em;
   text-transform: none;
+  @media #{$small-ish} {
+    font-size: 1.1em;
+    margin-left: -10%;
+  }
   @media #{$medium} {
-    margin-left: -20%;
+    margin-left: -10%;
     font-size: 1em;
+  }
+  @media #{$medium-ish} {
+    font-size: 1.3em;
   }
 }
 
@@ -58,11 +72,19 @@
   margin-right: 0em;
   letter-spacing: 1px;
   text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  font-size: 90%;
+  opacity: .9;
+  @media #{$tiny} {
+    font-size: 130%;
+  }
+  @media #{$small-ish} {
+    font-size: 160%;
+  }
   @media #{$medium} {
     font-size: 160%;
   }
-  @media #{$large} {
-    font-size: 200%;
+  @media #{$medium-ish} {
+    font-size: 230%;
   }
 }
 
@@ -71,10 +93,18 @@
   color: $blue;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-size: 90%;
+  opacity: .9;
+  @media #{$tiny} {
+    font-size: 130%;
+  }
+  @media #{$small-ish} {
+    font-size: 160%;
+  }
   @media #{$medium} {
     font-size: 160%;
   }
-  @media #{$large} {
-    font-size: 200%;
+  @media #{$medium-ish} {
+    font-size: 230%;
   }
 }

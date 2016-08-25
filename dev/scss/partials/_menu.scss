@@ -20,6 +20,11 @@
   font-size: 1.15em;
 }
 
+.menu-open .menu-trigger {
+  background-color: $gold;
+  color: white;
+}
+
 .oc-content,
 .oc-content-inner {
   position: relative;
@@ -39,6 +44,9 @@
   visibility: hidden;
   width: 235px;
   z-index: 100;
+  @media #{$x-large} {
+    right: 10%;
+  }
 }
 
 .primary-menu, .secondary-menu {

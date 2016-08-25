@@ -5,7 +5,7 @@ body {
     background-image: url(../../assets/img/compass.svg), url(../../assets/img/zig-zag.svg), $gradient;
     background-repeat: no-repeat;
     background-position: bottom left, top right, bottom left;
-    background-size: 25% auto, 100% auto, cover;
+    background-size: 25% auto, cover, cover;
   }
 }
 
