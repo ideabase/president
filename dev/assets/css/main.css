@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 .plain-list, .footer-contact__list, .footer-social__list, .footer-supplemental__list, .primary-menu, .secondary-menu { list-style-type: none; margin: 0; padding: 0; }
 
 @font-face { font-family: "National"; font-weight: 300; src: url("../font/National-Light.woff2") format("woff2"), url("../font/National-Light.woff") format("woff"); }

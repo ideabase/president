@@ -10,6 +10,9 @@
       // Picture element HTML5 shiv
       document.createElement( "picture" );
     </script>
+    <style type="text/css">
+      <?php include("../patterns/partials/inline.html") ?>
+    </style>
   </head>
   <body id="oc-container" class="oc-container">
     <div class="oc-pusher">
