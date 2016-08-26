@@ -1,0 +1,76 @@
+.feature-teaser__link {
+  display: flex;
+  text-decoration: none;
+}
+
+.feature-teaser__link__text {
+  padding: 1em;
+  width: 60%;
+}
+
+.feature-teaser__header, .feature-teaser__headline {
+  margin: 0;
+  padding: 0;
+}
+
+.feature-teaser__headline {
+  margin-top: .5em;
+}
+
+.feature-teaser__link__image {
+  width: 40%;
+  background-size: cover;
+}
+
+.gallery-teaser, .video-teaser {
+  margin-top: .5em;
+  @media #{$small} {
+    width: 49%;
+  }
+}
+
+.feature-teaser__summary {
+  font-size: 1em;
+  margin-top: .25em;
+}
+
+.gallery-teaser__link, .video-teaser__link {
+  position: relative;
+  display: block;
+}
+
+.gallery-teaser__headline, .video-teaser__headline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.priority-media__gallery {
+  @media #{$small} {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+// Color Themes //
+
+.section-default .feature-teaser__header {
+  color: $blue;
+}
+
+.section-default .gallery-teaser__headline, .section-default .video-teaser__headline {
+  background-color: $seafoam;
+  color: $blue;
+  text-align: right;
+  padding: .25em;
+}
+
+.section-default .feature-teaser__headline {
+  color: white;
+}
+
+.section-default .feature-teaser__link__text {
+  background-color: $seafoam;
+}

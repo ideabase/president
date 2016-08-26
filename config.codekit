@@ -31,6 +31,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dev\/assets\/img\/gallery.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.50904e+06,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/gallery.jpg",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/gallery.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/assets\/img\/headshot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11507,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/headshot.jpg",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/headshot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dev\/assets\/img\/home-default.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -840,6 +862,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/scss\/partials\/_story.scss",
 		"outputAbbreviatedPath": "\/dev\/scss\/css\/_story.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/dev\/scss\/partials\/_teasers.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/scss\/partials\/_teasers.scss",
+		"outputAbbreviatedPath": "\/dev\/scss\/css\/_teasers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
