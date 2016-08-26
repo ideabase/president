@@ -2,6 +2,11 @@
   min-height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+  @media #{$large} {
+    min-height: 400px;
+  }
 }
 
 .story-header__title {
@@ -13,4 +18,76 @@
   @media #{$large} {
     margin-left: 3rem;
   }
+}
+
+.story-header__subtitle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 2em;
+  text-transform: none;
+  @include NationalBold;
+  font-style: normal;
+  padding: .15em .5em;
+  padding-right: 2em;
+}
+
+.story-body {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.story-body__headline {
+  margin-top: -1rem;
+  padding-top: 0;
+  @media #{$large} {
+    margin-top: 0;
+  }
+}
+
+// Color Themes
+
+.story-body__headline__level1 {
+  color: $yellow;
+  display: block;
+  font-size: 150%;
+  line-height: .8;
+  @media #{$small-ish} {
+    font-size: 200%;
+  }
+  @media #{$medium} {
+    font-size: 250%;
+  }
+}
+
+.story-body__headline__level2 {
+  display: block;
+  text-align: right;
+  line-height: .9;
+  @media #{$small-ish} {
+    font-size: 150%;
+  }
+  @media #{$medium} {
+    font-size: 180%;
+  }
+}
+
+.story-body__headline__level3 {
+  display: block;
+  @include NationalLight;
+  color: $cyan;
+  line-height: .9;
+  letter-spacing: 3px;
+  font-size: .9em;
+  @media #{$small-ish} {
+    font-size: 115%;
+  }
+  @media #{$medium} {
+    font-size: 120%;
+  }
+}
+
+.section-default .story-header__subtitle {
+  background-color: $yellow;
+  color: $blue;
 }

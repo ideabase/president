@@ -1,5 +1,7 @@
 .quote {
   width: 80%;
+  padding-left: 2rem;
+  padding-top: 2rem;
   @media #{$small} {
     width: 50%;
   }

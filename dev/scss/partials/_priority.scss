@@ -9,11 +9,18 @@
   @media #{$medium} {
     width: 45%;
   }
+  @media #{$large} {
+    width: 55%;
+  }
 }
 
 .priority-media {
   @media #{$medium} {
     width: 50%;
+    margin-top: 1em;
+  }
+  @media #{$large} {
+    width: 40%;
   }
 }
 
@@ -22,6 +29,15 @@
   background-size: cover;
   position: relative;
   min-height: 300px;
+  padding: 0;
+  padding-bottom: 7rem;
+  padding-top:2rem;
+  @media #{$medium} {
+    padding-top: 0;
+  }
+  @media #{$large} {
+    min-height: 350px;
+  }
 }
 
 .priority-header__heading {
@@ -34,8 +50,16 @@
   width: 80%;
   text-transform: none;
   text-align: right;
+  @include NationalBold;
+  font-style: normal;
+  padding: .25em;
   @media #{$small} {
     width: 50%;
+  }
+  @media #{$large} {
+    width: 40%;
+    font-size: 2.2em;
+    padding-bottom: .35em;
   }
 }
 
@@ -50,10 +74,21 @@
   left: 3rem;
   font-size: 3em;
   line-height: 1;
+  @include RobotoBold;
+  @media #{$large} {
+    font-size: 4em;
+  }
 }
 
 .priority-introduction {
   @include NationalBoldItalic;
+  margin-top: 0;
+  margin-left: $globalpadding;
+  @media #{$large} {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 140%;
+  }
 }
 
 .section-default .priority-introduction {
