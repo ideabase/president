@@ -1,0 +1,23 @@
+.gallery {
+  margin-top: 3em;
+}
+
+.gallery-caption__description {
+  margin-top: .25em;
+  font-size: .9em;
+}
+
+.gallery__item {
+  width: 100%;
+}
+
+// Color Themes
+
+.section-dark .gallery-caption__title {
+  color: $gold;
+  margin-bottom: 0;
+}
+
+.section-dark .gallery-caption__description {
+  color: white;
+}
