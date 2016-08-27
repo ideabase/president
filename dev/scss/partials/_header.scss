@@ -23,6 +23,11 @@ header[role="banner"] {
   @media #{$medium} {
     width: 75%;
   }
+  &:hover {
+    .header-title__text strong {
+      color: white;
+    }
+  }
 }
 
 .header-title__text {
@@ -33,6 +38,7 @@ header[role="banner"] {
   text-rendering: optimizeLegibility;
   @include NationalBoldItalic;
   letter-spacing: 1px;
+  transition: .3s all ease-in-out;
   @media #{$medium} {
     text-align: right;
     margin: 0;

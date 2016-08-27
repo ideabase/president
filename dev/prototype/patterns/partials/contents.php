@@ -1,4 +1,5 @@
-<div class="section-contents">
+<div class="section-contents section-light">
+  <?php include("../patterns/partials/menu-button.html") ?>
   <div class="inner-wrapper">
     <h2 class="contents__title">YOUR JOURNEY STARTS HERE</h2>
     <a href="message.php" class="contents__subtitle"><h3 class="contents__subtitle__text">Message from the President</h3></a>

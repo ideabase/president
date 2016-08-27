@@ -13,11 +13,11 @@
     background: linear-gradient(90deg, rgba(0, 57, 118,.9) 0%, rgba(0, 57, 118,.8) 100%);;
     z-index: 2;
   }
+}
+
+.section-message .inner-wrapper {
   @media #{$medium} {
-    padding-top: 2em;
-  }
-  @media #{$large} {
-    padding-top: 4em;
+    padding-top:3rem;
   }
 }
 

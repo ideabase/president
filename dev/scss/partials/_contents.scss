@@ -13,9 +13,6 @@
     background: linear-gradient(90deg, rgba(94,196,223,1) 0%, rgba(94,196,223,.8) 75%, rgba(94,196,223,.5) 100%);;
     z-index: 2;
   }
-  @media #{$medium-ish} {
-    padding-top: 3em;
-  }
 }
 
 .contents__title {

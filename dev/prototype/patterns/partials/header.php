@@ -15,11 +15,11 @@
     </style>
   </head>
   <body id="oc-container" class="oc-container">
+    <a id="skip-to-content" href="#content">skip to main content</a>
     <div class="oc-pusher">
       <?php include("../patterns/partials/menu.html") ?>
     <div class="page-wrapper">
       	<header role="banner">
-          <a id="skip-to-content" href="#content">skip to main content</a>
           <div class="header-logo">
             <a href="http://www.kent.edu">
               <img src="../../assets/img/kentstate-logo.svg" alt="Kent State University" />
@@ -29,7 +29,4 @@
             <h1 class="header-title__text">A Strategic Roadmap <strong>To A Distinctive Kent State</strong></h1>
           </a>
       	</header>
-        <div id="oc-trigger">
-          <button class="menu-trigger" id="menu-button" data-effect="oc-push">Menu</button>
-        </div>
-        <main id="content" class="oc-content" role="main">
+        <main id="content" class="animated fadeIn oc-content" role="main">

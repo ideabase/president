@@ -1,9 +1,11 @@
-<a class="splash-link" href="contents.php">
-    <figure class="splash">
+<div class="section-light">
+  <?php include("../patterns/partials/menu-button.html") ?>
+  <a class="splash-link" href="contents.php">
+    <figure id="splash" class="splash">
       <picture>
                   <!-- Add Fallback for IE9 -->
                   <!--[if IE 9]><video style="display: none;"><![endif]-->
-                    <source srcset="../../assets/img/home-large.png" media="(min-width: 800px)">
+                    <source srcset="../../assets/img/home-large.jpg" media="(min-width: 800px)">
                   <!--[if IE 9]></video><![endif]-->
                     <img class="splash-image" srcset="../../assets/img/home-default.png" alt="Man Riding Bike" />
       </picture>
@@ -12,3 +14,4 @@
       </figcaption>
   </figure>
 </a>
+</div>

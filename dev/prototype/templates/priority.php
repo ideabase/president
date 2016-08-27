@@ -2,6 +2,7 @@
   <?php include("../patterns/partials/header.php") ?>
 
 <div class="section-default">
+  <?php include("../patterns/partials/menu-button.html") ?>
   <?php include("../patterns/partials/priority-header.php") ?>
     <div class="inner-wrapper">
       <p class="priority-introduction">Provide an inclusive and engaged living-learning environment where all students thrive and graduate as informed citizens committed to a life of impact.</p>

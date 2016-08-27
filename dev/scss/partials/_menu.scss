@@ -9,8 +9,8 @@
   z-index: 50;
   right: 0;
   background-color: transparent;
-  border: 1px solid $gold;
   color: $gold;
+  border: 1px solid $gold;
   width: 125px;
   text-transform: uppercase;
   @include NationalBoldItalic;
@@ -63,10 +63,18 @@
   padding: .75em 1em;
   border-bottom: 2px solid $blue;
   text-decoration: none;
+  transition: .3s all ease-in-out;
+  &:hover, &:focus {
+    background-color: $blue;
+    color: white;
+  }
 }
 
 .primary-menu li:last-child .menu__item__link {
   background-color: $yellow;
+  &:hover {
+    background-color: $cyan;
+  }
 }
 
 .secondary-menu {
@@ -76,6 +84,9 @@
 .secondary-menu .menu__item__link {
   background-color: $secondaryyellow;
   padding: .5em 1em;
+  &:hover {
+    background-color: $cyan;
+  }
 }
 
 .oc-pusher {
@@ -153,4 +164,12 @@
 .oc-push.menu-open .oc-push.menu {
   transition: transform 400ms;
   visibility: visible;
+}
+
+
+/* Color Themes */
+
+.section-light .menu-trigger {
+  border: 1px solid $blue;
+  color: $blue;
 }

@@ -1,9 +1,11 @@
 body {
   @include NationalLight;
   background-image: $gradient;
+  background-image: url(../../assets/img/compass.svg), url(../../assets/img/zig-zag.svg), $gradient;
+  background-repeat: no-repeat;
+  background-size: 60% auto, cover, cover;
+  background-position: bottom left, bottom right, bottom left;
   @media #{$medium} {
-    background-image: url(../../assets/img/compass.svg), url(../../assets/img/zig-zag.svg), $gradient;
-    background-repeat: no-repeat;
     background-position: bottom left, top right, bottom left;
     background-size: 25% auto, cover, cover;
   }

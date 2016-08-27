@@ -1,4 +1,5 @@
 <div class="section-default section-message">
+  <?php include("../patterns/partials/menu-button.html") ?>
   <div class="inner-wrapper">
     <figure class="headshot">
       <img src="../../assets/img/warren.jpg" alt="President Warren" />
