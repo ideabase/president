@@ -64,11 +64,15 @@
   display: block;
   text-align: right;
   line-height: .9;
+  margin-right: .25em;
   @media #{$small-ish} {
     font-size: 150%;
   }
   @media #{$medium} {
     font-size: 180%;
+  }
+  &:after {
+    content: "";
   }
 }
 
@@ -90,4 +94,46 @@
 .section-default .story-header__subtitle {
   background-color: $yellow;
   color: $blue;
+}
+
+.section-bright .story-body__headline__level1 {
+  margin-top: -5rem;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 170%;
+  color: white;
+  @media #{$small-ish} {
+    margin-top: -6rem;
+    font-size: 200%;
+  }
+  @media #{$medium} {
+    margin-top: -7rem;
+    font-size: 250%;
+  }
+  @media #{$large} {
+    margin-top: -5rem;
+  }
+}
+
+.section-bright .story-body__headline__level2 {
+  display: inline-block;
+  text-transform: lowercase;
+  font-size: 1.2em;
+  color: $gold;
+}
+
+.section-bright .story-body__headline__level3 {
+  display: inline-block;
+  font-size: 1.2em;
+  @include NationalBlackItalic;
+  @media #{$small-ish} {
+    font-size: 135%;
+  }
+  @media #{$medium} {
+    font-size: 150%;
+  }
+}
+
+.section-bright .story-body__headline {
+  text-align: right;
 }

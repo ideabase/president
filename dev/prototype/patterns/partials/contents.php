@@ -15,7 +15,7 @@
       <section class="priority-list">
         <dl>
           <dt class="priority-list__term">
-          <a class="priority-list__name" href="priority.php"><h4 class="priority-list__name__text"><strong>Section Two:</strong>Student’s First</h4></a>
+          <a class="priority-list__name" href="priority2.php"><h4 class="priority-list__name__text"><strong>Section Two:</strong>Student’s First</h4></a>
           </dt>
           <dd class="priority-list__description">Provide an inclusive and engaged living-learning environment where all students thrive and graduate as informed citizens committed to a life of impact</dd>
         </dl>

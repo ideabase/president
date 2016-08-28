@@ -57,21 +57,50 @@
 
 // Color Themes //
 
-.section-default .feature-teaser__header {
-  color: $blue;
+.section-default {
+
+  .feature-teaser__header {
+    color: $blue;
+  }
+
+  .gallery-teaser__headline, .video-teaser__headline {
+    background-color: $seafoam;
+    color: $blue;
+    text-align: right;
+    padding: .25em;
+  }
+
+  .feature-teaser__headline {
+    color: white;
+  }
+
+  .feature-teaser__link__text {
+    background-color: $seafoam;
+  }
 }
 
-.section-default .gallery-teaser__headline, .section-default .video-teaser__headline {
-  background-color: $seafoam;
-  color: $blue;
-  text-align: right;
-  padding: .25em;
-}
+.section-light {
 
-.section-default .feature-teaser__headline {
-  color: white;
-}
+  .feature-teaser__header {
+    color: $blue;
+  }
 
-.section-default .feature-teaser__link__text {
-  background-color: $seafoam;
+  .gallery-teaser__headline, .video-teaser__headline {
+    background-color: $seafoam;
+    color: $blue;
+    text-align: right;
+    padding: .25em;
+  }
+
+  .feature-teaser__headline {
+    color: $gold;
+  }
+
+  .feature-teaser__link__text {
+    background-color: white;
+  }
+
+  .feature-teaser__summary {
+    color: black;
+  }
 }
