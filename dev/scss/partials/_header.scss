@@ -67,7 +67,7 @@ header[role="banner"] {
 
 .header-logo img {
   width: 200px;
-  @media #{$large} {
+  @media #{$large} and (min-height: 50em) {
     width: 250px;
   }
 }
