@@ -265,18 +265,19 @@ header[role="banner"] { border-bottom: 7px solid #eaab00; color: white; padding:
 .header-logo img { width: 200px; }
 @media (min-width: 75em) { .header-logo img { width: 250px; } }
 
-.splash { position: relative; }
-@media (min-width: 50em) { .splash:after { position: absolute; height: 100%; width: 100%; opacity: .5; background-image: url(../../assets/img/compass-alt.svg); background-repeat: no-repeat; background-size: 30% auto; background-position: right -100px bottom  150px; top: 0; left: 0; display: block; content: ""; } }
+.blend { mix-blend-mode: hard-light; -webkit-transition: .3s all ease-in-out; transition: .3s all ease-in-out; }
+
+.splash { position: relative; overflow: hidden; }
+@media (min-width: 50em) { .splash:after { position: absolute; height: 100%; width: 100%; opacity: .5; background-image: url(../../assets/img/compass-alt.svg); background-repeat: no-repeat; background-size: 30% auto; background-position: right -100px bottom  250px; top: 0; left: 0; display: block; content: ""; } }
 @media (min-width: 75em) { .splash { max-height: 80vh; overflow: hidden; } }
-.splash:hover .splash-headline { margin-left: -1px; }
-.splash:hover .splash-image { -webkit-transform: scale(1.05); transform: scale(1.05); max-width: inherit; }
+.splash:hover:before { opacity: 1; }
+.splash:hover .splash-headline { margin-left: 1%; }
+.splash:hover .splash-image { max-width: inherit; }
 
 .splash-image { width: 100%; -webkit-transform: scale(1); transform: scale(1); -webkit-transition: -webkit-transform ease-in-out .3s; transition: -webkit-transform ease-in-out .3s; transition: transform ease-in-out .3s; transition: transform ease-in-out .3s, -webkit-transform ease-in-out .3s; }
 
-.splash-headline { position: absolute; bottom: 5%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; line-height: 1; padding-left: 5%; padding-right: 5%; margin-left: -2%; -webkit-transition: all ease-in-out .3s; transition: all ease-in-out .3s; padding-bottom: 1em; }
-@media (min-width: 43.75em) { .splash-headline { bottom: 7%; } }
-@media (min-width: 50em) { .splash-headline { bottom: 10%; padding-top: 2em; padding-bottom: 2em; padding-left: 10%; } }
-.splash-headline:after { content: ""; width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 1; background-size: 100% auto; background-repeat: no-repeat; background-image: url(../../assets/img/shape.svg); }
+.splash-headline { position: absolute; bottom: 8%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; line-height: 1; padding-left: 5%; padding-right: 5%; -webkit-transition: all ease-in-out .3s; transition: all ease-in-out .3s; width: 95%; z-index: 100; }
+.splash-headline svg { width: 100%; height: auto; }
 
 .splash-headline__container { z-index: 5; position: relative; padding: .5em; }
 

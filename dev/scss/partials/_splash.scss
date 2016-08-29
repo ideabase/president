@@ -1,5 +1,13 @@
+// Live Blend for DISCOVER image //
+
+.blend {
+  mix-blend-mode:hard-light;
+  transition: .3s all ease-in-out;
+}
+
 .splash {
   position: relative;
+  overflow: hidden;
   @media #{$medium} {
     &:after {
       position: absolute;
@@ -9,7 +17,7 @@
       background-image: url(../../assets/img/compass-alt.svg);
       background-repeat: no-repeat;
       background-size: 30% auto;
-      background-position: right -100px bottom  150px;
+      background-position: right -100px bottom  250px;
       top: 0;
       left: 0;
       display: block;
@@ -21,11 +29,14 @@
     overflow: hidden;
   }
   &:hover {
+    &:before {
+      opacity: 1;
+    }
     .splash-headline {
-      margin-left: -1px;
+      margin-left:1%;
     }
     .splash-image {
-      transform: scale(1.05);
+      //transform: scale(1.05);
       max-width: inherit;
     }
   }
@@ -39,36 +50,20 @@
 
 .splash-headline {
   position: absolute;
-  bottom: 5%;
+  bottom: 8%;
   display: flex;
   align-items: center;
   justify-content: center;
   line-height: 1;
   padding-left: 5%;
   padding-right: 5%;
-  margin-left: -2%;
+  //margin-left: -2%;
   transition: all ease-in-out .3s;
-  padding-bottom: 1em;
-  @media #{$small-ish} {
-    bottom: 7%;
-  }
-  @media #{$medium} {
-    bottom: 10%;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 10%;
-  }
-  &:after {
-    content: "";
+  width: 95%;
+  z-index: 100;
+  svg {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-image: url(../../assets/img/shape.svg);
+    height: auto;
   }
 }
 
