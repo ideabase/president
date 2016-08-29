@@ -4,7 +4,7 @@ permalink: /contents/
 ---
 
 <div class="section-contents section-light">
-{{ include menu-button.html }}
+{% include menu-button.html %}
 Table of contents.
 
 [Message from President]({{site.url}}/message/)
