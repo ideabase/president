@@ -73,7 +73,7 @@
   margin-top: 1em;
   margin-bottom: 1em;
   display: block;
-  background-color: $lightblue;
+  background-color: rgba($lightblue,.8);
   @media #{$medium} {
     width: 48%;
   }
@@ -85,12 +85,15 @@
 }
 
 .priority-list__name {
-  background: $gold;
+  background: rgba($gold,.8);
   display: block;
   color: $blue;
   text-decoration: none;
   font-size: 1.2em;
   padding: .5em 1em;
+  &:hover {
+    background: lighten($gold,2%);
+  }
   strong {
     color: white;
     margin-right: .35em;
@@ -108,11 +111,8 @@
 
 .priority-list__description {
   padding: .5em 1em .75em 1em;
-  font-size: 1.1em;
+  font-size: 1.05em;
   @include NationalBoldItalic;
-  @media #{$medium} {
-    font-size: 1.1em;
-  }
 }
 
 .priority {

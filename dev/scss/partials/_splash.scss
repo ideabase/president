@@ -3,6 +3,7 @@
 .blend {
   mix-blend-mode:hard-light;
   transition: .3s all ease-in-out;
+  opacity: .8;
 }
 
 .splash {
@@ -22,29 +23,35 @@
       left: 0;
       display: block;
       content: "";
+      transition: .3s all ease-in-out;
     }
   }
   @media #{$large} {
-    max-height: 80vh;
+    max-height: 85vh;
     overflow: hidden;
   }
   &:hover {
-    &:before {
-      opacity: 1;
-    }
     .splash-headline {
       margin-left:1%;
     }
     .splash-image {
       //transform: scale(1.05);
-      max-width: inherit;
+    }
+    .blend {
+      //mix-blend-mode:inherit;
+      opacity: 1;
+    }
+    &:after {
+      background-size: 32% auto;
     }
   }
 }
 
 .splash-image {
   width: 100%;
-  transform: scale(1);
+  //animation-duration: 30s;
+  //animation-fill-mode: both;
+  //animation-name: zoom;
   transition: transform ease-in-out .3s;
 }
 

@@ -8,6 +8,16 @@
  * Copyright (c) 2016 Daniel Eden
  */
 
+ @keyframes zoom {
+   from {
+     transform: scale3d(1, 1, 1);
+   }
+
+   100% {
+     transform: scale3d(1.2, 1.2, 1.2);
+   }
+ }
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
