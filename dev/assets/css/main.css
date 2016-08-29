@@ -204,7 +204,7 @@ footer { color: white; font-family: "National", "Helvetica Neue", Helvetica, Ari
 
 @media (min-width: 39.5em) { .footer-links { width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-bottom: 1rem; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; } }
 
-@media (min-width: 39.5em) { .footer-supplemental__list, .footer-social__list { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; } }
+@media (min-width: 39.5em) { .footer-supplemental__list, .footer-social__list { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; font-size: .9em; } }
 @media (min-width: 50em) { .footer-supplemental__list, .footer-social__list { font-size: 1.1em; } }
 
 .footer-contact__list { text-align: center; margin-top: 2rem; font-size: .95em; }
@@ -489,7 +489,9 @@ img:not([alt]) { outline: 1em red solid; }
 .oc-push.menu-open .oc-push.menu { -webkit-transition: -webkit-transform 400ms; transition: -webkit-transform 400ms; transition: transform 400ms; transition: transform 400ms, -webkit-transform 400ms; visibility: visible; }
 
 /* Color Themes */
-.section-light .menu-trigger { border: 1px solid #002664; color: #002664; }
+.section-light .menu-trigger { border: 1px solid white; color: white; background-color: rgba(0, 38, 100, 0.8); }
+
+.menu-open .section-light .menu-trigger { background-color: #002664; }
 
 .section-bright .menu-trigger { border: 1px solid #002664; color: #002664; }
 
