@@ -3,6 +3,8 @@ layout: contents
 permalink: /contents/
 ---
 
+<div class="section-contents section-light">
+{{ include menu-button.html }}
 Table of contents.
 
 [Message from President]({{site.url}}/message/)
@@ -19,3 +21,4 @@ List of Priorities
 [TOP 10 HIGHLIGHTS FROM 2015-16]({{site.url}}/highlights/)
 
 2015-16 ANNUAL REPORT SUMMARY
+</div>
