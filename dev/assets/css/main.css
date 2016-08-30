@@ -447,9 +447,10 @@ img:not([alt]) { outline: 1em red solid; }
 
 .oc-container, .oc-pusher, .oc-content { height: 100%; }
 
-.menu-trigger { position: absolute; z-index: 50; right: 0; background-color: transparent; color: #eaab00; border: 1px solid #eaab00; width: 125px; text-transform: uppercase; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; margin: .5em; border-radius: 4px; padding: .25em .25em .35em .25em; font-size: 1.15em; }
+.menu-trigger { position: absolute; z-index: 50; right: 0; background-color: transparent; color: #eaab00; border: 1px solid #eaab00; width: 125px; text-transform: uppercase; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; margin: .5em; border-radius: 4px; padding: .25em .25em .35em .25em; font-size: 1.15em; -webkit-transition: .3s all ease-in-out; transition: .3s all ease-in-out; }
+.menu-trigger:hover, .menu-trigger:focus { background-color: #002664; }
 
-.menu-open .menu-trigger { background-color: #eaab00; color: white; }
+.menu-open .menu-trigger { background-color: #002664; border-color: white; color: white; }
 
 .oc-content, .oc-content-inner { position: relative; }
 
@@ -499,10 +500,12 @@ img:not([alt]) { outline: 1em red solid; }
 
 /* Color Themes */
 .section-light .menu-trigger { border: 1px solid white; color: white; background-color: rgba(0, 38, 100, 0.8); }
+.section-light .menu-trigger:hover, .section-light .menu-trigger:focus { background-color: #002664; }
 
 .menu-open .section-light .menu-trigger { background-color: #002664; }
 
 .section-bright .menu-trigger { border: 1px solid #002664; color: #002664; }
+.section-bright .menu-trigger:hover, .section-bright .menu-trigger:focus { border: 1px solid white; }
 
 @media (min-width: 39.5em) { .section-message { background-image: url(../../assets/img/arch.jpg); background-size: cover; background-position: top right; background-blend-mode: overlay; } }
 .section-message:after { content: ""; position: absolute; left: 0; top: 0; height: 100%; width: 100%; background: -webkit-linear-gradient(left, rgba(0, 57, 118, 0.9) 0%, rgba(0, 57, 118, 0.8) 100%); background: linear-gradient(90deg, rgba(0, 57, 118, 0.9) 0%, rgba(0, 57, 118, 0.8) 100%); z-index: 2; }
@@ -573,6 +576,9 @@ img:not([alt]) { outline: 1em red solid; }
 .gallery { margin-top: 2em; }
 
 .gallery-caption__description { margin-top: .25em; font-size: .9em; }
+
+.section-default .gallery-title { color: #aeeae5; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-style: italic; }
+.section-default .gallery-title span { color: #5ec4df; font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; font-style: italic; letter-spacing: 1px; }
 
 .gallery__item { width: 100%; }
 
