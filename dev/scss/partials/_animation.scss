@@ -8,15 +8,20 @@
  * Copyright (c) 2016 Daniel Eden
  */
 
- @keyframes zoom {
-   from {
-     transform: scale3d(1, 1, 1);
-   }
+ @keyframes spin {
+   0%   {transform: rotate(0deg)}
+ 100% {transform: rotate(30deg)}
+}
 
-   100% {
-     transform: scale3d(1.2, 1.2, 1.2);
-   }
- }
+ @keyframes slider {
+  from {
+    margin-left: 0%;
+  }
+
+  to {
+    margin-left: 5%;
+  }
+}
 
 .animated {
   -webkit-animation-duration: 1s;

@@ -6,24 +6,30 @@
   opacity: .8;
 }
 
+.zoom-group {
+  transform: scale(.8);
+  animation: zoom 20s infinite linear alternate;
+}
+
 .splash {
   position: relative;
   overflow: hidden;
   @media #{$medium} {
     &:after {
+      width: 400px;
+      height: 400px;
       position: absolute;
-      height: 100%;
-      width: 100%;
       opacity: .5;
       background-image: url(../../assets/img/compass-alt.svg);
       background-repeat: no-repeat;
-      background-size: 30% auto;
-      background-position: right -100px bottom  250px;
-      top: 0;
-      left: 0;
+      background-size: 100% auto;
+      //background-position: right -100px bottom  250px;
+      top: 30px;
+      right: -50px;
       display: block;
       content: "";
       transition: .3s all ease-in-out;
+      animation: spin 20s infinite linear alternate;
     }
   }
   @media #{$large} {
@@ -42,7 +48,8 @@
       opacity: 1;
     }
     &:after {
-      background-size: 32% auto;
+      width: 425px;
+      height: 425px;
     }
   }
 }
