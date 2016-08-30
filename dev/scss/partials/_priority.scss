@@ -30,12 +30,28 @@
   min-height: 300px;
   padding: 0;
   padding-bottom: 7rem;
-  padding-top:2rem;
+  padding-top:15rem;
+  background-image: url('../../assets/img/priority-image-top-small.jpg');
   @media #{$medium} {
     padding-top: 0;
+    background-position-x: 250px;
+    background-image: url('../../assets/img/priority-image-top.jpg');
   }
   @media #{$large} {
     min-height: 350px;
+  }
+  &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(360deg, rgba($blue,1) 0%,  rgba($blue,1) 30%, rgba($blue,.6) 60%, rgba(0,0,0,0) 100%);
+      z-index: 2;
+      @media #{$medium} {
+        background: linear-gradient(90deg, rgba($blue,1) 0%, rgba($blue,1) 30%,rgba($blue,.6) 60%, rgba(0,0,0,0) 100%);
+      }
   }
 }
 
@@ -45,29 +61,37 @@
   display: inline-block;
   margin: 0;
   font-size: 2em;
-  width: 80%;
+  width: 90%;
   text-transform: none;
   text-align: right;
   @include NationalBold;
   font-style: normal;
-  padding: .25em;
+  padding: .25em .25em .35em 2.2em;
+  z-index: 5;
+  line-height: .8;
   @media #{$small} {
+    width: 80%;
+    padding: .5em .5em .65em 2em;
+  }
+  @media #{$medium} {
     width: 50%;
+    padding-left: 3.5em;
   }
   @media #{$large} {
-    width: 40%;
-    font-size: 2.2em;
-    padding-bottom: .35em;
+    font-size: 2.3em;
   }
 }
 
 .priority-header__heading span {
   position: absolute;
   bottom: 0;
-  left: 3rem;
+  left: 15px;
   font-size: 3em;
   line-height: 1;
   @include RobotoBold;
+  @media #{$small} {
+    left: 3rem;
+  }
   @media #{$large} {
     font-size: 4em;
   }

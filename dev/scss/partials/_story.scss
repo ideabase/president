@@ -28,8 +28,9 @@
   text-transform: none;
   @include NationalBold;
   font-style: normal;
-  padding: .15em .5em;
+  padding: .25em .5em;
   padding-right: 2em;
+  line-height:1
 }
 
 .story-body {

@@ -1,12 +1,18 @@
 .button {
   background-color: $blue;
   color: white;
+  border-radius: 3px;
   text-decoration: none;
-  padding: .5em 1em;
+  padding: .5em 1em .65em 1em;
   @include NationalBlackItalic;
-  margin-top: 2em;
+  margin-top: 1em;
   display: inline-block;
   margin-right: .5em;
+  transition: .3s all ease-in-out;
+  line-height: 1;
+  &:hover, &:focus {
+    background-color: darken($blue, 5%);
+  }
   @media #{$medium} {
     font-size: 1.2em;
   }
@@ -14,4 +20,22 @@
 
 .button--gold {
   color: $gold;
+}
+
+.close-button {
+  position: absolute;
+  z-index: 50;
+  right: 0;
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+  color: $gold;
+  border: 1px solid $gold;
+  width: 125px;
+  text-transform: uppercase;
+  @include NationalBoldItalic;
+  margin: .5em;
+  border-radius: 4px;
+  padding: .25em .25em .35em .25em;
+  font-size: 1.15em;
 }

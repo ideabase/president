@@ -1,8 +1,10 @@
 .section-message {
-  background-image:  url(../../assets/img/arch.jpg);
-  background-size: cover;
-  background-position: top right;
-  background-blend-mode: overlay;
+  @media #{$small} {
+    background-image:  url(../../assets/img/arch.jpg);
+    background-size: cover;
+    background-position: top right;
+    background-blend-mode: overlay;
+  }
   &:after {
     content: "";
     position: absolute;
@@ -43,10 +45,11 @@
 }
 
 .headshot {
-  max-width: 250px;
+  max-width: 125px;
   margin-bottom: 1em;
   @media #{$small} {
     width: 27%;
+    max-width: inherit;
   }
   @media #{$large} {
     width: 16%;
@@ -61,6 +64,10 @@
   @media #{$small} {
     width: 70%;
     margin-left: auto;
+    margin-top: 1em;
+  }
+  @media #{$medium} {
+    margin-top: 0;
   }
   @media #{$large} {
     width: 45%;

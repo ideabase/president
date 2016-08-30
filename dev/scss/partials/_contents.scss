@@ -47,20 +47,26 @@
 
 .contents__subtitle {
   width: 100%;
+  @include NationalBold;
   display: block;
   background: $blue;
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 1.2em;
-  padding: .5em;
+  margin-bottom: 1em;
   border-radius: 3px;
+  padding: .5em .5em .65em .5em;
+  transition: .3s all ease-in-out;
   @media #{$medium} {
     font-size: 1.4em;
   }
   @media #{$large} {
     font-size: 1.2em;
     width: 48%;
+  }
+  &:hover, &:focus {
+    background-color: darken($blue, 5%);
   }
 }
 
@@ -85,12 +91,13 @@
 }
 
 .priority-list__name {
-  background: rgba($gold,.8);
+  background: rgba($gold,.9);
   display: block;
   color: $blue;
   text-decoration: none;
   font-size: 1.2em;
   padding: .5em 1em;
+  transition: .3s all ease-in-out;
   &:hover {
     background: lighten($gold,2%);
   }

@@ -130,6 +130,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dev\/assets\/img\/priority-image-top-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90638,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/priority-image-top-small.jpg",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/priority-image-top-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/assets\/img\/priority-image-top.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116403,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/priority-image-top.jpg",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/priority-image-top.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/assets\/img\/priority-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57051,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/priority-image.jpg",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/priority-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dev\/assets\/img\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -303,6 +336,15 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/dev\/prototype\/patterns\/partials\/close-button.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/prototype\/patterns\/partials\/close-button.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/prototype\/patterns\/partials\/contents.php": {
 		"fileType": 8192,

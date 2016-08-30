@@ -53,7 +53,7 @@
   //animation-fill-mode: both;
   //animation-name: zoom;
   transition: transform ease-in-out .3s;
-  @media screen and (max-height: 50em) {
+  @media screen and (max-height: 50em) and #{$medium} {
     margin-top: -15%;
   }
 }
