@@ -3,7 +3,9 @@ layout: default
 permalink: /message/
 ---
 <div class="section-default section-message">
+	{% include menu-button.html %}
 	<div class="inner-wrapper">
+
 		<figure class="headshot">
 			<img src="../../assets/img/warren.jpg" alt="President Warren" />
 		</figure>
