@@ -6,11 +6,6 @@
   opacity: .8;
 }
 
-.zoom-group {
-  transform: scale(.8);
-  animation: zoom 20s infinite linear alternate;
-}
-
 .splash {
   position: relative;
   overflow: hidden;
@@ -29,7 +24,13 @@
       display: block;
       content: "";
       transition: .3s all ease-in-out;
-      animation: spin 20s infinite linear alternate;
+      animation: spin 10s infinite linear alternate;
+    }
+  }
+  @media screen and (max-height: 50em) {
+    &:after {
+      width: 250px;
+      height: 250px;
     }
   }
   @media #{$large} {
@@ -50,6 +51,12 @@
     &:after {
       width: 425px;
       height: 425px;
+    }
+    @media screen and (max-height: 50em) {
+      &:after {
+        width: 270px;
+        height: 270px;
+      }
     }
   }
 }
