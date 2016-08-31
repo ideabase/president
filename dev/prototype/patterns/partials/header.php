@@ -11,7 +11,7 @@
       document.createElement( "picture" );
     </script>
     <style type="text/css">
-      <?php include("../patterns/partials/inline.html") ?>
+      <?php include("../../assets/css/critical.css") ?>
     </style>
     <script async src="../../assets/js/picturefill.min.js"></script>
     <script>
