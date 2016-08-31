@@ -1,5 +1,6 @@
 .feature-teaser__link {
   display: flex;
+  -js-display: flex; // JavaScript Fallback for IE9 //
   text-decoration: none;
   flex-wrap: wrap;
   border: 2px solid transparent;
@@ -78,6 +79,7 @@
 .priority-media__gallery {
   @media #{$tiny} {
     display: flex;
+    -js-display: flex; // JavaScript Fallback for IE9 //
     justify-content: space-between;
   }
 }

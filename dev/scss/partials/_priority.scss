@@ -1,6 +1,7 @@
 .priority-content {
   @media #{$medium} {
     display: flex;
+    -js-display: flex; // JavaScript Fallback for IE9 //
     justify-content: space-between;
   }
 }

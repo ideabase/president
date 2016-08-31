@@ -36,6 +36,7 @@ body {
   font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   background-image: linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%);
+  background: #002664;
   background-image: url(../../assets/img/compass.svg), url(../../assets/img/zig-zag.svg), linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%);
   background-repeat: no-repeat;
   background-size: 60% auto, cover, cover;
@@ -461,6 +462,7 @@ header[role="banner"] {
   @media (min-width: 50em) {
     header[role="banner"] {
       display: flex;
+      -js-display: flex;
       align-items: center;
       justify-content: center;
       padding: 2rem 2rem 2.5rem 2rem; } }
@@ -473,12 +475,13 @@ header[role="banner"] {
 
 .header-title {
   text-decoration: none;
-  color: white; }
+  color: white;
+  transition: .3s all ease-in-out; }
   @media (min-width: 50em) {
     .header-title {
       width: 75%; } }
-  .header-title:hover .header-title__text strong {
-    color: white; }
+  .header-title:hover {
+    transform: scale(1.03, 1.03); }
 
 .header-title__text {
   font-size: 1em;
@@ -579,6 +582,7 @@ header[role="banner"] {
   position: absolute;
   bottom: 8%;
   display: flex;
+  -js-display: flex;
   align-items: center;
   justify-content: center;
   line-height: 1;
@@ -843,9 +847,16 @@ img:not([alt]) {
 
 .section-bright .menu-trigger {
   border: 1px solid #002664;
-  color: #002664; }
+  color: #002664;
+  background-color: transparent; }
   .section-bright .menu-trigger:hover, .section-bright .menu-trigger:focus {
-    border: 1px solid white; }
+    border: 1px solid white;
+    color: white; }
+
+.menu-open .section-bright .menu-trigger {
+  background-color: #002664;
+  color: white;
+  border: 1px solid white; }
 
 .linear-navigation {
   display: none; }
@@ -910,6 +921,7 @@ footer {
   .footer-links {
     width: 100%;
     display: flex;
+    -js-display: flex;
     margin-bottom: 1rem;
     align-items: center;
     justify-content: space-between; } }
@@ -917,6 +929,7 @@ footer {
 @media (min-width: 39.5em) {
   .footer-supplemental__list, .footer-social__list {
     display: flex;
+    -js-display: flex;
     align-items: center;
     font-size: .9em; } }
 @media (min-width: 50em) {
@@ -930,6 +943,7 @@ footer {
   @media (min-width: 50em) {
     .footer-contact__list {
       display: flex;
+      -js-display: flex;
       justify-content: center; } }
 
 .footer-contact__list__item__definition {
@@ -937,6 +951,7 @@ footer {
 
 .footer-social__list {
   display: flex;
+  -js-display: flex;
   margin: 1rem 0; }
   @media (min-width: 50em) {
     .footer-social__list {

@@ -20,6 +20,49 @@
   width: 100%;
 }
 
+.owl-buttons {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  @media #{$medium} {
+    top: 40%;
+  }
+}
+
+.owl-prev, .owl-next {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  opacity: .9;
+  position: absolute;
+  transition: .3s all ease-in-out;
+  @media #{$medium} {
+    width: 50px;
+    height: 50px;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.owl-prev {
+  left: -15px;
+  background-image: url(../../assets/img/arrow-previous.svg);
+  @media #{$medium} {
+    left: -25px;
+  }
+}
+
+.owl-next {
+  right: -15px;
+  background-image: url(../../assets/img/arrow-next.svg);
+  @media #{$medium} {
+    right: -25px;
+  }
+}
+
 // Color Themes
 
 .section-dark .gallery-caption__title {

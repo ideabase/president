@@ -14,6 +14,9 @@
       <?php include("../../assets/css/critical.css") ?>
     </style>
     <script async src="../../assets/js/picturefill.min.js"></script>
+    <!--[if IE 9]>
+      <script src="../../assets/js/flexibility.js"></script>
+    <![endif]-->
     <script>
   /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */
   (function( w ){

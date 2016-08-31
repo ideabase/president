@@ -7,6 +7,7 @@ footer {
   @media #{$small} {
     width: 100%;
     display: flex;
+    -js-display: flex; // JavaScript Fallback for IE9 //
     margin-bottom: $globalpadding;
     align-items: center;
     justify-content: space-between;
@@ -20,6 +21,7 @@ footer {
 .footer-supplemental__list, .footer-social__list {
   @media #{$small} {
     display: flex;
+    -js-display: flex; // JavaScript Fallback for IE9 //
     align-items: center;
     font-size: .9em;
   }
@@ -34,6 +36,7 @@ footer {
   font-size: .95em;
   @media #{$medium} {
     display: flex;
+    -js-display: flex; // JavaScript Fallback for IE9 //
     justify-content: center;
   }
 }
@@ -44,6 +47,7 @@ footer {
 
 .footer-social__list {
   display: flex;
+  -js-display: flex; // JavaScript Fallback for IE9 //
   margin: $globalpadding 0;
   @media #{$medium} {
     margin: 0;

@@ -190,7 +190,15 @@
 .section-bright .menu-trigger {
   border: 1px solid $blue;
   color: $blue;
+  background-color: transparent;
   &:hover, &:focus {
     border: 1px solid white;
+    color: white;
   }
+}
+
+.menu-open .section-bright .menu-trigger {
+  background-color: $blue;
+  color: white;
+  border: 1px solid white;
 }

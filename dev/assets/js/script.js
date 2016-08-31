@@ -1619,12 +1619,14 @@ if (typeof Object.create !== "function") {
 }(jQuery, window, document));
 
 
-$(document).ready(function() {
-  $("#gallery").owlCarousel({
-    items : 1,
+
+$("#gallery").owlCarousel({
+    singleItem : true,
     navigation : true,
-  })
-});
+    autoPlay : 10000,
+    autoPlaySpeed : 5000,
+    autoPlayTimeout : 8000,
+  });
 
 
 /*!

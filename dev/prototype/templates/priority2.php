@@ -9,7 +9,7 @@
         <div class="priority-content">
           <?php include("../patterns/partials/priority-body.html") ?>
           <section class="priority-media">
-            <?php include("../patterns/partials/story-teaser.html") ?>
+            <?php include("../patterns/partials/story-teaser2.html") ?>
             <div class="priority-media__gallery">
               <?php include("../patterns/partials/gallery-teaser.html") ?>
               <?php include("../patterns/partials/video-teaser.html") ?>

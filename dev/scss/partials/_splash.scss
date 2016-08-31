@@ -80,6 +80,7 @@
   position: absolute;
   bottom: 8%;
   display: flex;
+  -js-display: flex; // JavaScript Fallback for IE9 //
   align-items: center;
   justify-content: center;
   line-height: 1;

@@ -124,6 +124,7 @@
 
 .priority {
   @media #{$medium} {
+    -js-display: flex; // JavaScript Fallback for IE9 //
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

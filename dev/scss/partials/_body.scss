@@ -1,6 +1,7 @@
 body {
   @include NationalLight;
   background-image: $gradient;
+  background: $blue; // Fallback for unsupported browsers //
   background-image: url(../../assets/img/compass.svg), url(../../assets/img/zig-zag.svg), $gradient;
   background-repeat: no-repeat;
   background-size: 60% auto, cover, cover;

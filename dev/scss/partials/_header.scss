@@ -5,6 +5,7 @@ header[role="banner"] {
   background-image: $gradient;
   @media #{$medium} {
     display: flex;
+    -js-display: flex; // JavaScript Fallback for IE9 //
     align-items: center;
     justify-content: center;
     padding: $globalpadding*2 $globalpadding*2 $globalpadding*2.5 $globalpadding*2;
@@ -20,13 +21,13 @@ header[role="banner"] {
 .header-title {
   text-decoration: none;
   color: white;
+  transition: .3s all ease-in-out;
   @media #{$medium} {
     width: 75%;
   }
   &:hover {
-    .header-title__text strong {
-      color: white;
-    }
+    transform: scale(1.03, 1.03);
+    //transform-origin: right;
   }
 }
 
