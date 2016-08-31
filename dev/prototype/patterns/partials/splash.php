@@ -2,6 +2,7 @@
   <?php include("../patterns/partials/menu-button.html") ?>
   <a class="splash-link" href="contents.php">
     <figure id="splash" class="splash">
+      <img class="splash-image splash-image--fallback" srcset="../../assets/img/home-default.jpg" alt="Man Riding Bike" />
       <picture>
                   <!-- Add Fallback for IE9 -->
                   <!--[if IE 9]><video style="display: none;"><![endif]-->
