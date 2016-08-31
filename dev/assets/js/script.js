@@ -1703,6 +1703,7 @@ var SidebarMenuEffects = (function() {
         container.className = 'oc-container'; // clear
         classie.add( container, effect );
         setTimeout( function() {
+            classie.add( container, 'js' );
             classie.add( container, 'menu-open' );
         }, 25 );
         document.addEventListener( eventtype, bodyClickFn );

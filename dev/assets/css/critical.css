@@ -575,7 +575,7 @@ header[role="banner"] {
     .splash-image {
       margin-top: -15%; } }
 
-.js .splash-image--fallback {
+.js .splash-image--fallback, .menu-open .splash-image--fallback {
   display: none; }
 
 .splash-headline {
