@@ -1309,6 +1309,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/prod\/_includes\/values.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/_includes\/values.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/prod\/_layouts\/contents.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2137,7 +2146,7 @@
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/prod\/message.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/prod\/message.html",
