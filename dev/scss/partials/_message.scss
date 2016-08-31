@@ -76,6 +76,7 @@
 
 .section-message .inner-wrapper {
   display: flex;
+  -js-display: flex; // JavaScript Fallback for IE9 //
   flex-wrap: wrap;
   flex-flow: space-between;
 }
