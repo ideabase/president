@@ -48,11 +48,11 @@ $font-family-serif: "Roboto Slab", Georgia, "Times New Roman", Times, serif !def
     font-weight: 300;
 }
 
-@mixin NationalLightItalic {
-    font-family: $font-family-sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
+//@mixin NationalLightItalic {
+    //font-family: $font-family-sans-serif;
+    //font-weight: 300;
+    //font-style: italic;
+//}
 
 @mixin NationalBold {
     font-family: $font-family-sans-serif;
