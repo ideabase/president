@@ -24,13 +24,16 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  font-size: 2em;
+  font-size: 1.8em;
   text-transform: none;
   @include NationalBold;
   font-style: normal;
   padding: .25em .5em;
   padding-right: 2em;
-  line-height:1
+  line-height:1;
+  @media #{$medium} {
+    font-size: 2em;
+  }
 }
 
 .story-body {
@@ -51,7 +54,7 @@
 .story-body__headline__level1 {
   color: $yellow;
   display: block;
-  font-size: 150%;
+  font-size: 110%;
   line-height: .8;
   @media #{$small-ish} {
     font-size: 200%;
@@ -64,7 +67,9 @@
 .story-body__headline__level2 {
   display: block;
   text-align: right;
-  line-height: .9;
+  line-height: 1;
+  margin-right: 0;
+  font-size: 90%;
   margin-right: .25em;
   @media #{$small-ish} {
     font-size: 150%;
@@ -98,10 +103,10 @@
 }
 
 .section-bright .story-body__headline__level1 {
-  margin-top: -5rem;
+  margin-top: -4.5rem;
   line-height: 1.5;
   text-align: left;
-  font-size: 170%;
+  font-size: 130%;
   color: white;
   @media #{$small-ish} {
     margin-top: -6rem;
