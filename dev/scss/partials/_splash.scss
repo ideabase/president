@@ -11,8 +11,8 @@
   overflow: hidden;
   @media #{$medium} {
     &:after {
-      width: 400px;
-      height: 400px;
+      width: 350px;
+      height: 350px;
       position: absolute;
       opacity: .5;
       background-image: url(../../assets/img/compass-alt.svg);
@@ -49,8 +49,8 @@
       opacity: 1;
     }
     &:after {
-      width: 425px;
-      height: 425px;
+      width: 400px;
+      height: 400px;
     }
     @media screen and (max-height: 50em) {
       &:after {

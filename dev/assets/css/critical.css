@@ -535,8 +535,8 @@ header[role="banner"] {
   overflow: hidden; }
   @media (min-width: 50em) {
     .splash:after {
-      width: 400px;
-      height: 400px;
+      width: 350px;
+      height: 350px;
       position: absolute;
       opacity: .5;
       background-image: url(../../assets/img/compass-alt.svg);
@@ -561,8 +561,8 @@ header[role="banner"] {
   .splash:hover .blend {
     opacity: 1; }
   .splash:hover:after {
-    width: 425px;
-    height: 425px; }
+    width: 400px;
+    height: 400px; }
   @media screen and (max-height: 50em) {
     .splash:hover:after {
       width: 270px;
