@@ -50,9 +50,11 @@
   @media #{$small} {
     width: 27%;
     max-width: inherit;
+    margin-top: 1em;
   }
   @media #{$large} {
     width: 16%;
+    margin-top: 0;
   }
 }
 

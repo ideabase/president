@@ -546,8 +546,7 @@ header[role="banner"] {
       right: -50px;
       display: block;
       content: "";
-      transition: .3s all ease-in-out;
-      animation: spin 10s infinite linear alternate; } }
+      transition: .3s all ease-in-out; } }
   @media screen and (max-height: 50em) {
     .splash:after {
       width: 250px;
