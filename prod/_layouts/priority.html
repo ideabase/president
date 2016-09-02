@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+{% assign story = site.stories | where: "story-id", page.story-reference | first %}
+{% assign gallery = site.galleries | where: "gallery-id", page.gallery-reference | first %}
+{% assign video = site.videos | where: "video-id", page.video-reference | first %}
+
+
+{% if page.theme=='dark' %}
+	<div class="section-default">
+{% elsif page.theme=='light' %}
+	<div class="section-light">
+{% endif %}
+		{% include menu-button.html %}
+		<header class="priority-header">
+		<section class="quote">
+		  <blockquote>{{ page.quote }}</blockquote>
+		  <cite>{{ page.cite }}</cite>
+		</section>
+		<h2 class="priority-header__heading">{{ page.title }}</h2>
+		</header>
+		<div class="inner-wrapper">
+			<p class="priority-introduction">{{ page.intro }}</p>
+			<div class="priority-content">
+				<section class="priority-text">
+				{{ content }}
+				</section>
+				<section class="priority-media">
+					<section class="feature-teaser">
+						<a class="feature-teaser__link" href="{{ site.url }}/{{ story.url }}">
+						<div class="feature-teaser__link__text">
+							<h3 class="feature-teaser__header">Feature Story</h3>
+							<h4 class="feature-teaser__headline">{{ story.title }}</h4>
+							<p class="feature-teaser__summary">{{ story.teaser }}</p>
+						</div>
+						<div class="feature-teaser__link__image">
+						  <img alt="teaser image" src="../../assets/img/headshot.jpg" />
+						</div>	
+						</a>
+					</section>
+					<div class="priority-media__gallery">
+						<section class="gallery-teaser">
+							<a class='gallery-teaser__link' href="gallery.php">
+								<img class="gallery-teaser__thumb" src="../../assets/img/gallery.jpg" alt="Gallery Image"/>
+								<h3 class="gallery-teaser__headline">{{ gallery.title }}</h3>
+							</a>
+						</section>
+						<section class="video-teaser">
+							<a class='video-teaser__link' href="video.php">
+								<img class="video-teaser__thumb" src="../../assets/img/video.jpg" alt="Gallery Image"/>
+								<h3 class="video-teaser__headline">{{ video.title }}</h3>
+							</a>
+						</section>
+					</div>
+
+				</section>
+			</div>
+	</div>
