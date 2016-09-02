@@ -4,21 +4,14 @@ footer {
 }
 
 .footer-links {
-  @media #{$small} {
-    width: 100%;
-    display: flex;
-    -js-display: flex; // JavaScript Fallback for IE9 //
-    margin-bottom: $globalpadding;
-    align-items: center;
-    justify-content: space-between;
-  }
+  text-align: center;
 }
 
-.footer-contact__list, .footer-social__list, .footer-social__list, .footer-supplemental__list {
+.footer-contact__list, .footer-social__list, .footer-social__list {
   @extend .plain-list;
 }
 
-.footer-supplemental__list, .footer-social__list {
+.footer-social__list {
   @media #{$small} {
     display: flex;
     -js-display: flex; // JavaScript Fallback for IE9 //
@@ -90,7 +83,7 @@ footer {
   }
 }
 
-.footer-supplemental__list__item {
+/*.footer-supplemental__list__item {
   @media #{$small} {
     display: inherit;
     &:after {
@@ -99,7 +92,7 @@ footer {
       padding: 0 .5em 0 .45em;
     }
   }
-}
+}*/
 
 .footer-contact__list__item {
   @media #{$medium} {
@@ -111,7 +104,7 @@ footer {
   }
 }
 
-.footer-supplemental__list__item__link, .footer-contact__list__item__link {
+.footer-contact__list__item__link {
   color: white;
   text-decoration: none;
   transition: .3s all ease-in-out;
@@ -120,7 +113,7 @@ footer {
   }
 }
 
-.footer-supplemental__list__item:last-child, .footer-contact__list__item:last-child {
+.footer-contact__list__item:last-child {
   @media #{$small} {
       &:after {
       content: "";
@@ -130,16 +123,9 @@ footer {
   }
 }
 
-.footer-supplemental, .footer-social {
-  margin: 0 auto;
-  @media #{$small-ish} {
-    display: inline-block;
-    margin: inherit;
-  }
-}
-
 .footer-social {
-  margin-left: auto;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .footer-copyright {

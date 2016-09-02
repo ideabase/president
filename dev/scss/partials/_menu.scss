@@ -43,12 +43,15 @@
 
 .menu {
   position: absolute;
-  top: $globalpadding*3;
+  top: $globalpadding*8;
   right: 0;
   //transition: all 400ms;
   visibility: hidden;
   width: 235px;
   z-index: 100;
+  @media #{$large} {
+    right: 5%;
+  }
   @media #{$x-large} {
     right: 10%;
   }
@@ -75,15 +78,8 @@
   }
 }
 
-.primary-menu li:last-child .menu__item__link {
-  background-color: $yellow;
-  &:hover {
-    background-color: $cyan;
-  }
-}
-
 .secondary-menu {
-  margin-top: .5em;
+  margin-top: 1.5em;
 }
 
 .secondary-menu .menu__item__link {

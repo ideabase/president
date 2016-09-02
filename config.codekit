@@ -139,6 +139,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dev\/assets\/img\/poster.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.98430e+06,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/poster.png",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/poster.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dev\/assets\/img\/priority-image-top-small.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1338,6 +1349,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/prod\/_includes\/menu.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/_includes\/menu.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/prod\/_includes\/values.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1374,6 +1394,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/prod\/_layouts\/priority.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/_layouts\/priority.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/prod\/_priorities\/1.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -1382,7 +1411,7 @@
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/prod\/_priorities\/1.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/prod\/_priorities\/1.html",

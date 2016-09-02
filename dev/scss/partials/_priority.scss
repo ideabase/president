@@ -39,6 +39,7 @@
   padding: 0;
   padding-bottom: 7rem;
   padding-top:12rem;
+  overflow: hidden;
   background-image: url('../../assets/img/priority-image-top-small.jpg');
   @media #{$medium} {
     padding-top: 0;
@@ -61,6 +62,17 @@
         background: linear-gradient(90deg, rgba($blue,1) 0%, rgba($blue,1) 30%,rgba($blue,.6) 60%, rgba(0,0,0,0) 100%);
       }
   }
+}
+
+.priority-header__video {
+    position: absolute;
+    top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+    @media #{$medium} {
+      margin-top: -15%;
+    }
 }
 
 .priority-header__heading {

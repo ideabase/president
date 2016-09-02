@@ -53,7 +53,5 @@
         </dl>
       </section>
     </div>
-    <a href="#" class="button button--gold">TOP 10 HIGHLIGHTS FROM 2015-16</a>
-    <a href="#" class="button">2015-16 ANNUAL REPORT SUMMARY</a>
   </div>
 </div>
