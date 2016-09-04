@@ -18,6 +18,21 @@
   }
 }
 
+.button-pause {
+  display: none;
+  @media #{$medium} {
+    display: block;
+    z-index:200;
+    position:absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+  }
+}
+
 .button--gold {
   color: $gold;
 }
