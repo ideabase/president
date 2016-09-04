@@ -32,34 +32,36 @@
 .owl-prev, .owl-next {
   text-indent: -9999px;
   overflow: hidden;
-  background-size: 100% auto;
   width: 30px;
   height: 30px;
-  opacity: .9;
+  opacity: .8;
   position: absolute;
   transition: .3s all ease-in-out;
+  background-size: contain;
+  background-repeat: no-repeat;
   @media #{$medium} {
     width: 50px;
     height: 50px;
   }
   &:hover {
     opacity: 1;
+    transform: scale(1.08);
   }
 }
 
 .owl-prev {
-  left: -15px;
+  left: 8px;
   background-image: url(../../assets/img/arrow-previous.svg);
   @media #{$medium} {
-    left: -25px;
+    left: -8px;
   }
 }
 
 .owl-next {
-  right: -15px;
+  right: 0px;
   background-image: url(../../assets/img/arrow-next.svg);
   @media #{$medium} {
-    right: -25px;
+    right: -28px;
   }
 }
 
