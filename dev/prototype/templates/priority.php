@@ -14,6 +14,7 @@
               <?php include("../patterns/partials/gallery-teaser.html") ?>
               <?php include("../patterns/partials/video-teaser.html") ?>
             </div>
+            <?php include("../patterns/partials/sharing.html") ?>
           </section>
         </div>
     </div>

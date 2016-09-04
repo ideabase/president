@@ -19,6 +19,7 @@
   @media #{$small} {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   @media #{$medium} {
     width: 50%;
@@ -29,7 +30,12 @@
   }
   @media #{$large} {
     width: 40%;
+    flex-wrap: wrap;
   }
+}
+
+.social-sharing {
+  display: block;
 }
 
 .priority-header {
@@ -138,7 +144,6 @@
     font-size: 140%;
   }
 }
-
 
 // Color Themes //
 
