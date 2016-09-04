@@ -51,6 +51,10 @@ footer {
   text-indent: -9999px;
   overflow: hidden;
   margin-right: 1em;
+  transition: .3s all ease-in-out;
+  &:hover, &:focus {
+    transform: scale(1.1);
+  }
 }
 
 .footer-social__list__item:last-child {

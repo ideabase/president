@@ -109,8 +109,10 @@
     background: lighten($gold,2%);
   }
   strong {
-    color: white;
+    color: $blue;
     margin-right: .35em;
+    @include NationalBoldItalic;
+    text-transform: uppercase;
   }
   @media #{$medium-ish} {
     font-size: 1.3em;
