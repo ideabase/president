@@ -5,11 +5,14 @@
 
  @keyframes slider {
   from {
-    margin-left: 0%;
+    transform: translate3d(-100%, 0, 0);
+    opacity: 0;
+    visibility: visible;
   }
 
   to {
-    margin-left: 5%;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
   }
 }
 

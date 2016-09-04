@@ -40,6 +40,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dev\/assets\/img\/fountain-poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137081,
+		"inputAbbreviatedPath": "\/dev\/assets\/img\/fountain-poster.jpg",
+		"outputAbbreviatedPath": "\/dev\/assets\/img\/fountain-poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dev\/assets\/img\/gallery.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

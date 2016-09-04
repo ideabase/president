@@ -94,6 +94,9 @@
   padding: .25em .25em .35em 2.2em;
   z-index: 5;
   line-height: .8;
+  animation: slider .5s linear;
+  animation-delay: .1s;
+  animation-fill-mode: both;
   @media #{$small} {
     width: 80%;
     padding: .5em .5em .65em 2em;
@@ -113,6 +116,9 @@
   left: 15px;
   font-size: 3em;
   line-height: 1;
+  animation: fadeIn .5s linear;
+  animation-delay: .5s;
+  animation-fill-mode: both;
   @include RobotoBold;
   @media #{$small} {
     left: 3rem;
