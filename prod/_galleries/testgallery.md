@@ -5,6 +5,53 @@ date: 2016-08-30 12:00:00
 gallery-id: test-gallery
 ---
 
-This is the mindful life story.
-fsfsd
-fdsfds
+<div class="section-default">
+<!--<?php include("../patterns/partials/close-button.html") ?>-->
+	<div class="inner-wrapper">
+		<h2 class="gallery-title"><span>GALLERY:</span> STUDENT LIFE</h2>
+		<section id="gallery" class="gallery owl-carousel">
+			<figure class="gallery__item">
+			  <img class="gallery__item__image" src="../../assets/img/priority-image.jpg" alt="Photo Caption" />
+			  <figcaption>
+			    <h3 class="gallery-caption__title">Video/Photo Gallery Title</h3>
+			    <p class="gallery-caption__description">This is a description of the video or photo gallery.</p>
+			  </figcaption>
+			</figure>
+			<figure class="gallery__item">
+			  <img class="gallery__item__image" src="../../assets/img/priority-image.jpg" alt="Photo Caption" />
+			  <figcaption>
+			    <h3 class="gallery-caption__title">Video/Photo Gallery Title</h3>
+			    <p class="gallery-caption__description">This is a description of the video or photo gallery.</p>
+			  </figcaption>
+			  </figure>
+			  <figure class="gallery__item">
+			    <img class="gallery__item__image" src="../../assets/img/priority-image.jpg" alt="Photo Caption" />
+			    <figcaption>
+			      <h3 class="gallery-caption__title">Video/Photo Gallery Title</h3>
+			      <p class="gallery-caption__description">This is a description of the video or photo gallery.</p>
+			    </figcaption>
+			  </figure>
+			  <figure class="gallery__item">
+			    <img class="gallery__item__image" src="../../assets/img/priority-image.jpg" alt="Photo Caption" />
+			    <figcaption>
+			      <h3 class="gallery-caption__title">Video/Photo Gallery Title</h3>
+			      <p class="gallery-caption__description">This is a description of the video or photo gallery.</p>
+			    </figcaption>
+			  </figure>
+			  <figure class="gallery__item">
+			    <img class="gallery__item__image" src="../../assets/img/priority-image.jpg" alt="Photo Caption" />
+			    <figcaption>
+			      <h3 class="gallery-caption__title">Video/Photo Gallery Title</h3>
+			      <p class="gallery-caption__description">This is a description of the video or photo gallery.</p>
+			    </figcaption>
+			  </figure>
+			  <figure class="gallery__item">
+			    <img class="gallery__item__image" src="../../assets/img/priority-image.jpg" alt="Photo Caption" />
+			    <figcaption>
+			      <h3 class="gallery-caption__title">Video/Photo Gallery Title</h3>
+			      <p class="gallery-caption__description">This is a description of the video or photo gallery.</p>
+			    </figcaption>
+			</figure>
+		</section>
+	</div>
+</div>
