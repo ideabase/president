@@ -6,6 +6,7 @@ gallery-id: test-gallery
 ---
 
 <div class="section-default">
+<!--<?php include("../patterns/partials/close-button.html") ?>-->
 	<div class="inner-wrapper">
 		<h2 class="gallery-title"><span>GALLERY:</span> STUDENT LIFE</h2>
 		<section id="gallery" class="gallery owl-carousel">
