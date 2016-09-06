@@ -1,10 +1,12 @@
 @keyframes spin {
   from {
+    //opacity: 0;
     transform: rotate(0deg);
     transform: scale(1.1);
   }
 
   to {
+    //opacity: 1;
     transform: rotate(15deg);
   }
 }
@@ -17,6 +19,18 @@
 
   to {
     transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomFadeReverse {
+  from {
+    transform: scale(1);
+    opacity: .1;
+  }
+
+  to {
+    transform: scale(1.1);
     opacity: 1;
   }
 }

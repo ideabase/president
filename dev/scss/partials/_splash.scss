@@ -40,7 +40,7 @@
       display: block;
       content: "";
       transition: .3s all ease-in-out;
-      animation: spin 5s infinite ease-in-out alternate;
+      animation: spin 4s ease-in-out forwards;
       @media #{$medium} {
         width: 350px;
         height: 350px;
@@ -90,11 +90,8 @@
 
 .splash-image {
   width: 100%;
-  //animation-duration: 30s;
-  //animation-fill-mode: both;
-  //animation-name: zoom;
-  animation: zoomFade .5s linear;
-  animation-delay: .2s;
+  animation: zoomFadeReverse 4s linear;
+  animation-delay: .1s;
   animation-fill-mode: both;
   transition: transform ease-in-out .3s;
   @media screen and (max-height: 50em) and #{$medium} {
@@ -120,8 +117,8 @@
   transition: all ease-in-out .3s;
   width: 95%;
   z-index: 100;
-  animation: zoomFade .6s linear;
-  animation-delay: .2s;
+  animation: zoomFade 3s linear;
+  animation-delay: 1s;
   animation-fill-mode: both;
   @media #{$medium} {
     bottom: 19%;
@@ -150,7 +147,7 @@
   line-height: 1;
   font-size: 1.3em;
   transition: .3s all ease-in-out;
-  animation: zoomFade .5s linear;
+  animation: zoomFade 1s linear;
   animation-delay: .3s;
   animation-fill-mode: both;
   z-index: 1;
