@@ -1,20 +1,36 @@
 // Live Blend for DISCOVER image //
 
 .blend {
-  mix-blend-mode:hard-light;
+  //mix-blend-mode:hard-light;
   transition: .3s all ease-in-out;
-  opacity: .8;
+  opacity: .9;
+  path {
+    fill: #ffeb00 !important;
+  }
+}
+
+.blend2 {
+  opacity: .2;
 }
 
 .splash {
   position: relative;
   overflow: hidden;
-  @media #{$medium} {
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(360deg, rgba(black,.1) 0%, rgba(black,.1) 60%, rgba(0,0,0,0) 100%);
+        z-index: 1;
+    }
     &:after {
-      width: 350px;
-      height: 350px;
+      width: 200px;
+      height: 200px;
       position: absolute;
-      opacity: .5;
+      opacity: .7;
       background-image: url(../../assets/img/compass-alt.svg);
       background-repeat: no-repeat;
       background-size: 100% auto;
@@ -24,10 +40,19 @@
       display: block;
       content: "";
       transition: .3s all ease-in-out;
-      //animation: spin 10s infinite linear alternate;
+      animation: spin 5s infinite ease-in-out alternate;
+      @media #{$medium} {
+        width: 350px;
+        height: 350px;
+      }
+    }
+  @media screen and #{$medium} and (max-height: 50em) {
+    &:after {
+      width: 200px;
+      height: 200px;
     }
   }
-  @media screen and (max-height: 50em) {
+  @media screen and #{$large} and (max-height: 50em) {
     &:after {
       width: 250px;
       height: 250px;
@@ -48,14 +73,16 @@
       //mix-blend-mode:inherit;
       opacity: 1;
     }
-    &:after {
-      width: 400px;
-      height: 400px;
-    }
-    @media screen and (max-height: 50em) {
+    @media screen and #{$medium} {
       &:after {
-        width: 270px;
-        height: 270px;
+        width: 400px;
+        height: 400px;
+      }
+    }
+    @media screen and #{$medium} and (max-height: 50em) {
+      &:after {
+        width: 250px;
+        height: 250px;
       }
     }
   }
@@ -66,6 +93,8 @@
   //animation-duration: 30s;
   //animation-fill-mode: both;
   //animation-name: zoom;
+  animation: zoomFade .5s linear;
+  animation-fill-mode: both;
   transition: transform ease-in-out .3s;
   @media screen and (max-height: 50em) and #{$medium} {
     margin-top: -15%;
@@ -78,7 +107,7 @@
 
 .splash-headline {
   position: absolute;
-  bottom: 8%;
+  bottom: 17%;
   display: flex;
   -js-display: flex; // JavaScript Fallback for IE9 //
   align-items: center;
@@ -90,6 +119,11 @@
   transition: all ease-in-out .3s;
   width: 95%;
   z-index: 100;
+  animation: zoomFade .6s linear;
+  animation-fill-mode: both;
+  @media #{$medium} {
+    bottom: 19%;
+  }
   svg {
     width: 100%;
     height: auto;
@@ -103,65 +137,42 @@
   padding: .5em;
 }
 
-.splash-headline__level1 {
-  display: block;
-  margin-left: -2%;
-  @include NationalBoldItalic;
-  color: white;
-  font-size: .6em;
-  text-transform: none;
-  line-height: .7;
-  @media #{$small-ish} {
-    font-size: 1em;
-    margin-left: -10%;
-  }
-  @media #{$medium} {
-    margin-left: -10%;
-    font-size: 1em;
-  }
-  @media #{$medium-ish} {
-    font-size: 1em;
-  }
-}
-
-.splash-headline__level2 {
-  @include NationalBoldItalic;
-  color: white;
-  text-transform: uppercase;
-  margin-right: 0em;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
-  font-size: 90%;
-  @media #{$tiny} {
-    font-size: 130%;
-  }
-  @media #{$small-ish} {
-    font-size: 160%;
-  }
-  @media #{$medium} {
-    font-size: 160%;
-  }
-  @media #{$medium-ish} {
-    font-size: 230%;
-  }
-}
-
-.splash-headline__level3 {
+.start-link {
+  position: absolute;
+  bottom: 35px;
+  right: 10%;
   @include NationalBlackItalic;
-  color: $gold;
+  color: $blue;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 90%;
-  @media #{$tiny} {
-    font-size: 130%;
-  }
-  @media #{$small-ish} {
-    font-size: 160%;
-  }
+  text-decoration: none;
+  line-height: 1;
+  font-size: 1.5em;
+  transition: .3s all ease-in-out;
+  animation: zoomFade .5s linear;
+  animation-delay: .2s;
+  animation-fill-mode: both;
+  z-index: 1;
   @media #{$medium} {
-    font-size: 160%;
+    font-size: 1.7em;
+    right: 10%;
+    bottom: 30px;
   }
-  @media #{$medium-ish} {
-    font-size: 230%;
+  @media #{$large} {
+    font-size: 1.7em;
+    right: 10%;
+    bottom: 50px;
+  }
+  &:hover {
+    color: white;
+    transition: .3s all ease-in-out;
+  }
+  &:after {
+    content: ">";
+    color: white;
+    font-size: 200%;
+    position: absolute;
+    right: -23%;
+    top: -70%;
+    animation: point 1s infinite linear alternate;
   }
 }

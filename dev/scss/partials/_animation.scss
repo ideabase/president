@@ -1,6 +1,36 @@
 @keyframes spin {
-   0%   {transform: rotate(0deg)}
- 100% {transform: rotate(15deg)}
+  from {
+    transform: rotate(0deg);
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes zoomFade {
+  from {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.2);
+    opacity: 1;
+  }
 }
 
  @keyframes slider {
@@ -14,6 +44,19 @@
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
+}
+
+@keyframes point {
+ from {
+   transform: translate3d(-10px, 0, 0);
+   opacity: 0;
+   visibility: visible;
+ }
+
+ to {
+   transform: translate3d(0, 0, 0);
+   opacity: 1;
+ }
 }
 
 .animated {
