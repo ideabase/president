@@ -27,8 +27,8 @@
         z-index: 1;
     }
     &:after {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
       position: absolute;
       opacity: .7;
       background-image: url(../../assets/img/compass-alt.svg);
@@ -94,6 +94,7 @@
   //animation-fill-mode: both;
   //animation-name: zoom;
   animation: zoomFade .5s linear;
+  animation-delay: .2s;
   animation-fill-mode: both;
   transition: transform ease-in-out .3s;
   @media screen and (max-height: 50em) and #{$medium} {
@@ -120,6 +121,7 @@
   width: 95%;
   z-index: 100;
   animation: zoomFade .6s linear;
+  animation-delay: .2s;
   animation-fill-mode: both;
   @media #{$medium} {
     bottom: 19%;
@@ -139,19 +141,23 @@
 
 .start-link {
   position: absolute;
-  bottom: 35px;
+  bottom: 15px;
   right: 10%;
   @include NationalBlackItalic;
   color: $blue;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1;
-  font-size: 1.5em;
+  font-size: 1.3em;
   transition: .3s all ease-in-out;
   animation: zoomFade .5s linear;
-  animation-delay: .2s;
+  animation-delay: .3s;
   animation-fill-mode: both;
   z-index: 1;
+  @media #{$small} {
+    bottom: 25px;
+    font-size: 1.5em;
+  }
   @media #{$medium} {
     font-size: 1.7em;
     right: 10%;

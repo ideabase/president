@@ -547,8 +547,8 @@ header[role="banner"] {
     background: linear-gradient(360deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 60%, transparent 100%);
     z-index: 1; }
   .splash:after {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: absolute;
     opacity: .7;
     background-image: url(../../assets/img/compass-alt.svg);
@@ -592,6 +592,7 @@ header[role="banner"] {
 .splash-image {
   width: 100%;
   animation: zoomFade .5s linear;
+  animation-delay: .2s;
   animation-fill-mode: both;
   transition: transform ease-in-out .3s; }
   @media screen and (max-height: 50em) and (min-width: 50em) {
@@ -615,6 +616,7 @@ header[role="banner"] {
   width: 95%;
   z-index: 100;
   animation: zoomFade .6s linear;
+  animation-delay: .2s;
   animation-fill-mode: both; }
   @media (min-width: 50em) {
     .splash-headline {
@@ -631,7 +633,7 @@ header[role="banner"] {
 
 .start-link {
   position: absolute;
-  bottom: 35px;
+  bottom: 15px;
   right: 10%;
   font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
@@ -641,12 +643,16 @@ header[role="banner"] {
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1;
-  font-size: 1.5em;
+  font-size: 1.3em;
   transition: .3s all ease-in-out;
   animation: zoomFade .5s linear;
-  animation-delay: .2s;
+  animation-delay: .3s;
   animation-fill-mode: both;
   z-index: 1; }
+  @media (min-width: 39.5em) {
+    .start-link {
+      bottom: 25px;
+      font-size: 1.5em; } }
   @media (min-width: 50em) {
     .start-link {
       font-size: 1.7em;
@@ -1020,3 +1026,157 @@ footer {
   font-weight: 300;
   margin-top: 1rem;
   text-align: center; }
+
+@media (min-width: 50em) {
+  .priority-content {
+    display: flex;
+    -js-display: flex;
+    justify-content: space-between; } }
+
+@media (min-width: 50em) {
+  .priority-text {
+    width: 45%; } }
+@media (min-width: 75em) {
+  .priority-text {
+    width: 55%; } }
+
+@media (min-width: 39.5em) {
+  .priority-media {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; } }
+@media (min-width: 50em) {
+  .priority-media {
+    width: 50%;
+    display: block;
+    margin-top: 1em;
+    flex-wrap: wrap;
+    align-items: flex-start; } }
+@media (min-width: 75em) {
+  .priority-media {
+    width: 40%;
+    flex-wrap: wrap; } }
+
+.social-sharing {
+  display: block; }
+
+.priority-header {
+  background-size: cover;
+  position: relative;
+  min-height: 300px;
+  padding: 0;
+  padding-bottom: 7rem;
+  padding-top: 12rem;
+  overflow: hidden;
+  background-image: url("../../assets/img/fountain-poster.jpg"); }
+  @media (min-width: 50em) {
+    .priority-header {
+      padding-top: 0;
+      background-position-x: 250px; } }
+  @media (min-width: 75em) {
+    .priority-header {
+      min-height: 350px; } }
+  .priority-header:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(360deg, #002664 0%, #002664 30%, rgba(0, 38, 100, 0.6) 60%, transparent 100%);
+    z-index: 2; }
+    @media (min-width: 50em) {
+      .priority-header:after {
+        background: linear-gradient(90deg, #002664 0%, #002664 30%, rgba(0, 38, 100, 0.6) 60%, transparent 100%); } }
+
+.priority-header__video {
+  display: none; }
+  @media (min-width: 50em) {
+    .priority-header__video {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      transform: translateX(-50%) translateY(-50%);
+      background: url(../../assets/img/fountain-poster.jpg) no-repeat;
+      background-size: cover; } }
+
+.priority-header__heading {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  margin: 0;
+  font-size: 2em;
+  width: 90%;
+  text-transform: none;
+  text-align: right;
+  font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: .25em .25em .35em 2.2em;
+  z-index: 5;
+  line-height: .8;
+  animation: slider .5s linear;
+  animation-delay: .1s;
+  animation-fill-mode: both; }
+  @media (min-width: 39.5em) {
+    .priority-header__heading {
+      width: 80%;
+      padding: .5em .5em .65em 2em; } }
+  @media (min-width: 50em) {
+    .priority-header__heading {
+      width: 50%;
+      padding-left: 3.5em; } }
+  @media (min-width: 75em) {
+    .priority-header__heading {
+      font-size: 2.3em; } }
+
+.priority-header__heading span {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  font-size: 3em;
+  line-height: 1;
+  animation: fadeIn .5s linear;
+  animation-delay: .5s;
+  animation-fill-mode: both;
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+  font-weight: 700; }
+  @media (min-width: 39.5em) {
+    .priority-header__heading span {
+      left: 3rem; } }
+  @media (min-width: 75em) {
+    .priority-header__heading span {
+      font-size: 4em; } }
+
+.priority-introduction {
+  font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 0;
+  margin-left: 1rem; }
+  @media (min-width: 75em) {
+    .priority-introduction {
+      margin-left: 3rem;
+      margin-top: 1rem;
+      font-size: 140%; } }
+
+.section-default .priority-header__heading {
+  color: #002664;
+  background-color: #e5e854; }
+.section-default .priority-header__heading span {
+  color: white; }
+.section-default .priority-introduction {
+  color: #e5e854; }
+
+.section-light .priority-header__heading {
+  color: #002664;
+  background-color: #5ec4df; }
+.section-light .priority-header__heading span {
+  color: white; }
+.section-light .priority-introduction {
+  color: #5ec4df; }
