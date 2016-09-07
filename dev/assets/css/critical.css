@@ -987,6 +987,8 @@ footer {
     background-image: url(../img/flickr.svg); }
   .footer-social__list__item__link.linkedin {
     background-image: url(../img/linkedin.svg); }
+  .footer-social__list__item__link.youtube {
+    background-image: url(../img/youtube.svg); }
 
 /*.footer-supplemental__list__item {
   @media (min-width: 39.5em) {
