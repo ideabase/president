@@ -85,8 +85,14 @@
     }
     @media screen and #{$medium} and (max-height: 50em) {
       &:after {
-        width: 250px;
-        height: 250px;
+        width: 235px;
+        height: 235px;
+      }
+    }
+    @media screen and #{$large} and (max-height: 50em) {
+      &:after {
+        width: 265px;
+        height: 265px;
       }
     }
   }
