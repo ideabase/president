@@ -82,24 +82,104 @@
         
 
       <main id="content" class="animated fadeIn oc-content" role="main">
-        <p>This is priority 2.</p>
+        
+
+
+
+
+
+	<div class="section-light">
+
+		<div id="oc-trigger">
+  <button class="menu-trigger" id="menu-button" data-effect="oc-push">Menu</button>
+</div>
+
+		<header class="priority-header">
+		<section class="quote">
+		  <blockquote>test quote</blockquote>
+		  <cite>cite</cite>
+		</section>
+		<h2 class="priority-header__heading"><span>2</span>Students First</h2>
+		<video playsinline loop muted autoplay poster="/dev/assets/img/fountain-poster.jpg" class="priority-header__video" id="bgvid">
+		      <source src="/dev/assets/video/fountain-small.webm" type="video/webm">
+		      <source src="/dev/assets/video/fountain-small.mp4" type="video/mp4">
+		</video>
+		<button class="button-pause" id="vidpause">Pause</button>
+		</header>
+		<script>
+		// Pause/Play Embedded Video for Accessibility //
+
+		var vid = document.getElementById("bgvid"),
+		pauseButton = document.getElementById("vidpause");
+		function vidFade() {
+		    vid.classList.add("stopfade");
+		}
+		vid.addEventListener('ended', function() {
+		    // only functional if "loop" is removed
+		     vid.pause();
+			// to capture IE10
+			vidFade();
+		});
+		pauseButton.addEventListener("click", function() {
+		    vid.classList.toggle("stopfade");
+			if (vid.paused) {
+		vid.play();
+				pauseButton.innerHTML = "Pause";
+			} else {
+		        vid.pause();
+		        pauseButton.innerHTML = "Paused";
+			}
+		})
+		</script>
+		<div class="inner-wrapper">
+			<p class="priority-introduction">test introtest introtest introtest introtest introtest introtest intro</p>
+			<div class="priority-content">
+				<section class="priority-text">
+				<p>Kent State’s top priority is to ensure that students have the education, experiences and support they need to graduate and to live successful, satisfying lives in their work and in their commitment to become engaged citizens. Attention to academic quality and student success is a cornerstone of a students  rst environment. This focus begins with the strategic recruitment of talented and diverse students and continues with the commitment to support students as they learn to thrive in an academically challenging environment. 
+	Key benchmarks of the Students First priority are actions.
+ Kent State’s top priority is to ensure that students have the education, experiences and support they need to graduate and to live successful, satisfying lives in their work and in their commitment to become engaged citizens. Attention to academic quality and student success is a cornerstone of a students  rst environment. This focus begins with the strategic recruitment of talented and diverse students and continues with the commitment to support students as they learn to thrive in an academically challenging environment. Key benchmarks of the Students First priority are actions.</p>
+
+
+				</section>
+				<section class="priority-media">
+					<section class="feature-teaser">
+						<a class="feature-teaser__link" href="http://pres.web/prod/_site//stories/mindfullife/">
+						<div class="feature-teaser__link__text">
+							<h3 class="feature-teaser__header">Feature Story</h3>
+							<h4 class="feature-teaser__headline">Bettering Society Through Service</h4>
+							<p class="feature-teaser__summary">test story teaser</p>
+						</div>
+						<div class="feature-teaser__link__image">
+						  <img alt="teaser image" src="../../assets/img/headshot.jpg" />
+						</div>	
+						</a>
+					</section>
+					<div class="priority-media__gallery">
+						<section class="gallery-teaser">
+							<a class='gallery-teaser__link' href="gallery.php">
+								<img class="gallery-teaser__thumb" src="../../assets/img/gallery.jpg" alt="Gallery Image"/>
+								<h3 class="gallery-teaser__headline">Test Gallery</h3>
+							</a>
+						</section>
+						<section class="video-teaser">
+							<a class='video-teaser__link' href="video.php">
+								<img class="video-teaser__thumb" src="../../assets/img/gallery.jpg" alt="Gallery Image"/>
+								<h3 class="video-teaser__headline">Test Video</h3>
+							</a>
+						</section>
+					</div>
+					<section class="social-sharing">
+					  <h4 class="social-sharing__title">Share</h4>
+					  <div class="addthis_inline_share_toolbox"></div>
+					</section>
+					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57cb99422b41c627"></script>
+				</section>
+			</div>
+	</div>
 
       </main>
       <footer>
 		<section class="footer-links">
-			<!-- <nav class="footer-supplemental">
-				<ul class="footer-supplemental__list">
-					<li class="footer-supplemental__list__item">
-						<a href="#" class="footer-supplemental__list__item__link">Contact Information</a>
-					</li>
-					<li class="footer-supplemental__list__item">
-							<a href="#" class="footer-supplemental__list__item__link">Privacy Statement</a>
-					</li>
-					<li class="footer-supplemental__list__item">
-							<a href="#" class="footer-supplemental__list__item__link">Site Accessibility</a>
-					</li>
-				</ul>
-			</nav> -->
 			<nav class="footer-social">
 				<ul class="footer-social__list">
 					<li class="footer-social__list__item">
@@ -135,7 +215,7 @@
 				<li class="footer-contact__list__item">
 					<dl class="footer-contact__list__item__definition">
 						<dt>Email:</dt>
-						<dd><a class="footer-contact__list__item__link" href="mailto:info@kent.com">info@kent.com</a></dd>
+						<dd><a class="footer-contact__list__item__link" href="mailto:info@kent.edu">info@kent.edu</a></dd>
 					</dl>
 				</li>
 			</ul>

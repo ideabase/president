@@ -99,8 +99,38 @@
 		  <blockquote>test quote</blockquote>
 		  <cite>cite</cite>
 		</section>
-		<h2 class="priority-header__heading">test</h2>
+		<h2 class="priority-header__heading"><span>1</span>Students First</h2>
+		<video playsinline loop muted autoplay poster="/dev/assets/img/fountain-poster.jpg" class="priority-header__video" id="bgvid">
+		      <source src="/dev/assets/video/fountain-small.webm" type="video/webm">
+		      <source src="/dev/assets/video/fountain-small.mp4" type="video/mp4">
+		</video>
+		<button class="button-pause" id="vidpause">Pause</button>
 		</header>
+		<script>
+		// Pause/Play Embedded Video for Accessibility //
+
+		var vid = document.getElementById("bgvid"),
+		pauseButton = document.getElementById("vidpause");
+		function vidFade() {
+		    vid.classList.add("stopfade");
+		}
+		vid.addEventListener('ended', function() {
+		    // only functional if "loop" is removed
+		     vid.pause();
+			// to capture IE10
+			vidFade();
+		});
+		pauseButton.addEventListener("click", function() {
+		    vid.classList.toggle("stopfade");
+			if (vid.paused) {
+		vid.play();
+				pauseButton.innerHTML = "Pause";
+			} else {
+		        vid.pause();
+		        pauseButton.innerHTML = "Paused";
+			}
+		})
+		</script>
 		<div class="inner-wrapper">
 			<p class="priority-introduction">test introtest introtest introtest introtest introtest introtest intro</p>
 			<div class="priority-content">
@@ -133,31 +163,23 @@
 						</section>
 						<section class="video-teaser">
 							<a class='video-teaser__link' href="video.php">
-								<img class="video-teaser__thumb" src="../../assets/img/video.jpg" alt="Gallery Image"/>
+								<img class="video-teaser__thumb" src="../../assets/img/gallery.jpg" alt="Gallery Image"/>
 								<h3 class="video-teaser__headline">Test Video</h3>
 							</a>
 						</section>
 					</div>
-
+					<section class="social-sharing">
+					  <h4 class="social-sharing__title">Share</h4>
+					  <div class="addthis_inline_share_toolbox"></div>
+					</section>
+					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57cb99422b41c627"></script>
 				</section>
 			</div>
 	</div>
+
       </main>
       <footer>
 		<section class="footer-links">
-			<!-- <nav class="footer-supplemental">
-				<ul class="footer-supplemental__list">
-					<li class="footer-supplemental__list__item">
-						<a href="#" class="footer-supplemental__list__item__link">Contact Information</a>
-					</li>
-					<li class="footer-supplemental__list__item">
-							<a href="#" class="footer-supplemental__list__item__link">Privacy Statement</a>
-					</li>
-					<li class="footer-supplemental__list__item">
-							<a href="#" class="footer-supplemental__list__item__link">Site Accessibility</a>
-					</li>
-				</ul>
-			</nav> -->
 			<nav class="footer-social">
 				<ul class="footer-social__list">
 					<li class="footer-social__list__item">
@@ -193,7 +215,7 @@
 				<li class="footer-contact__list__item">
 					<dl class="footer-contact__list__item__definition">
 						<dt>Email:</dt>
-						<dd><a class="footer-contact__list__item__link" href="mailto:info@kent.com">info@kent.com</a></dd>
+						<dd><a class="footer-contact__list__item__link" href="mailto:info@kent.edu">info@kent.edu</a></dd>
 					</dl>
 				</li>
 			</ul>
