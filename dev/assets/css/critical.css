@@ -547,8 +547,8 @@ header[role="banner"] {
     background: linear-gradient(360deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 60%, transparent 100%);
     z-index: 1; }
   .splash:after {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     position: absolute;
     opacity: .7;
     background-image: url(../../assets/img/compass-alt.svg);
@@ -559,11 +559,15 @@ header[role="banner"] {
     display: block;
     content: "";
     transition: .3s all ease-in-out;
-    animation: spin 4s ease-in-out forwards; }
+    animation: spin 3s ease-in-out forwards; }
+    @media (min-width: 39.5em) {
+      .splash:after {
+        width: 200px;
+        height: 200px; } }
     @media (min-width: 50em) {
       .splash:after {
-        width: 350px;
-        height: 350px; } }
+        width: 300px;
+        height: 300px; } }
   @media screen and (min-width: 50em) and (max-height: 50em) {
     .splash:after {
       width: 200px;
@@ -582,8 +586,8 @@ header[role="banner"] {
     opacity: 1; }
   @media screen and (min-width: 50em) {
     .splash:hover:after {
-      width: 400px;
-      height: 400px; } }
+      width: 325px;
+      height: 325px; } }
   @media screen and (min-width: 50em) and (max-height: 50em) {
     .splash:hover:after {
       width: 250px;
@@ -591,7 +595,7 @@ header[role="banner"] {
 
 .splash-image {
   width: 100%;
-  animation: zoomFadeReverse 4s linear;
+  animation: zoomFadeReverse 3s linear;
   animation-delay: .1s;
   animation-fill-mode: both;
   transition: transform ease-in-out .3s; }
@@ -604,7 +608,7 @@ header[role="banner"] {
 
 .splash-headline {
   position: absolute;
-  bottom: 17%;
+  bottom: 20%;
   display: flex;
   -js-display: flex;
   align-items: center;
@@ -615,7 +619,7 @@ header[role="banner"] {
   transition: all ease-in-out .3s;
   width: 95%;
   z-index: 100;
-  animation: zoomFade 3s linear;
+  animation: zoomFade 2s linear;
   animation-delay: 1s;
   animation-fill-mode: both; }
   @media (min-width: 50em) {
@@ -633,7 +637,7 @@ header[role="banner"] {
 
 .start-link {
   position: absolute;
-  bottom: 15px;
+  bottom: 25px;
   right: 10%;
   font-family: "National", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
@@ -646,23 +650,29 @@ header[role="banner"] {
   font-size: 1.3em;
   transition: .3s all ease-in-out;
   animation: zoomFade 1s linear;
-  animation-delay: .3s;
+  animation-delay: 4s;
   animation-fill-mode: both;
   z-index: 1; }
+  @media (min-width: 31.25em) {
+    .start-link {
+      bottom: 25px; } }
   @media (min-width: 39.5em) {
     .start-link {
-      bottom: 25px;
+      bottom: 35px;
       font-size: 1.5em; } }
   @media (min-width: 50em) {
     .start-link {
       font-size: 1.7em;
       right: 10%;
-      bottom: 30px; } }
+      bottom: 35px; } }
+  @media (min-width: 56.25em) {
+    .start-link {
+      bottom: 6.5%; } }
   @media (min-width: 75em) {
     .start-link {
       font-size: 1.7em;
       right: 10%;
-      bottom: 50px; } }
+      bottom: 7%; } }
   .start-link:hover {
     color: white;
     transition: .3s all ease-in-out; }
@@ -739,7 +749,7 @@ img:not([alt]) {
   z-index: 100; }
   @media (min-width: 75em) {
     .menu {
-      right: 5%; } }
+      right: 2%; } }
   @media (min-width: 93.75em) {
     .menu {
       right: 10%; } }

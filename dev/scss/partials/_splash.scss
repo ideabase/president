@@ -27,8 +27,8 @@
         z-index: 1;
     }
     &:after {
-      width: 150px;
-      height: 150px;
+      width: 175px;
+      height:  175px;
       position: absolute;
       opacity: .7;
       background-image: url(../../assets/img/compass-alt.svg);
@@ -40,10 +40,14 @@
       display: block;
       content: "";
       transition: .3s all ease-in-out;
-      animation: spin 4s ease-in-out forwards;
+      animation: spin 3s ease-in-out forwards;
+      @media #{$small} {
+        width: 200px;
+        height: 200px;
+      }
       @media #{$medium} {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
       }
     }
   @media screen and #{$medium} and (max-height: 50em) {
@@ -75,8 +79,8 @@
     }
     @media screen and #{$medium} {
       &:after {
-        width: 400px;
-        height: 400px;
+        width: 325px;
+        height: 325px;
       }
     }
     @media screen and #{$medium} and (max-height: 50em) {
@@ -90,7 +94,7 @@
 
 .splash-image {
   width: 100%;
-  animation: zoomFadeReverse 4s linear;
+  animation: zoomFadeReverse 3s linear;
   animation-delay: .1s;
   animation-fill-mode: both;
   transition: transform ease-in-out .3s;
@@ -105,7 +109,7 @@
 
 .splash-headline {
   position: absolute;
-  bottom: 17%;
+  bottom: 20%;
   display: flex;
   -js-display: flex; // JavaScript Fallback for IE9 //
   align-items: center;
@@ -117,7 +121,7 @@
   transition: all ease-in-out .3s;
   width: 95%;
   z-index: 100;
-  animation: zoomFade 3s linear;
+  animation: zoomFade 2s linear;
   animation-delay: 1s;
   animation-fill-mode: both;
   @media #{$medium} {
@@ -138,7 +142,7 @@
 
 .start-link {
   position: absolute;
-  bottom: 15px;
+  bottom: 25px;
   right: 10%;
   @include NationalBlackItalic;
   color: $blue;
@@ -148,22 +152,28 @@
   font-size: 1.3em;
   transition: .3s all ease-in-out;
   animation: zoomFade 1s linear;
-  animation-delay: .3s;
+  animation-delay: 4s;
   animation-fill-mode: both;
   z-index: 1;
-  @media #{$small} {
+  @media #{$tiny} {
     bottom: 25px;
+  }
+  @media #{$small} {
+    bottom: 35px;
     font-size: 1.5em;
   }
   @media #{$medium} {
     font-size: 1.7em;
     right: 10%;
-    bottom: 30px;
+    bottom: 35px;
+  }
+  @media #{$medium-ish} {
+    bottom: 6.5%;
   }
   @media #{$large} {
     font-size: 1.7em;
     right: 10%;
-    bottom: 50px;
+    bottom: 7%;
   }
   &:hover {
     color: white;
