@@ -41,6 +41,7 @@
       content: "";
       transition: .3s all ease-in-out;
       animation: spin 3s ease-in-out forwards;
+      animation-delay: 3s;
       @media #{$small} {
         width: 200px;
         height: 200px;
@@ -101,7 +102,7 @@
 .splash-image {
   width: 100%;
   animation: zoomFadeReverse 3s linear;
-  animation-delay: .1s;
+  animation-delay: 3s;
   animation-fill-mode: both;
   transition: transform ease-in-out .3s;
   @media screen and (max-height: 50em) and #{$medium} {
@@ -128,7 +129,7 @@
   width: 95%;
   z-index: 100;
   animation: zoomFade 2s linear;
-  animation-delay: 1s;
+  animation-delay: 4s;
   animation-fill-mode: both;
   @media #{$medium} {
     bottom: 19%;
@@ -158,7 +159,7 @@
   font-size: 1.3em;
   transition: .3s all ease-in-out;
   animation: zoomFade 1s linear;
-  animation-delay: 4s;
+  animation-delay: 6s;
   animation-fill-mode: both;
   z-index: 1;
   @media #{$tiny} {

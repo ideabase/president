@@ -1,12 +1,12 @@
 @keyframes spin {
   from {
-    //opacity: 0;
+    opacity: 0;
     transform: rotate(0deg);
     transform: scale(1.1);
   }
 
   to {
-    //opacity: 1;
+    opacity: 1;
     transform: rotate(15deg);
   }
 }
