@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% if page.theme=='dark' %}
+	<div class="section-default">
+{% elsif page.theme=='light' %}
+	<div class="section-light">
+{% endif %}
+		{% include menu-button.html %}
+		<header style="background-image: url({{ page.feature-image-path }});" class="story-header">
+			<h2 class="story-header__title">Feature Story</h2>
+			<h3 class="story-header__subtitle">{{ page.featuredName }}</h3>
+		</header>
+		<div class="inner-wrapper">
+			<article class="story-body">
+				<h2 class="story-body__headline"><span class="story-body__headline__level1">{{ page.title1 }}</span> <span class="story-body__headline__level2">{{ page.title2 }}</span><span class="story-body__headline__level3">{{ page.title3 }}</span></h2>
+				{{ content }}
+				<section class="social-sharing">
+					  <h4 class="social-sharing__title">Share</h4>
+					  <div class="addthis_inline_share_toolbox"></div>
+					</section>
+					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57cb99422b41c627"></script>
+				</section>
+			</article>
+		</div>
+	</div>
