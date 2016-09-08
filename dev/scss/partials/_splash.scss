@@ -40,8 +40,6 @@
       display: block;
       content: "";
       transition: .3s all ease-in-out;
-      animation: spin 3s ease-in-out forwards;
-      animation-delay: 3s;
       @media #{$small} {
         width: 200px;
         height: 200px;
