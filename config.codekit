@@ -1661,6 +1661,28 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/prod\/android-chrome-192x192.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12521,
+		"inputAbbreviatedPath": "\/prod\/android-chrome-192x192.png",
+		"outputAbbreviatedPath": "\/prod\/android-chrome-192x192.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11350,
+		"inputAbbreviatedPath": "\/prod\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/prod\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/arch.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1981,6 +2003,28 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/prod\/favicon-16x16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1068,
+		"inputAbbreviatedPath": "\/prod\/favicon-16x16.png",
+		"outputAbbreviatedPath": "\/prod\/favicon-16x16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/favicon-32x32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1511,
+		"inputAbbreviatedPath": "\/prod\/favicon-32x32.png",
+		"outputAbbreviatedPath": "\/prod\/favicon-32x32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/highlights.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -2011,6 +2055,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/prod\/manifest.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/manifest.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/prod\/manifest-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/prod\/message.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -2031,6 +2086,28 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/prod\/mstile-144x144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3533,
+		"inputAbbreviatedPath": "\/prod\/mstile-144x144.png",
+		"outputAbbreviatedPath": "\/prod\/mstile-144x144.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/mstile-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3386,
+		"inputAbbreviatedPath": "\/prod\/mstile-150x150.png",
+		"outputAbbreviatedPath": "\/prod\/mstile-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/README.md": {
 		"criticStyle": 0,

@@ -17,7 +17,7 @@ title: A Strategic Roadmap to a Distinctive Kent State Kent State University
 email: your-email@domain.com
 description: Plot your course on Kent State University’s Strategic Roadmap, animated by stories, data and images that highlight our journey to a distinctive Kent State.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://president.ideabasekent.com/prod/_site" # the base hostname & protocol for your site
+url: "http://pres.web/prod/_site" # the base hostname & protocol for your site
 twitter_username: kentstate
 future: true
 

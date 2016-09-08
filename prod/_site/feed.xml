@@ -3,10 +3,10 @@
   <channel>
     <title>A Strategic Roadmap to a Distinctive Kent State Kent State University</title>
     <description>Plot your course on Kent State University’s Strategic Roadmap, animated by stories, data and images that highlight our journey to a distinctive Kent State.</description>
-    <link>http://president.ideabasekent.com/prod/_site/</link>
-    <atom:link href="http://president.ideabasekent.com/prod/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Sep 2016 12:20:11 -0400</pubDate>
-    <lastBuildDate>Thu, 08 Sep 2016 12:20:11 -0400</lastBuildDate>
+    <link>http://pres.web/prod/_site/</link>
+    <atom:link href="http://pres.web/prod/_site/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 08 Sep 2016 12:42:38 -0400</pubDate>
+    <lastBuildDate>Thu, 08 Sep 2016 12:42:38 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Fri, 12 Aug 2016 09:45:49 -0400</pubDate>
-        <link>http://president.ideabasekent.com/prod/_site/jekyll/update/2016/08/12/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://president.ideabasekent.com/prod/_site/jekyll/update/2016/08/12/welcome-to-jekyll.html</guid>
+        <link>http://pres.web/prod/_site/jekyll/update/2016/08/12/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://pres.web/prod/_site/jekyll/update/2016/08/12/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
