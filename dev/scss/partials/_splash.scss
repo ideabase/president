@@ -47,6 +47,7 @@
       @media #{$medium} {
         width: 300px;
         height: 300px;
+        top: 60px;
       }
     }
   @media screen and #{$medium} and (max-height: 50em) {
@@ -99,9 +100,6 @@
 
 .splash-image {
   width: 100%;
-  animation: zoomFadeReverse 3s linear;
-  animation-delay: 3s;
-  animation-fill-mode: both;
   transition: transform ease-in-out .3s;
   @media screen and (max-height: 50em) and #{$medium} {
     margin-top: -15%;
@@ -126,9 +124,6 @@
   transition: all ease-in-out .3s;
   width: 95%;
   z-index: 100;
-  animation: zoomFade 2s linear;
-  animation-delay: 4s;
-  animation-fill-mode: both;
   @media #{$medium} {
     bottom: 19%;
   }
@@ -156,9 +151,6 @@
   line-height: 1;
   font-size: 1.3em;
   transition: .3s all ease-in-out;
-  animation: zoomFade 1s linear;
-  animation-delay: 6s;
-  animation-fill-mode: both;
   z-index: 1;
   @media #{$tiny} {
     bottom: 25px;
@@ -191,6 +183,5 @@
     position: absolute;
     right: -23%;
     top: -70%;
-    animation: point 1s infinite linear alternate;
   }
 }
