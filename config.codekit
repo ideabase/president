@@ -1519,6 +1519,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/_site\/assets\/img\/feature-image-twitter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44475,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/feature-image-twitter.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/feature-image-twitter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/_site\/assets\/img\/gallery.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1929,6 +1940,28 @@
 		"initialSize": 100302,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/arch.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/arch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/feature-image-facebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57426,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/feature-image-facebook.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/feature-image-facebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/feature-image-twitter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44475,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/feature-image-twitter.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/feature-image-twitter.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
