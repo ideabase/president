@@ -18,6 +18,9 @@
 }
 
 .section-message .inner-wrapper {
+  @media #{$small} {
+    padding-top:3rem;
+  }
   @media #{$medium} {
     padding-top:3rem;
   }
@@ -50,7 +53,7 @@
   @media #{$small} {
     width: 27%;
     max-width: inherit;
-    margin-top: 1em;
+    margin-top: .5em;
   }
   @media #{$large} {
     width: 16%;

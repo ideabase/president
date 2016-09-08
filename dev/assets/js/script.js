@@ -1706,6 +1706,9 @@ var SidebarMenuEffects = (function() {
             classie.add( container, 'js' );
             classie.add( container, 'menu-open' );
         }, 25 );
+        setTimeout( function() {
+          document.getElementById("firstitem").focus();
+        }, 100 );
         document.addEventListener( eventtype, bodyClickFn );
       });
 
@@ -1734,6 +1737,13 @@ var SidebarMenuEffects = (function() {
   init();
 
 })();
+
+
+// Hide Until Video Has Loaded //
+
+$(window).on('beforeunload', function() {
+   $("video").hide();
+});
 
 
 // Load Google Fonts

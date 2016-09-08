@@ -42,7 +42,7 @@
   }( typeof global !== "undefined" ? global : this ));
   </script>
   </head>
-  <body id="oc-container" class="oc-container">
+  <body id="oc-container" class="no-js oc-container">
     <a id="skip-to-content" href="#content">skip to main content</a>
     <div class="oc-pusher">
       <?php include("../patterns/partials/menu.html") ?>
