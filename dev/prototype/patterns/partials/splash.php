@@ -2,7 +2,6 @@
   <?php include("../patterns/partials/menu-button.html") ?>
   <a class="splash-link" href="contents.php">
     <figure id="splash" class="splash">
-      <!--<img class="splash-image splash-image--fallback" srcset="../../assets/img/home-default.jpg" alt="Man Riding Bike" />-->
       <picture>
                   <!-- Add Fallback for IE9 -->
                   <!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -11,7 +10,8 @@
                     <img class="splash-image" srcset="../../assets/img/home-default.jpg" alt="Man Riding Bike" />
       </picture>
       <figcaption class="splash-headline">
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 853.25 167.17" aria-labelledby="title"><title>Empowered to Discover: A Strategic Roadmap to a Distinctive Kent State</title>
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 853.25 167.17" aria-labelledby="thetitle">
+          <title id="thetitle">Empowered to Discover: A Strategic Roadmap to a Distinctive Kent State</title>
           <defs>
             <linearGradient id="MyGradient" x1="0" y1="0" x2="0%" y2="100%">
               <stop offset="0%" stop-color="#ffc100" />
