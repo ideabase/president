@@ -69,12 +69,12 @@
     </script>
   </head>
 
-   <body id="oc-container" class="oc-container">
+   <body id="oc-container" class="no-js oc-container">
     <a id="skip-to-content" href="#content">skip to main content</a>
     <div class="oc-pusher">
        <nav id="menu" class="menu oc-push" role="navigation">
   <ul class="primary-menu">
-    <li><a class="menu__item__link" href="http://pres.web/prod/_site/message">Message from the President</a></li>
+    <li><a id="firstitem" class="menu__item__link" href="http://pres.web/prod/_site/message">Message from the President</a></li>
     <li><a class="menu__item__link" href="http://pres.web/prod/_site/contents">Contents</a></li>
     <li><a class="menu__item__link" href="http://pres.web/prod/_site/priorities/1">Section 1: Students First</a></li>
     <li><a class="menu__item__link" href="http://pres.web/prod/_site/priorities/2">Section 2: A Distinctive Kent State</a></li>
@@ -87,6 +87,7 @@
     <li><a class="menu__item__link" href="http://pres.web/prod/_site/assets/downloads/strategic-roadmap.pdf">Strategic Roadmap (PDF)</a></li>
     <li><a class="menu__item__link" href="http://pres.web/prod/_site/assets/downloads/priorities-ulis.pdf">Priorities and University-Level Initiatives (PDF)</a></li>
   </ul>
+  <button class="close-button close-button--menu">Close Menu</button>
 </nav>
 
     <div class="page-wrapper">
@@ -181,16 +182,24 @@
 
 </div>
 </div>
+<link href="/dev/assets/css/main.css" rel="stylesheet" type="text/css" media="screen" />
 <script>
   // load a file with loadJS
   loadJS( "/dev/assets/js/min/script-min.js" );
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','/dev/assets/js/analytics.js','ga');
-  ga('create', 'UA-#########', 'auto');
-  ga('send', 'pageview');
 </script>
-<link href="/dev/assets/css/main.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCQNWH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PCQNWH');</script>
+<!-- End Google Tag Manager -->
+<noscript>
+    <style type="text/css">
+        .menu {display:block;}
+    </style>
+</noscript>
 </body>
 </html>
