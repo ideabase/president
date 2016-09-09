@@ -105,8 +105,8 @@
   font-size: 1.2em;
   padding: .5em 1em;
   transition: .3s all ease-in-out;
-  &:hover {
-    background: lighten($gold,2%);
+  &:hover, &:focus {
+    background: lighten($gold,5%);
   }
   strong {
     color: $blue;

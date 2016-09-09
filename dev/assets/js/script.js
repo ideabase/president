@@ -1708,7 +1708,7 @@ var SidebarMenuEffects = (function() {
         }, 25 );
         setTimeout( function() {
           document.getElementById("firstitem").focus();
-        }, 100 );
+        }, 200 );
         document.addEventListener( eventtype, bodyClickFn );
       });
 
@@ -1745,7 +1745,6 @@ $(window).on('beforeunload', function() {
    $("video").hide();
 });
 
-
 // Load Google Fonts
 
 WebFontConfig = {
@@ -1759,3 +1758,18 @@ WebFontConfig = {
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })();
+
+// Close button for menu //
+
+$(document).ready(function() {
+  var $menu = $('#oc-container'),
+    $menulink = $('.close-button');
+
+$menulink.click(function() {
+  $menulink.toggleClass('active');
+  $menu.removeClass('menu-open');
+  setTimeout( function() {
+    document.getElementById("menu-button").focus();
+  }, 200 );
+  return false;
+});});
