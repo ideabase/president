@@ -53,6 +53,12 @@
   border-radius: 4px;
   padding: .25em .25em .35em .25em;
   font-size: 1.15em;
+  transition: .3s all ease-in-out;
+  &:hover {
+    background-color: $gold;
+    color: white;
+    border-color: white;
+  }
 }
 
 .close-button--menu {

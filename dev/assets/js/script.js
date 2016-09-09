@@ -1708,7 +1708,7 @@ var SidebarMenuEffects = (function() {
         }, 25 );
         setTimeout( function() {
           document.getElementById("firstitem").focus();
-        }, 200 );
+        }, 300 );
         document.addEventListener( eventtype, bodyClickFn );
       });
 
