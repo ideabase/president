@@ -11,6 +11,19 @@
   }
 }
 
+
+@keyframes pin {
+  from {
+    transform: translate3d(0, -30px, 30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0px, 0px);
+    opacity: 1;
+  }
+}
+
 @keyframes zoomFade {
   from {
     transform: translate3d(0, 30px, 30px);
@@ -149,5 +162,11 @@
 .priority-header__heading span {
   animation: slider 1s linear;
   animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+.contents__title {
+  animation: pin 2s ease-in-out;
+  animation-delay: .5s;
   animation-fill-mode: both;
 }
