@@ -3,11 +3,11 @@ p {
 }
 
 p em {
-  @include NationalBlackItalic;
+  @include NationalBoldItalic;
 }
 
 p strong {
-  @include NationalBlackItalic;
+  @include NationalBoldItalic;
 }
 
 // Themes

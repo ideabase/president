@@ -15,9 +15,9 @@ permalink: /message/
 		  <p>As you will see, this community has aspirations to take the university to levels of distinction never before realized.  The Strategic Roadmap is designed to get us there.</p>
 		  <p>Through the leadership of a 13-member Strategic Visioning Advisory Committee, the Strategic Roadmap is comprised of five priorities and 12 University-Level Initiatives (ULIs), all that map to the university’s compelling mission, vision, and values.  It also includes performance metrics to measure progress and a <a href="http://www.kent.edu/university-dashboard">University Dashboard</a> complete with six-year goals and both peer and aspirational institution comparative data.</p>
 		  <p>With our Strategic Roadmap in hand and a dashboard to keep us pointed in our chosen direction, it is assured that we will reach our destination –<strong>a Distinctive Kent State.</strong></p>
+			<p>With best regards,</p>
 		  <img src="../../assets/img/warren-signature.png" alt="Beverly Warren" />
-		  <p>With best regards,<br/>
-		  Beverly Warren, President</p>
+		  <p>Beverly Warren, President</p>
 		</section>
 	<aside>
       {% include values.html %}

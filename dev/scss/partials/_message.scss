@@ -26,6 +26,15 @@
   }
 }
 
+.section-message a {
+  color: $gold;
+  @include NationalBoldItalic;
+  transition: .3s all ease-in-out;
+  &:hover, &:focus {
+    color: lighten($gold, 5%);
+  }
+}
+
 .section-message em {
   @media #{$large} {
     position: relative;
