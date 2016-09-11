@@ -2,12 +2,13 @@ body {
   @include NationalLight;
   background-image: $gradient;
   background: $blue; // Fallback for unsupported browsers //
-  background-image: url(../../assets/img/compass.svg), url(../../assets/img/zig-zag.svg), $gradient;
+  background-image: url(../../assets/img/zig-zag.svg), $gradient;
   background-repeat: no-repeat;
-  background-size: 60% auto, cover, cover;
-  background-position: bottom left, bottom right, bottom left;
+  background-size: cover, cover;
+  background-position: bottom right, bottom left;
   @media #{$medium} {
     background-position: bottom left, top right, bottom left;
+    background-image: url(../../assets/img/compass.svg), url(../../assets/img/zig-zag.svg), $gradient;
     background-size: 25% auto, cover, cover;
   }
 }
