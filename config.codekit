@@ -88,7 +88,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 95441,
+		"initialSize": 72667,
 		"inputAbbreviatedPath": "\/dev\/assets\/img\/home-default.jpg",
 		"outputAbbreviatedPath": "\/dev\/assets\/img\/home-default.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -110,7 +110,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 343578,
+		"initialSize": 88924,
 		"inputAbbreviatedPath": "\/dev\/assets\/img\/home-large.jpg",
 		"outputAbbreviatedPath": "\/dev\/assets\/img\/home-large.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -525,6 +525,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dev\/prototype\/patterns\/partials\/priority-header3.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/prototype\/patterns\/partials\/priority-header3.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/dev\/prototype\/patterns\/partials\/quotation.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -602,6 +611,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/prototype\/patterns\/partials\/story-teaser2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dev\/prototype\/patterns\/partials\/story-teaser3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/prototype\/patterns\/partials\/story-teaser3.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -735,6 +753,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dev\/prototype\/templates\/priority3.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/prototype\/templates\/priority3.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/dev\/prototype\/templates\/story.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -749,6 +776,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/prototype\/templates\/story2.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dev\/prototype\/templates\/story3.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/prototype\/templates\/story3.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2087,6 +2123,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/gallery\/crop\/photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23749,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/photo.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.97256e+06,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/photo.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/headshot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2192,6 +2250,28 @@
 		"initialSize": 153607,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/students-first_image.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/students-first_image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/thumbnail\/crop\/photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51676,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/thumbnail\/crop\/photo.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/thumbnail\/crop\/photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/thumbnail\/photo.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.97256e+06,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/thumbnail\/photo.JPG",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/thumbnail\/photo.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2385,6 +2465,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/prod\/gulpfile.js",
+		"outputAbbreviatedPath": "\/prod\/min\/gulpfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
 	"\/prod\/highlights.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -2468,6 +2559,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/prod\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/prod\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/README.md": {
 		"criticStyle": 0,

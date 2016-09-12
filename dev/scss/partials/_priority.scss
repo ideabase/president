@@ -174,3 +174,20 @@
   }
 
 }
+
+.section-bright {
+
+  .priority-header__heading {
+      color: $blue;
+      background-color: $yellow;
+  }
+
+  .priority-header__heading span {
+      color: white;
+  }
+
+  .priority-introduction {
+    color: $blue;
+  }
+
+}
