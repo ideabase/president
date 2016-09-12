@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>President's Strategic Initiative</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
+    <title>A Strategic Roadmap to a Distinctive Kent State Kent State University</title>
+    <description>Plot your course on Kent State University’s Strategic Roadmap, animated by stories, data and images that highlight our journey to a distinctive Kent State.</description>
     <link>http://pres.web/prod/_site/</link>
     <atom:link href="http://pres.web/prod/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Sep 2016 09:02:13 -0400</pubDate>
-    <lastBuildDate>Fri, 09 Sep 2016 09:02:13 -0400</lastBuildDate>
+    <pubDate>Mon, 12 Sep 2016 08:25:15 -0400</pubDate>
+    <lastBuildDate>Mon, 12 Sep 2016 08:25:15 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
