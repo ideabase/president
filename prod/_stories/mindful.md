@@ -1,9 +1,9 @@
 ---
-title: "Bettering Society Through Service"
+title: "A user's guide to a more mindful life"
 layout: story
 theme: dark
 date: 2015-08-30 12:51:00
-featuredName: Nirmala Ghimirey
+featuredName: Missing
 feature-image-path: /dev/assets/img/Nirmala_Ghimirey_feature_image.jpg
 title1: Bettering Society
 title2: through service, research,

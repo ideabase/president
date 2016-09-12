@@ -104,20 +104,97 @@
         
 
       <main id="content" class="animated fadeIn oc-content" role="main">
-        <div class="section-dark">
-  <!--<?php include("../patterns/partials/close-button.html") ?>-->
-    <div class="inner-wrapper">
-      <figure class="video">
-        <div class="video-container">
-          <iframe class="gallery__video" width="560" height="315" src="https://www.youtube.com/embed/ICJUFoXqk3E" frameborder="0" allowfullscreen=""></iframe>
-        </div>
-        <figcaption class="gallery-caption">
-          <h3 class="gallery-caption__title">Video/Photo Gallery Title</h3>
-          <p class="gallery-caption__description">This is a description of the video or photo gallery.</p>
-        </figcaption>
-      </figure>
-    </div>
+        
+
+
+
+
+
+	<div class="section-light">
+
+		<div id="oc-trigger">
+  <button class="menu-trigger" id="menu-button" data-effect="oc-push">Menu</button>
 </div>
+
+		<header class="priority-header">
+		<section class="quote">
+		  <blockquote>Our strategic vision will drive innovation and positive change not only within the university, but in the community, region and beyond.</blockquote>
+		  <cite>Dr. Mark Polatajko, Senior Vice President for Finance and Administration</cite>
+		</section>
+		<h2 class="priority-header__heading"><span>5</span>Organizational Stewardship</h2>
+		<video playsinline loop muted autoplay poster="/dev/assets/img/fountain-poster.jpg" class="priority-header__video" id="bgvid">
+		      <source src="/dev/assets/video/fountain-small.webm" type="video/webm">
+		      <source src="/dev/assets/video/fountain-small.mp4" type="video/mp4">
+		</video>
+		<button class="button-pause" id="vidpause">Pause</button>
+		</header>
+		<script>
+		// Pause/Play Embedded Video for Accessibility //
+
+		var vid = document.getElementById("bgvid"),
+		pauseButton = document.getElementById("vidpause");
+		function vidFade() {
+		    vid.classList.add("stopfade");
+		}
+		vid.addEventListener('ended', function() {
+		    // only functional if "loop" is removed
+		     vid.pause();
+			// to capture IE10
+			vidFade();
+		});
+		pauseButton.addEventListener("click", function() {
+		    vid.classList.toggle("stopfade");
+			if (vid.paused) {
+		vid.play();
+				pauseButton.innerHTML = "Pause";
+			} else {
+		        vid.pause();
+		        pauseButton.innerHTML = "Paused";
+			}
+		})
+		</script>
+		<div class="inner-wrapper">
+			<p class="priority-introduction">Ensure a culture of continuous improvement and the efficient stewardship of university resources and infrastructure</p>
+			<div class="priority-content">
+				<section class="priority-text">
+				<p><p>To ensure financial stability and sustainability and to manage college costs, Kent State is evaluating and implementing strategies that increase operational efficiencies, grow fundraising success, enhance academic progress-related services for students and expand the university’s position as a destination for the next generation of academically motivated students.</p>
+</p>
+				</section>
+				<section class="priority-media">
+					<section class="feature-teaser">
+						<a class="feature-teaser__link" href="http://pres.web/prod/_site//stories/giving/">
+						<div class="feature-teaser__link__text">
+							<h3 class="feature-teaser__header">Feature Story</h3>
+							<h4 class="feature-teaser__headline">Giving Tuesday 2015: The greatest in Kent State history</h4>
+							<p class="feature-teaser__summary">Golden Flashes and friends were asked to give back, and they rose magnificently to the challenge.</p>
+						</div>
+						<div class="feature-teaser__link__image">
+						  <img alt="teaser image" src="../../assets/img/headshot.jpg" />
+						</div>	
+						</a>
+					</section>
+					<div class="priority-media__gallery">
+						<section class="gallery-teaser">
+							<a class='gallery-teaser__link' href="gallery.php">
+								<img class="gallery-teaser__thumb" src="../../assets/img/gallery.jpg" alt="Gallery Image"/>
+								<h3 class="gallery-teaser__headline">Test Gallery</h3>
+							</a>
+						</section>
+						<section class="video-teaser">
+							<a class='video-teaser__link' href="http://pres.web/prod/_site//videos/centerForVA/">
+								<img class="video-teaser__thumb" src="../../assets/img/gallery.jpg" alt="Gallery Image"/>
+								<h3 class="video-teaser__headline">Center for Visual Arts</h3>
+							</a>
+						</section>
+					</div>
+					<section class="social-sharing">
+					  <h4 class="social-sharing__title">Share</h4>
+					  <div class="addthis_inline_share_toolbox"></div>
+					</section>
+					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57cb99422b41c627"></script>
+				</section>
+			</div>
+	</div>
 
       </main>
       <footer>
