@@ -3,6 +3,7 @@ title: "Undeniably Kent State"
 layout: default
 date: 2016-08-30 12:00:00
 video-id: undeniablyKSU
+thumb: 
 ---
 
 <div class="section-dark">

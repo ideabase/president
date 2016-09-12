@@ -3,6 +3,7 @@ title: "Kent State community snapshot"
 layout: default
 date: 2016-08-30 12:00:00
 video-id: kentCommunity
+thumb: 
 ---
 
 <div class="section-dark">

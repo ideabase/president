@@ -3,6 +3,7 @@ title: "Kent State Florence"
 layout: default
 date: 2016-08-30 12:00:00
 video-id: ksuFlorence
+thumb: 
 ---
 
 <div class="section-dark">

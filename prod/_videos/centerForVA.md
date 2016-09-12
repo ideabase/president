@@ -3,6 +3,7 @@ title: "Center for Visual Arts"
 layout: default
 date: 2016-08-30 12:00:00
 video-id: centerForVA
+thumb: 
 ---
 
 <div class="section-dark">
