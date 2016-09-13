@@ -1,3 +1,4 @@
 .sass-cache
 .DS_Store
 /prod/node_modules
+/prod/_site/node_modules
