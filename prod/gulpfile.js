@@ -35,6 +35,53 @@ gulp.task('thumbnail', function () {
     .pipe(gulp.dest('assets/img/thumbnail/crop/'));
 });
 
-// Add Task Names Here //
+// Video Screenshot Crops //
 
-gulp.task('default', ['gallery', 'thumbnail']);
+gulp.task('videoThumb', function () {
+  gulp.src('/assets/img/videoThumb/*.{png,gif,jpg,JPG,JPEG}')
+    .pipe(changed('/assets/img/videoThumb/crop/'))
+    .pipe(imageResize({
+      width : 1000,
+      height : 667,
+      crop : true,
+      upscale : false,
+      quality : .8,
+      format : "jpg"
+    }))
+    .pipe(gulp.dest('/assets/img/videoThumb/crop/'));
+});
+
+// Featured Priority Crops //
+
+gulp.task('featuredPriority', function () {
+  gulp.src('/assets/img/featuredPriority/*.{png,gif,jpg,JPG,JPEG}')
+    .pipe(changed('assets/img/featuredPriority/crop/'))
+    .pipe(imageResize({
+      width : 300,
+      height : 300,
+      crop : true,
+      upscale : false,
+      quality : .8,
+      format : "jpg"
+    }))
+    .pipe(gulp.dest('/assets/img/featuredPriority/crop/'));
+});
+
+// Banner Crops //
+
+gulp.task('banner', function () {
+  gulp.src('/assets/img/banner/*.{png,gif,jpg,JPG,JPEG}')
+    .pipe(changed('assets/img/banner/crop/'))
+    .pipe(imageResize({
+      width : 972,
+      height : 328,
+      crop : true,
+      upscale : false,
+      quality : .8,
+      format : "jpg"
+    }))
+    .pipe(gulp.dest('/assets/img/banner/crop/'));
+});
+
+
+gulp.task('default', ['gallery', 'thumbnail', 'videoThumb', 'featuredPriority', 'banner']);

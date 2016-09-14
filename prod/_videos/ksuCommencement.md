@@ -3,7 +3,7 @@ title: "KSU Commencement"
 layout: default
 date: 2016-08-30 12:00:00
 video-id: ksuCommencement
-thumb: 
+thumb:/assets/img/videoThumb/crop/commencement.jpg
 ---
 
 <div class="section-dark">
