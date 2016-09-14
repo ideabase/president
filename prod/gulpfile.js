@@ -9,8 +9,8 @@ gulp.task('gallery', function () {
   gulp.src('assets/img/gallery/*.{png,gif,jpg,JPG,JPEG}')
     .pipe(changed('assets/img/gallery/crop/'))
     .pipe(imageResize({
-      width : 100,
-      height : 100,
+      width : 1500,
+      height : 800,
       crop : true,
       upscale : false,
       quality : .8,
@@ -84,4 +84,4 @@ gulp.task('banner', function () {
 });
 
 
-gulp.task('default', ['gallery', 'thumbnail', 'featuredPriority']);
+gulp.task('default', ['gallery', 'thumbnail', 'videoThumb', 'featuredPriority', 'banner']);

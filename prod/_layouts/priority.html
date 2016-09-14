@@ -73,13 +73,13 @@ layout: default
 						<section class="gallery-teaser">
 							<a class='gallery-teaser__link' href="gallery.php">
 								<img class="gallery-teaser__thumb" src="../../assets/img/gallery.jpg" alt="Gallery Image"/>
-								<h3 class="gallery-teaser__headline">{{ gallery.title }}</h3>
+								<h3 class="gallery-teaser__headline">Gallery: {{ gallery.title }}</h3>
 							</a>
 						</section>
 						<section class="video-teaser">
 							<a class='video-teaser__link' href="{{site.url}}/{{video.url}}">
-								<img class="video-teaser__thumb" src="../../assets/img/gallery.jpg" alt="Gallery Image"/>
-								<h3 class="video-teaser__headline">{{ video.title }}</h3>
+								<img class="video-teaser__thumb" src="{{ site.url }}/{{ page.thumbPath }}" alt="Gallery Image"/>
+								<h3 class="video-teaser__headline">Video: {{ video.title }}</h3>
 							</a>
 						</section>
 					</div>
