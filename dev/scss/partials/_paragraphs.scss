@@ -4,6 +4,7 @@ p {
 
 p em {
   @include NationalBoldItalic;
+  font-weight: 500;
 }
 
 p strong {
@@ -16,9 +17,6 @@ p strong {
   p {
     color: white;
   }
-  em {
-    color: $gold;
-  }
   strong {
     color: $seafoam;
   }
@@ -27,9 +25,6 @@ p strong {
 .section-light {
   p {
     color: white;
-  }
-  em {
-    color: $gold;
   }
   strong {
     color: $seafoam;
