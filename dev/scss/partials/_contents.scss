@@ -87,6 +87,7 @@
   margin-bottom: 1em;
   display: block;
   background-color: rgba($lightblue,.8);
+  transition: .3s all ease-in-out;
   @media #{$medium} {
     width: 48%;
   }
@@ -97,7 +98,20 @@
   display: block;
 }
 
+.priority-list__link {
+  text-decoration: none;
+  &:hover, &:focus {
+    .priority-list__name__text {
+      background: lighten($gold,5%);
+    }
+  }
+}
+
 .priority-list__name {
+  text-decoration: none;
+}
+
+.priority-list__name__text {
   background: rgba($gold,.9);
   display: block;
   color: $blue;
@@ -105,9 +119,8 @@
   font-size: 1.2em;
   padding: .5em 1em;
   transition: .3s all ease-in-out;
-  &:hover, &:focus {
-    background: lighten($gold,5%);
-  }
+  margin: 0;
+  text-decoration: none;
   strong {
     color: $blue;
     margin-right: .35em;
@@ -119,16 +132,13 @@
   }
 }
 
-.priority-list__name__text {
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
 .priority-list__description {
   padding: .5em 1em .75em 1em;
   font-size: 1.05em;
   @include NationalBoldItalic;
+  color: black;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
 }
 
 .priority {

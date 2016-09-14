@@ -2,3 +2,6 @@
 .DS_Store
 /prod/node_modules
 /prod/_site/node_modules
+package.json
+prod/_site/node_modules/
+/prod/_site/node_modules/gulp/node_modules/vinyl-fs/package.json
