@@ -2199,6 +2199,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/_site\/assets\/js\/gtm.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/js\/gtm.js",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/gtm-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/prod\/_site\/assets\/js\/init-ck.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3413,6 +3424,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/prod\/assets\/js\/gtm.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/assets\/js\/gtm.js",
+		"outputAbbreviatedPath": "\/prod\/assets\/js\/min\/gtm-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/prod\/assets\/js\/init-ck.js": {
 		"fileType": 64,
