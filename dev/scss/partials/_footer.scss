@@ -102,6 +102,7 @@ footer {
 }*/
 
 .footer-contact__list__item {
+  margin-bottom: .5em;
   @media #{$medium} {
     &:after {
       content: "|";
