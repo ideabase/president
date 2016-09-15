@@ -5,7 +5,7 @@
       <picture>
                   <!-- Add Fallback for IE9 -->
                   <!--[if IE 9]><video style="display: none;"><![endif]-->
-                    <source srcset="../../assets/img/home-large.jpg" media="(min-width: 800px)">
+                    <source srcset="../../assets/img/home-large.jpg" media="(min-width: 50em)">
                   <!--[if IE 9]></video><![endif]-->
                     <img class="splash-image" srcset="../../assets/img/home-default.jpg" alt="Man Riding Bike" />
       </picture>

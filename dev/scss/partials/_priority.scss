@@ -11,7 +11,7 @@
     width: 45%;
   }
   @media #{$large} {
-    width: 55%;
+    width: 45%;
   }
 }
 
@@ -29,7 +29,7 @@
     align-items: flex-start;
   }
   @media #{$large} {
-    width: 40%;
+    width: 50%;
     flex-wrap: wrap;
   }
 }
@@ -99,7 +99,7 @@
   font-style: normal;
   padding: .25em .25em .35em 2.2em;
   z-index: 5;
-  line-height: .8;
+  line-height: .9;
   @media #{$small} {
     width: 80%;
     padding: .5em .5em .65em 2em;
@@ -132,6 +132,10 @@
   @include NationalBoldItalic;
   margin-top: 0;
   margin-left: $globalpadding;
+  font-size: 120%;
+  @media #{$medium} {
+    font-size: 130%;
+  }
   @media #{$large} {
     margin-left: 3rem;
     margin-top: 1rem;

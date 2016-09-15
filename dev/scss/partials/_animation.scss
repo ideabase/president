@@ -14,7 +14,7 @@
 
 @keyframes pin {
   from {
-    transform: translate3d(0, -30px, 30px);
+    transform: translate3d(0, -20px, 20px);
     opacity: 0;
   }
 
@@ -98,7 +98,7 @@
 @keyframes subtleFade {
   from {
     opacity: 0;
-    transform: translateY(8px);
+    transform: translateY(1px);
   }
 
   to {
@@ -142,7 +142,7 @@
 
 .start-link {
   animation: fadeIn 2s ease-in-out;
-  animation-delay: 6s;
+  animation-delay: 5s;
   animation-fill-mode: both;
   &:after {
     animation: point 1.5s infinite linear alternate;
@@ -166,7 +166,7 @@
 }
 
 .contents__title {
-  animation: pin 2s ease-in-out;
+  animation: pin 1s ease-in-out;
   animation-delay: .5s;
   animation-fill-mode: both;
 }

@@ -23,7 +23,7 @@
         top: 0;
         height: 100%;
         width: 100%;
-        background: linear-gradient(360deg, rgba(black,.1) 0%, rgba(black,.1) 60%, rgba(0,0,0,0) 100%);
+        background: linear-gradient(360deg, rgba(black,.2) 0%, rgba(black,.2) 60%, rgba(0,0,0,0) 100%);
         z-index: 1;
     }
     &:after {
@@ -40,9 +40,13 @@
       display: block;
       content: "";
       transition: .3s all ease-in-out;
-      @media #{$small} {
+      @media #{$tiny} {
         width: 200px;
         height: 200px;
+      }
+      @media #{$small} {
+        width: 250px;
+        height: 250px;
       }
       @media #{$medium} {
         width: 300px;
@@ -51,6 +55,12 @@
       }
     }
   @media screen and #{$medium} and (max-height: 50em) {
+    &:after {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  @media screen and #{$medium-ish} and (max-height: 50em) {
     &:after {
       width: 200px;
       height: 200px;
@@ -85,8 +95,14 @@
     }
     @media screen and #{$medium} and (max-height: 50em) {
       &:after {
-        width: 235px;
-        height: 235px;
+        width: 200px;
+        height: 200px;
+      }
+    }
+    @media screen and #{$medium-ish} and (max-height: 50em) {
+      &:after {
+        width: 230px;
+        height: 230px;
       }
     }
     @media screen and #{$large} and (max-height: 50em) {
@@ -153,19 +169,20 @@
   transition: .3s all ease-in-out;
   z-index: 1;
   @media #{$tiny} {
-    bottom: 25px;
+    bottom: 45px;
   }
   @media #{$small} {
-    bottom: 35px;
+    bottom: 55px;
     font-size: 1.5em;
   }
   @media #{$medium} {
-    font-size: 1.7em;
+    font-size: 1.5em;
     right: 10%;
-    bottom: 35px;
+    bottom: 25px;
   }
   @media #{$medium-ish} {
-    bottom: 6.5%;
+    bottom: 7.5%;
+    font-size: 1.7em;
   }
   @media #{$large} {
     font-size: 1.7em;

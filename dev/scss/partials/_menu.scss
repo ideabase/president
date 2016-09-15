@@ -80,7 +80,7 @@
   border-bottom: 2px solid $blue;
   text-decoration: none;
   transition: .3s all ease-in-out;
-  &:hover, &:focus {
+  &:hover {
     background-color: $blue;
     color: white;
   }
