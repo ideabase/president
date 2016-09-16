@@ -2584,6 +2584,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/prod\/_site\/videos\/tessaReeves\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/_site\/videos\/tessaReeves\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/prod\/_site\/videos\/testvideo\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2782,6 +2791,27 @@
 		"inputAbbreviatedPath": "\/prod\/_videos\/ksuFlorence.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/prod\/_videos\/ksuFlorence.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/prod\/_videos\/tessaReeves.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/_videos\/tessaReeves.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/prod\/_videos\/tessaReeves.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
