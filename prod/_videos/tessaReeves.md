@@ -1,5 +1,5 @@
 ---
-title: "The business of engagement: The story of alumna Tessa Reeves"
+title: "The business of engagement - The story of alumna Tessa Reeves"
 layout: default
 date: 2016-08-30 12:00:00
 video-id: engagement
