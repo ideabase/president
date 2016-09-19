@@ -34,7 +34,7 @@ priority: 2
 			    </figcaption>
 			  </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/gameplan.JPG" alt="Photo Caption" />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/gameplan.jpg" alt="Photo Caption" />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">Athletics Vision</h3>
 			      <p class="gallery-caption__description">The Department of Intercollegiate Athletics unveiled <a href="http://www.kentstatesports.com/news/2016/3/10/general-athletics-releases-strategic-vision.aspx">The Game Plan</a>, guided by its mission to graduate student-athlets and win championships. For the ninth time in program history, Kent State was honored with the Jacoby Trophy, recognized as the top women's program in the MAC.</p>
