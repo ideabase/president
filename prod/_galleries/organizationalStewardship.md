@@ -35,28 +35,28 @@ priority: 5
 			    </figcaption>
 			  </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/bestcollege.JPG" alt="Kent State University was named a Best College to Work For for the seventh time by the Chronicle of Higher Education." />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/bestcollege.jpg" alt="Kent State University was named a Best College to Work For for the seventh time by the Chronicle of Higher Education." />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">A Great Place to Work</h3>
 			      <p class="gallery-caption__description">Kent State University was named a "Best College to Work For" for the seventh time by the Chronicle of Higher Education.</p>
 			    </figcaption>
 </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/starkscience.JPG" alt="We celebrated the grand opening of the Stark Campus Science and Nursing Building in August, 2015." />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/starkscience.jpg" alt="We celebrated the grand opening of the Stark Campus Science and Nursing Building in August, 2015." />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">New Home for Science and Nursing</h3>
 			      <p class="gallery-caption__description">We celebrated the grand opening of the Stark Campus Science and Nursing Building in August, 2015.</p>
 			    </figcaption>
 </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/ISB.JPG" alt="We broke ground for the Integrated Sciences Building in October and placed the last beam in August." />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/ISB.jpg" alt="We broke ground for the Integrated Sciences Building in October and placed the last beam in August." />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">Breaking Ground and Making Progress</h3>
 			      <p class="gallery-caption__description">We broke ground for the Integrated Sciences Building in October and placed the last beam in August.</p>
 			    </figcaption>
 </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/CPAE.JPG" alt="We celebrated the grand opening of the Center for Philanthropy and Alumni Engagement on June 3, 2016." />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/CPAE.jpg" alt="We celebrated the grand opening of the Center for Philanthropy and Alumni Engagement on June 3, 2016." />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">A Center to Engage 230,000 Strong</h3>
 			      <p class="gallery-caption__description">We celebrated the grand opening of the Center for Philanthropy and Alumni Engagement on June 3, 2016.</p>

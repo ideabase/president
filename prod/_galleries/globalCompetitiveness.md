@@ -36,7 +36,7 @@ featured-image: assets/img/gallery/crop/recordenroll.jpg
 		</figcaption>
 	</figure>
 <figure class="gallery__item">
-		<img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/missing.JPG" alt="The number of Kent State stuents who study abroad doubles the national average." />
+		<img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/missing.jpg" alt="The number of Kent State stuents who study abroad doubles the national average." />
 		<figcaption>
 			<h3 class="gallery-caption__title">Kent State Students Embrace Study Abroad</h3>
 			<p class="gallery-caption__description">The number of Kent State stuents who study abroud doubles the national average.</p>
