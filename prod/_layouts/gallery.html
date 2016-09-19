@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="section-default">
+  {% include close-button.html %}
+	<div class="inner-wrapper">
+		<h2 class="gallery-title"><span>GALLERY:</span> {{page.title}}</h2>
+		<section id="gallery" class="gallery owl-carousel">
+			{{ content }}
+		</section>
+	</div>
+</div>
