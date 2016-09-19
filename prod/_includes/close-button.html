@@ -1,0 +1,5 @@
+{% for items in site.priorities %}
+  {% if items.priority-id == page.priority %}
+    <a class="close-button" href="{{site.url}}{{ items.url }}" id="close">Close</a>
+  {% endif %}
+{% endfor %}
