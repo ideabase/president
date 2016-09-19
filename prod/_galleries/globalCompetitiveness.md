@@ -22,7 +22,7 @@ featured-image: assets/img/gallery/crop/recordenroll.jpg
 	</figcaption>
 	</figure>
 <figure class="gallery__item">
-		<img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/cricket2.jpg" alt="The club cricket program was created in response to student interest." />
+		<img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/Cricket2.jpg" alt="The club cricket program was created in response to student interest." />
 		<figcaption>
 			<h3 class="gallery-caption__title">Cricket Anyone?</h3>
 			<p class="gallery-caption__description">The club cricket program was created in response to student interest.</p>

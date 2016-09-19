@@ -2000,17 +2000,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/prod\/_site\/assets\/img\/gallery\/Cricket2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.11138e+06,
-		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/Cricket2.jpg",
-		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/Cricket2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/prod\/_site\/assets\/img\/gallery\/crop\/A Convocation1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2018,6 +2007,50 @@
 		"initialSize": 301608,
 		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/A Convocation1.jpg",
 		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/A Convocation1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/advancerefunding.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208949,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/advancerefunding.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/advancerefunding.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/bestcollege.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330352,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/bestcollege.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/bestcollege.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/breakthroughs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96584,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/breakthroughs.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/breakthroughs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/cannon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244106,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/cannon.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/cannon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2033,6 +2066,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/credithour.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81347,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/credithour.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/credithour.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/_site\/assets\/img\/gallery\/crop\/Cricket2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2040,6 +2084,50 @@
 		"initialSize": 364374,
 		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/Cricket2.jpg",
 		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/Cricket2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/diversitysalem.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222255,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/diversitysalem.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/diversitysalem.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/dks.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148347,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/dks.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/dks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/fixed.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128880,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/fixed.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/fixed.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/gameplan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92319,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/gameplan.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/gameplan.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2055,6 +2143,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/homecoming.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 296617,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/homecoming.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/homecoming.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/housingsummit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265127,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/housingsummit.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/housingsummit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/_site\/assets\/img\/gallery\/crop\/ISB.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2062,6 +2172,171 @@
 		"initialSize": 210277,
 		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/ISB.jpg",
 		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/ISB.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/iuc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107251,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/iuc.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/iuc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126318,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/Kupita.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125508,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/Kupita.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/Kupita.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/kupitaSecond.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 277504,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/kupitaSecond.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/kupitaSecond.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/newcommitments.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 218364,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/newcommitments.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/newcommitments.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94596,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/photo.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/Record International Enrollment.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208522,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/Record International Enrollment.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/Record International Enrollment.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/researchcenters.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95230,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/researchcenters.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/researchcenters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/starkregional.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264163,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/starkregional.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/starkregional.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/starkscience.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136331,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/starkscience.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/starkscience.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/sure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213187,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/sure.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/sure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/Tour.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234612,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/Tour.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/Tour.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/towngown.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198138,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/towngown.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/towngown.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/villiage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182938,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/villiage.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/villiage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/welcomeweek.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 365408,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/welcomeweek.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/welcomeweek.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3756,13 +4031,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/prod\/assets\/img\/gallery\/Cricket2.jpg": {
+	"\/prod\/assets\/img\/gallery\/cricket2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3.11138e+06,
-		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/Cricket2.jpg",
-		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/Cricket2.jpg",
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/cricket2.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/cricket2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3778,6 +4053,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/gallery\/crop\/advancerefunding.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208949,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/advancerefunding.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/advancerefunding.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/bestcollege.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330352,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/bestcollege.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/bestcollege.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/breakthroughs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96584,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/breakthroughs.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/breakthroughs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/cannon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244106,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/cannon.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/cannon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/gallery\/crop\/CPAE.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3785,6 +4104,17 @@
 		"initialSize": 304105,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/CPAE.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/CPAE.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/credithour.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81347,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/credithour.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/credithour.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3800,6 +4130,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/gallery\/crop\/diversitysalem.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222255,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/diversitysalem.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/diversitysalem.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/dks.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148347,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/dks.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/dks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/fixed.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128880,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/fixed.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/fixed.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/gameplan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92319,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/gameplan.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/gameplan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/gallery\/crop\/Grad7.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3807,6 +4181,28 @@
 		"initialSize": 254461,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/Grad7.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/Grad7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/homecoming.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 296617,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/homecoming.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/homecoming.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/housingsummit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265127,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/housingsummit.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/housingsummit.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3822,6 +4218,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/gallery\/crop\/iuc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107251,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/iuc.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/iuc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126318,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/gallery\/crop\/Kupita.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3829,6 +4247,138 @@
 		"initialSize": 151909,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/Kupita.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/Kupita.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/kupitaSecond.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 277504,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/kupitaSecond.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/kupitaSecond.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/newcommitments.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 218364,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/newcommitments.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/newcommitments.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94596,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/photo.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/Record International Enrollment.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208522,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/Record International Enrollment.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/Record International Enrollment.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/researchcenters.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95230,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/researchcenters.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/researchcenters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/starkregional.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264163,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/starkregional.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/starkregional.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/starkscience.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136331,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/starkscience.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/starkscience.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/sure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213187,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/sure.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/sure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/Tour.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234612,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/Tour.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/Tour.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/towngown.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198138,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/towngown.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/towngown.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/villiage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182938,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/villiage.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/villiage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/welcomeweek.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 365408,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/welcomeweek.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/welcomeweek.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
