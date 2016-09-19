@@ -13,7 +13,7 @@ priority: 2
 			  </figcaption>
 			</figure>
 <figure class="gallery__item">
-			  <img class="gallery__item__image" src="../../assets/img/ksusalemhealth.jpg" alt="Photo Caption" />
+			  <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/ksusalemhealth.jpg" alt="Photo Caption" />
 			  <figcaption>
 			    <h3 class="gallery-caption__title">Kent State Salem</h3>
 			    <p class="gallery-caption__description">The second floor of James and Coralie Centofanti Hall openined in Fall 2015 at Kent State Salem. This beautiful health and sciences facility now features new biology and chemistry labs, a research lab, and a study area.</p>
@@ -41,7 +41,7 @@ priority: 2
 			    </figcaption>
 			  </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{ site.url }}/assets/img/gallery/crop/diversitysalem.jpg" alt="We hired 15 new tenure-track faculty members from diverse racial and ethnic backgrounds who were recruited as a result of our strategic investment fund." />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/diversitysalem.jpg" alt="We hired 15 new tenure-track faculty members from diverse racial and ethnic backgrounds who were recruited as a result of our strategic investment fund." />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">Invested in Enhancing Diversity</h3>
 			      <p class="gallery-caption__description">We hired 15 new tenure-track faculty members from diverse racial and ethnic backgrounds who were recruited as a result of our strategic investment fund.</p>
