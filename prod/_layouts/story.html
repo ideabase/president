@@ -4,10 +4,12 @@ layout: default
 
 {% if page.theme=='dark' %}
 	<div class="section-default">
-{% elsif page.theme=='light' %}
-	<div class="section-light">
+{% elsif page.theme=='bright' %}
+	<div class="section-bright">
+{% elsif page.theme=='yellow' %}
+	<div class="section-yellow">
 {% endif %}
-		{% include menu-button.html %}
+		{% include close-button.html %}
 		<header style="background-image: url( {{site.url}}/{{page.feature-image-path}});" class="story-header">
 			<h2 class="story-header__title">Feature Story</h2>
 			<h3 class="story-header__subtitle">{{ page.featuredName }}</h3>

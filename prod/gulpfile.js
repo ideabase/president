@@ -12,7 +12,7 @@ gulp.task('gallery', function () {
       width : 1500,
       height : 800,
       crop : true,
-      upscale : false,
+      upscale : true,
       quality : .8,
       format : "jpg"
     }))

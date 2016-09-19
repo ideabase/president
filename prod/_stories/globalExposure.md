@@ -1,4 +1,4 @@
-]---
+---
 title: "Global Exposure"
 layout: story
 theme: dark
@@ -8,6 +8,7 @@ feature-image-path: assets/img/banner/crop/globalexposure.jpg
 title1: Global Exposure
 teaser: Since a majority of Kent State’s College of Public Health courses are online, students can study anywhere in the world and stay on track with their degree—while gaining valuable exposure to other cultures.
 story-id: globalExposure
+priority: 3
 ---
 
 Since a majority of Kent State’s College of Public Health courses are online, students can study anywhere in the world and stay on track with their degree—while gaining valuable exposure to other cultures.

@@ -8,6 +8,7 @@ feature-image-path: assets/img/banner/crop/goodneighbor.jpg
 title1: Good Neighbor
 teaser: Since the first Alumni Day of Service in 2009, Kent State University alumni and friends have given back on behalf of their alma mater by helping build homes, clean rivers and beaches, prepare meals for families, clean hospice centers, churches, shelters, historical societies and much more.
 story-id: alumniDay
+priority: 4
 ---
 Since the first Alumni Day of Service in 2009, Kent State University alumni and friends have given back on behalf of their alma mater by helping build homes, clean rivers and beaches, prepare meals for families, clean hospice centers, churches, shelters, historical societies and much more.
 

@@ -5,11 +5,11 @@ theme: dark
 date: 2015-08-30 12:51:00
 featuredName: Kent State
 feature-image-path: /dev/assets/img/Nirmala_Ghimirey_feature_image.jpg
-title1: Bettering Society
-title2: through service, research,
-title3: and an inspiring example of determination
+title1: Giving Tuesday
+title2: 2015
 teaser: Golden Flashes and friends were asked to give back, and they rose magnificently to the challenge.
 story-id: giving
+priority: 5
 ---
 Golden Flashes and friends were asked to give back, and they rose magnificently to the challenge.
 

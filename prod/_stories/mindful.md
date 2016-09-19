@@ -10,6 +10,7 @@ title2: to a more
 title3: mindful life
 teaser: David Fresco, Ph.D., professor of psychological sciences, has been studying the impact of meditation in his lab and in his personal life for more than 15 years.
 story-id: mindful
+priority: 2
 ---
 
 David Fresco, Ph.D., professor of psychological sciences, has been studying the impact of meditation in his lab and in his personal life for more than 15 years. His NIH-funded project, the Serenity Study, is designed to help people lower their blood pressure through stress management techniques, including mindfulness. (You can get involved here: http://www.serenitystudy.org/.)
@@ -27,3 +28,4 @@ Dig deeper: Well-known practitioners of the field offer accessible books about m
 Now you’re ready: If you can commit to 45 minutes of meditation, six days a week, for eight weeks, research has shown that that this level of commitment will create physical changes in your brain. “At least two studies have shown that this level of practice leads to improved cellular density in specific regions of the brain that allows people to confront unpleasant or difficult situations in a more sanguine way,” Fresco says.
 
 Excerpted from "Use Your Head" by Erin Peterson, first published by Kent State Magazine, Summer 2016. For more information on Kent State brain research see <a href="http://www.kent.edu/magazine/news/use-your-head">Use Your Head</a>.
+
