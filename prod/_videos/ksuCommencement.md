@@ -5,4 +5,5 @@ layout: video
 date: 2016-08-30 12:00:00
 video-id: ksuCommencement
 videoURL: https://www.youtube.com/v/-kukzNVemYs
+priority: 1
 ---
