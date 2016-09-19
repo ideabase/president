@@ -1,0 +1,77 @@
+.gallery {
+  margin-top: 2em;
+}
+
+.gallery-caption__description {
+  margin-top: .25em;
+  font-size: .9em;
+}
+
+.section-default .gallery-title {
+  color: $lightblue;
+  @include NationalBoldItalic;
+  span {
+    color: $seafoam;
+    @include NationalBlackItalic;
+  }
+}
+
+.gallery__item {
+  width: 100%;
+}
+
+.owl-buttons {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  @media #{$medium} {
+    top: 40%;
+  }
+}
+
+.owl-prev, .owl-next {
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  opacity: .8;
+  position: absolute;
+  transition: .3s all ease-in-out;
+  background-size: contain;
+  background-repeat: no-repeat;
+  @media #{$medium} {
+    width: 50px;
+    height: 50px;
+  }
+  &:hover {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+}
+
+.owl-prev {
+  left: 8px;
+  background-image: url(../../assets/img/arrow-previous.svg);
+  @media #{$medium} {
+    left: -8px;
+  }
+}
+
+.owl-next {
+  right: 0px;
+  background-image: url(../../assets/img/arrow-next.svg);
+  @media #{$medium} {
+    right: -28px;
+  }
+}
+
+// Color Themes
+
+.section-dark .gallery-caption__title {
+  color: $gold;
+  margin-bottom: 0;
+}
+
+.section-dark .gallery-caption__description {
+  color: white;
+}

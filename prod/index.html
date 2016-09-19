@@ -6,13 +6,13 @@ layout: default
 	{% include menu-button.html %}
 	<a class="splash-link" href="{{site.url}}/contents">
 		<figure id="splash" class="splash">
-			<!--<img class="splash-image splash-image--fallback" srcset="../../dev/assets/img/home-default.jpg" alt="Man Riding Bike" />-->
+			<!--<img class="splash-image splash-image--fallback" srcset="{{site.url}}/assets/img/home-default.jpg" alt="Man Riding Bike" />-->
 		      <picture>
 		                  <!-- Add Fallback for IE9 -->
 		                  <!--[if IE 9]><video style="display: none;"><![endif]-->
-		                    <source srcset="../../dev/assets/img/home-large.jpg" media="(min-width: 50em)">
+		                    <source srcset="{{site.url}}/assets/img/home-large.jpg" media="(min-width: 50em)">
 		                  <!--[if IE 9]></video><![endif]-->
-		                    <img class="splash-image" srcset="../../dev/assets/img/home-default.jpg" alt="Scientists at Liquid Crystal Institute with Microscope" />
+		                    <img class="splash-image" srcset="{{site.url}}/assets/img/home-default.jpg" alt="Scientists at Liquid Crystal Institute with Microscope" />
 		      </picture>
 		      <figcaption class="splash-headline">
 						<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 853.25 167.17" aria-labelledby="thetitle">

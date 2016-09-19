@@ -1,0 +1,59 @@
+.quote {
+  width: 100%;
+  padding-right: 2em;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  z-index: 5;
+  position: relative;
+  @media #{$small} {
+    width: 80%;
+    padding-right: inherit;
+  }
+  @media #{$medium} {
+    width: 50%;
+  }
+}
+
+blockquote {
+  @include NationalBoldItalic;
+  margin: 0;
+  padding: 0;
+  @media #{$small} {
+    font-size: 1.1em;
+  }
+  @media #{$medium} {
+    font-size: 1.2em;
+  }
+  &:before {
+    content: "“";
+  }
+  &:after {
+    content: "”";
+  }
+}
+
+cite {
+  display: block;
+  text-align: right;
+  margin-top: 1em;
+  font-style: normal;
+  @include NationalBold;
+  &:before {
+    content: "-";
+    margin-right: .25em;
+  }
+}
+
+/* Color Themes */
+
+.section-default blockquote, .section-default cite {
+  color: white;
+}
+
+.section-light blockquote, .section-light cite {
+  color: white;
+}
+
+.section-bright blockquote, .section-bright cite {
+  color: white;
+}

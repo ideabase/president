@@ -1,0 +1,197 @@
+.priority-content {
+  @media #{$medium} {
+    display: flex;
+    -js-display: flex; // JavaScript Fallback for IE9 //
+    justify-content: space-between;
+  }
+}
+
+.priority-text {
+  @media #{$medium} {
+    width: 45%;
+  }
+  @media #{$large} {
+    width: 45%;
+  }
+}
+
+.priority-media {
+  @media #{$small} {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  @media #{$medium} {
+    width: 50%;
+    display: block;
+    margin-top: 1em;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  @media #{$large} {
+    width: 50%;
+    flex-wrap: wrap;
+  }
+}
+
+.social-sharing {
+  display: block;
+}
+
+.priority-header {
+  background-size: cover;
+  position: relative;
+  min-height: 300px;
+  padding: 0;
+  padding-bottom: 7rem;
+  padding-top:12rem;
+  overflow: hidden;
+  background-image: url('../../assets/img/fountain-poster.jpg');
+  @media #{$medium} {
+    padding-top: 0;
+    background-position-x: 250px;
+  }
+  @media #{$large} {
+    min-height: 350px;
+  }
+  &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(360deg, rgba($blue,1) 0%,  rgba($blue,1) 30%, rgba($blue,.6) 60%, rgba(0,0,0,0) 100%);
+      z-index: 2;
+      @media #{$medium} {
+        background: linear-gradient(90deg, rgba($blue,1) 0%, rgba($blue,1) 30%,rgba($blue,.6) 60%, rgba(0,0,0,0) 100%);
+      }
+  }
+}
+
+.priority-header__video {
+  display: none;
+  @media #{$medium} {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../../assets/img/fountain-poster.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+.priority-header__heading {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  margin: 0;
+  font-size: 2em;
+  width: 90%;
+  text-transform: none;
+  text-align: right;
+  @include NationalBold;
+  font-style: normal;
+  padding: .25em .25em .35em 2.2em;
+  z-index: 5;
+  line-height: .9;
+  @media #{$small} {
+    width: 80%;
+    padding: .5em .5em .65em 2em;
+  }
+  @media #{$medium} {
+    width: 50%;
+    padding-left: 3.5em;
+  }
+  @media #{$large} {
+    font-size: 2.3em;
+  }
+}
+
+.priority-header__heading span {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  font-size: 3em;
+  line-height: 1;
+  @include RobotoBold;
+  @media #{$small} {
+    left: 3rem;
+  }
+  @media #{$large} {
+    font-size: 4em;
+  }
+}
+
+.priority-introduction {
+  @include NationalBoldItalic;
+  margin-top: 0;
+  margin-left: $globalpadding;
+  font-size: 120%;
+  @media #{$medium} {
+    font-size: 130%;
+  }
+  @media #{$large} {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 140%;
+  }
+}
+
+// Color Themes //
+
+.section-default {
+
+  .priority-header__heading {
+      color: $blue;
+      background-color: $yellow;
+  }
+
+  .priority-header__heading span {
+      color: white;
+  }
+
+  .priority-introduction {
+    color: $yellow;
+  }
+
+}
+
+.section-light {
+
+  .priority-header__heading {
+      color: $blue;
+      background-color: $seafoam;
+  }
+
+  .priority-header__heading span {
+      color: white;
+  }
+
+  .priority-introduction {
+    color: $seafoam;
+  }
+
+}
+
+.section-bright {
+
+  .priority-header__heading {
+      color: $blue;
+      background-color: $yellow;
+  }
+
+  .priority-header__heading span {
+      color: white;
+  }
+
+  .priority-introduction {
+    color: $blue;
+  }
+
+}

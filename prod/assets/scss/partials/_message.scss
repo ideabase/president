@@ -1,0 +1,96 @@
+.section-message {
+  @media #{$small} {
+    background-image:  url(../../assets/img/arch.jpg);
+    background-size: cover;
+    background-position: top right;
+    background-blend-mode: overlay;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 57, 118,.9) 0%, rgba(0, 57, 118,.8) 100%);;
+    z-index: 2;
+  }
+}
+
+.section-message .inner-wrapper {
+  @media #{$small} {
+    padding-top:3rem;
+  }
+  @media #{$medium} {
+    padding-top:3rem;
+  }
+}
+
+.section-message a {
+  color: $gold;
+  @include NationalBoldItalic;
+  transition: .3s all ease-in-out;
+  &:hover, &:focus {
+    color: lighten($gold, 5%);
+  }
+}
+
+/*.section-message em {
+  @media #{$large} {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+}
+
+.section-message em:after {
+  @media #{$large} {
+    content: " ";
+    width: 105%;
+    height: 1px;
+    background-color: rgba($gold,.8);
+    display: inline-block;
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+  }
+}*/
+
+.headshot {
+  max-width: 125px;
+  margin-bottom: 1em;
+  @media #{$small} {
+    width: 27%;
+    max-width: inherit;
+    margin-top: .5em;
+  }
+  @media #{$large} {
+    width: 16%;
+    margin-top: 0;
+  }
+}
+
+.message__heading {
+  margin-top: 0;
+}
+
+.message {
+  @media #{$small} {
+    width: 70%;
+    margin-left: auto;
+    margin-top: 1em;
+  }
+  @media #{$medium} {
+    margin-top: 0;
+  }
+  @media #{$large} {
+    width: 45%;
+  }
+}
+
+.section-message .inner-wrapper {
+  display: flex;
+  -js-display: flex; // JavaScript Fallback for IE9 //
+  flex-wrap: wrap;
+  flex-flow: space-between;
+}

@@ -1,0 +1,39 @@
+// Google Fonts Loaded Via inline styles in head @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);//
+
+@font-face {
+    font-family: "National";
+    font-weight: 300;
+    src: url("../font/National-Light.woff2") format("woff2"),
+         url("../font/National-Light.woff") format("woff");
+}
+
+/*@font-face {
+    font-family: "National";
+    font-weight: 300;
+    font-style: italic;
+    src: url("../font/National-LightItalic.woff2") format("woff2"),
+         url("../font/National-LightItalic.woff") format("woff");
+}*/
+
+@font-face {
+    font-family: "National";
+    font-weight: 700;
+    src: url("../font/National-Bold.woff2") format("woff2"),
+         url("../font/National-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "National";
+    font-weight: 700;
+    font-style: italic;
+    src: url("../font/National-BoldItalic.woff2") format("woff2"),
+         url("../font/National-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "National";
+    font-weight: 900;
+    font-style: italic;
+    src: url("../font/National-BlackItalic.woff2") format("woff2"),
+         url("../font/National-BlackItalic.woff") format("woff");
+}

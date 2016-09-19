@@ -1,4 +1,5 @@
 ---
+title: Message from the President
 layout: default
 permalink: /message/
 ---

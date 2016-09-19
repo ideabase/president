@@ -1,0 +1,36 @@
+aside {
+  border: 1px solid $seafoam;
+  padding: .5em 1em;
+  margin-top: 2em;
+  @media #{$large} {
+    border-color: rgba($gold,.8);
+  }
+  p {
+    @include NationalBoldItalic;
+    font-size: 1.2em;
+    margin-top: 0;
+    @media #{$large} {
+      font-size: 1em;
+      @include NationalLight;
+      font-style: normal;
+    }
+  }
+  ul {
+    font-size: 1.2em;
+    margin-top: .5em;
+    @media #{$large} {
+      font-size: 1em;
+      @include NationalLight;
+      font-style: normal;
+      margin-left: 0;
+      padding-left: 1em;
+    }
+  }
+  @media #{$large} {
+    width: 33%;
+    margin-left: 3%;
+    border-top: none;
+    border-right: none;
+    padding: 0em 1.5em;
+  }
+}

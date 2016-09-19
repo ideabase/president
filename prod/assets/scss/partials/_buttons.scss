@@ -1,0 +1,74 @@
+.button {
+  background-color: $blue;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: .5em 1em .65em 1em;
+  @include NationalBlackItalic;
+  margin-top: 1em;
+  display: inline-block;
+  margin-right: .5em;
+  transition: .3s all ease-in-out;
+  line-height: 1;
+  &:hover, &:focus {
+    background-color: darken($blue, 5%);
+  }
+  @media #{$medium} {
+    font-size: 1.2em;
+  }
+}
+
+.button-pause {
+  display: none;
+  @media #{$medium} {
+    display: block;
+    z-index:200;
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(black,.8);
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: .9em;
+    padding: .35em .7em;
+  }
+}
+
+.button--gold {
+  color: $gold;
+}
+
+.close-button {
+  position: absolute;
+  z-index: 50;
+  right: 0;
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+  color: $gold;
+  border: 1px solid $gold;
+  width: 125px;
+  text-transform: uppercase;
+  @include NationalBoldItalic;
+  margin: .5em;
+  border-radius: 4px;
+  padding: .25em .25em .35em .25em;
+  font-size: 1.15em;
+  transition: .3s all ease-in-out;
+  &:hover {
+    background-color: $gold;
+    color: white;
+    border-color: white;
+  }
+}
+
+.close-button--menu {
+  margin-top: 1.5em;
+  margin-left: .95em;
+  position: relative;
+  margin-right: auto;
+  display: inline-block;
+  font-size: 1em;
+}

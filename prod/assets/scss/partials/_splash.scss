@@ -1,0 +1,204 @@
+// Live Blend for DISCOVER image //
+
+.blend {
+  //mix-blend-mode:hard-light;
+  transition: .3s all ease-in-out;
+  opacity: .9;
+  path {
+    fill: #ffeb00 !important;
+  }
+}
+
+.blend2 {
+  opacity: .2;
+}
+
+.splash {
+  position: relative;
+  overflow: hidden;
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(360deg, rgba(black,.2) 0%, rgba(black,.2) 60%, rgba(0,0,0,0) 100%);
+        z-index: 1;
+    }
+    &:after {
+      width: 175px;
+      height:  175px;
+      position: absolute;
+      opacity: .7;
+      background-image: url(../../assets/img/compass-alt.svg);
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      //background-position: right -100px bottom  250px;
+      top: 30px;
+      right: -50px;
+      display: block;
+      content: "";
+      transition: .3s all ease-in-out;
+      @media #{$tiny} {
+        width: 200px;
+        height: 200px;
+      }
+      @media #{$small} {
+        width: 250px;
+        height: 250px;
+      }
+      @media #{$medium} {
+        width: 300px;
+        height: 300px;
+        top: 60px;
+      }
+    }
+  @media screen and #{$medium} and (max-height: 50em) {
+    &:after {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  @media screen and #{$medium-ish} and (max-height: 50em) {
+    &:after {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  @media screen and #{$large} and (max-height: 50em) {
+    &:after {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  @media #{$large} {
+    max-height: 85vh;
+    overflow: hidden;
+  }
+  &:hover {
+    .splash-headline {
+      margin-left:1%;
+    }
+    .splash-image {
+      //transform: scale(1.05);
+    }
+    .blend {
+      //mix-blend-mode:inherit;
+      opacity: 1;
+    }
+    @media screen and #{$medium} {
+      &:after {
+        width: 325px;
+        height: 325px;
+      }
+    }
+    @media screen and #{$medium} and (max-height: 50em) {
+      &:after {
+        width: 200px;
+        height: 200px;
+      }
+    }
+    @media screen and #{$medium-ish} and (max-height: 50em) {
+      &:after {
+        width: 230px;
+        height: 230px;
+      }
+    }
+    @media screen and #{$large} and (max-height: 50em) {
+      &:after {
+        width: 265px;
+        height: 265px;
+      }
+    }
+  }
+}
+
+.splash-image {
+  width: 100%;
+  transition: transform ease-in-out .3s;
+  @media screen and (max-height: 50em) and #{$medium} {
+    margin-top: -15%;
+  }
+}
+
+.js .splash-image--fallback, .menu-open .splash-image--fallback {
+  display: none;
+}
+
+.splash-headline {
+  position: absolute;
+  bottom: 20%;
+  display: flex;
+  -js-display: flex; // JavaScript Fallback for IE9 //
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  padding-left: 5%;
+  padding-right: 5%;
+  //margin-left: -2%;
+  transition: all ease-in-out .3s;
+  width: 95%;
+  z-index: 100;
+  @media #{$medium} {
+    bottom: 19%;
+  }
+  svg {
+    width: 100%;
+    height: auto;
+    max-height:300px;
+  }
+}
+
+.splash-headline__container {
+  z-index: 5;
+  position: relative;
+  padding: .5em;
+}
+
+.start-link {
+  position: absolute;
+  bottom: 25px;
+  right: 10%;
+  @include NationalBlackItalic;
+  color: $blue;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 1.3em;
+  transition: .3s all ease-in-out;
+  z-index: 1;
+  @media #{$tiny} {
+    bottom: 45px;
+  }
+  @media #{$small} {
+    bottom: 55px;
+    font-size: 1.5em;
+  }
+  @media #{$medium} {
+    font-size: 1.5em;
+    right: 10%;
+    bottom: 25px;
+  }
+  @media #{$medium-ish} {
+    bottom: 7.5%;
+    font-size: 1.7em;
+  }
+  @media #{$large} {
+    font-size: 1.7em;
+    right: 10%;
+    bottom: 7%;
+  }
+  &:hover {
+    color: white;
+    transition: .3s all ease-in-out;
+  }
+  &:after {
+    content: ">";
+    color: white;
+    font-size: 200%;
+    position: absolute;
+    right: -23%;
+    top: -70%;
+  }
+}

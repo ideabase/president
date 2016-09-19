@@ -1,0 +1,143 @@
+footer {
+  color: white;
+  @include NationalBold;
+}
+
+.footer-links {
+  text-align: center;
+}
+
+.footer-contact__list, .footer-social__list, .footer-social__list {
+  @extend .plain-list;
+}
+
+.footer-social__list {
+  @media #{$small} {
+    display: flex;
+    -js-display: flex; // JavaScript Fallback for IE9 //
+    align-items: center;
+    font-size: .9em;
+  }
+  @media #{$medium} {
+    font-size: 1.1em;
+  }
+}
+
+.footer-contact__list {
+  text-align: center;
+  margin-top: $globalpadding*2;
+  font-size: .95em;
+  @media #{$medium} {
+    display: flex;
+    -js-display: flex; // JavaScript Fallback for IE9 //
+    justify-content: center;
+  }
+}
+
+.footer-contact__list__item__definition {
+  display: inline-block;
+}
+
+.footer-social__list {
+  display: flex;
+  -js-display: flex; // JavaScript Fallback for IE9 //
+  margin: $globalpadding 0;
+  @media #{$medium} {
+    margin: 0;
+  }
+}
+
+.footer-social__list__item {
+  text-indent: -9999px;
+  overflow: hidden;
+  margin-right: 1em;
+  transition: .3s all ease-in-out;
+  &:hover, &:focus {
+    transform: scale(1.1);
+  }
+}
+
+.footer-social__list__item:last-child {
+  margin-right: 0;
+}
+
+.footer-social__list__item__link {
+  width: 27px;
+  height: 27px;
+  display: block;
+  background-size: 100% auto;
+  @media #{$medium} {
+    width: 30px;
+    height: 30px;
+  }
+  &.facebook {
+    background-image: url(../img/facebook.svg);
+  }
+  &.twitter {
+    background-image: url(../img/twitter.svg);
+  }
+  &.instagram {
+    background-image: url(../img/instagram.svg);
+  }
+  &.flickr {
+    background-image: url(../img/flickr.svg);
+  }
+  &.linkedin {
+    background-image: url(../img/linkedin.svg);
+  }
+  &.youtube {
+    background-image: url(../img/youtube.svg);
+  }
+}
+
+/*.footer-supplemental__list__item {
+  @media #{$small} {
+    display: inherit;
+    &:after {
+      content: "|";
+      color: $gold;
+      padding: 0 .5em 0 .45em;
+    }
+  }
+}*/
+
+.footer-contact__list__item {
+  margin-bottom: .5em;
+  @media #{$medium} {
+    &:after {
+      content: "|";
+      color: $gold;
+      padding: 0 .5em 0 .45em;
+    }
+  }
+}
+
+.footer-contact__list__item__link {
+  color: white;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+  &:hover, &:focus {
+    color: $gold;
+  }
+}
+
+.footer-contact__list__item:last-child {
+  @media #{$small} {
+      &:after {
+      content: "";
+      margin: inherit;
+      padding:inherit;
+    }
+  }
+}
+
+.footer-social {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.footer-copyright {
+  @include NationalLight;
+  margin-top: $globalpadding;
+  text-align: center;
+}

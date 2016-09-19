@@ -1,0 +1,172 @@
+@keyframes spin {
+  from {
+    opacity: 0;
+    transform: rotate(0deg);
+    transform: scale(1.3);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotate(15deg);
+  }
+}
+
+
+@keyframes pin {
+  from {
+    transform: translate3d(0, -20px, 20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomFade {
+  from {
+    transform: translate3d(0, 30px, 30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomFadeReverse {
+  from {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+ @keyframes slider {
+  from {
+    transform: translate3d(0, 30px, 30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes point {
+ from {
+   transform: translate3d(-10px, 0, 0);
+   opacity: 0;
+   visibility: visible;
+ }
+
+ to {
+   transform: translate3d(0, 0, 0);
+   opacity: 1;
+ }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes subtleFade {
+  from {
+    opacity: 0;
+    transform: translateY(1px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+
+// Animation Execute //
+
+.splash {
+  &:after {
+    animation: spin 5s ease-in-out forwards;
+    animation-delay: .5s;
+    animation-fill-mode: both;
+  }
+}
+
+.splash-image {
+  animation: zoomFadeReverse 5s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.splash-headline {
+  animation: zoomFade 4s ease-in-out;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+.story-header {
+  animation: subtleFade 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.headshot {
+  animation: subtleFade 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.start-link {
+  animation: fadeIn 2s ease-in-out;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  &:after {
+    animation: point 1.5s infinite linear alternate;
+  }
+}
+
+#content {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.priority-header__heading {
+  animation: fadeIn 1s ease-in;
+  animation-delay: .5s;
+  animation-fill-mode: both;
+}
+
+.priority-header__heading span {
+  animation: slider 1s linear;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+.contents__title {
+  animation: pin 1s ease-in-out;
+  animation-delay: .5s;
+  animation-fill-mode: both;
+}

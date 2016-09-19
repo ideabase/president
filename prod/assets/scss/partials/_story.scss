@@ -1,0 +1,202 @@
+.story-header {
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+  @media #{$large} {
+    min-height: 400px;
+  }
+}
+
+.story-header__title {
+  margin: 0;
+  padding: 0;
+  color: white;
+  @include NationalBlackItalic;
+  text-transform: uppercase;
+  @media #{$large} {
+    margin-left: 3rem;
+  }
+}
+
+.story-header__subtitle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.8em;
+  text-transform: none;
+  @include NationalBold;
+  font-style: normal;
+  padding: .25em .5em;
+  padding-right: 2em;
+  line-height:1;
+  @media #{$medium} {
+    font-size: 2em;
+  }
+}
+
+.story-body {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.story-body__headline {
+  margin-top: -1rem;
+  padding-top: 0;
+  @media #{$large} {
+    margin-top: 0;
+  }
+}
+
+// Color Themes
+
+.story-body__headline__level1 {
+  color: $yellow;
+  display: block;
+  font-size: 110%;
+  line-height: .8;
+  @media #{$small-ish} {
+    font-size: 200%;
+  }
+  @media #{$medium} {
+    font-size: 250%;
+  }
+}
+
+.story-body__headline__level2 {
+  display: block;
+  text-align: right;
+  line-height: 1;
+  margin-right: 0;
+  font-size: 80%;
+  margin-right: .25em;
+  @media #{$small-ish} {
+    font-size: 150%;
+  }
+  @media #{$medium} {
+    font-size: 180%;
+  }
+  &:after {
+    content: "";
+  }
+}
+
+.story-body__headline__level3 {
+  display: block;
+  @include NationalLight;
+  color: $cyan;
+  line-height: .9;
+  letter-spacing: 3px;
+  font-size: .9em;
+  @media #{$small-ish} {
+    font-size: 115%;
+  }
+  @media #{$medium} {
+    font-size: 120%;
+  }
+}
+
+.section-default .story-header__subtitle {
+  background-color: $yellow;
+  color: $blue;
+}
+
+.section-bright .story-body__headline__level1 {
+  margin-top: -4.5rem;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 130%;
+  color: white;
+  @media #{$small-ish} {
+    margin-top: -6rem;
+    font-size: 200%;
+  }
+  @media #{$medium} {
+    margin-top: -7rem;
+    font-size: 250%;
+  }
+  @media #{$large} {
+    margin-top: -5rem;
+  }
+}
+
+.section-bright .story-body__headline__level2 {
+  display: inline-block;
+  text-transform: lowercase;
+  font-size: 1.2em;
+  color: $gold;
+}
+
+.section-bright .story-body__headline__level3 {
+  display: inline-block;
+  font-size: 1.2em;
+  @include NationalBlackItalic;
+  @media #{$small-ish} {
+    font-size: 135%;
+  }
+  @media #{$medium} {
+    font-size: 150%;
+  }
+}
+
+.section-bright .story-body__headline {
+  text-align: right;
+}
+
+
+// Section Yellow //
+
+.section-yellow .story-body__headline__level1 {
+  margin-top: -4.5rem;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 130%;
+  color: $secondaryyellow;
+  @media #{$small} {
+    margin-top: -6rem;
+    font-size: 200%;
+  }
+  @media #{$medium} {
+    margin-top: -7rem;
+    font-size: 250%;
+  }
+  @media #{$large} {
+    margin-top: -5rem;
+  }
+}
+
+.section-yellow .story-body__headline__level2 {
+  display: inline-block;
+  font-size: 1.4em;
+  color: $blue;
+  margin-left: 25%;
+  line-height: .5;
+  @media #{$small} {
+    font-size: 200%;
+  }
+  @media #{$medium} {
+    font-size: 250%;
+    line-height: .2;
+  }
+  @media #{$large} {
+    font-size: 270%;
+  }
+}
+
+.section-yellow .story-body__headline__level3 {
+  display: inline-block;
+  font-size: 1em;
+  margin-top: -1.35em;
+  position: absolute;
+  right: 0;
+  @include NationalBlackItalic;
+  color: $seafoam;
+  @media #{$small} {
+    font-size: 135%;
+  }
+  @media #{$medium} {
+    font-size: 150%;
+  }
+}

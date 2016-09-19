@@ -1,0 +1,86 @@
+// Colors //
+
+$gold: rgb(234,171,0);
+$blue: rgb(0,38,100);
+$lightblue: rgb(174,234,229);
+$cyan: rgb(73,148,203);
+$seafoam: rgb(94,196,223);
+$yellow: rgb(229,232,84);
+$secondaryyellow: rgb(248,235,97);
+
+$gradient: linear-gradient(0deg, #032143 0%, #063B73 45%, #063B73 65%, #032143 100%);
+
+// Fonts //
+
+$sans-serif: Helvetica, Arial, sans-serif;
+
+// Layout
+
+$globalpadding: 1rem;
+
+// Media Queries
+
+$tiny: "(min-width: 31.25em)"; // 500 pixels wide //
+$small: "(min-width: 39.5em)"; // 600 pixels wide //
+$small-ish: "(min-width: 43.75em)"; // 700 pixels wide //
+$medium: "(min-width: 50em)"; // 800 pixels wide //
+$medium-ish: "(min-width: 56.25em)"; // 900 pixels wide //
+$large: "(min-width: 75em)"; // 1200 pixels wide //
+$x-large: "(min-width: 93.75em)"; // 1500 pixels wide //
+
+
+// Mixins/Extends //
+
+.plain-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+// Typography //
+
+$font-family-sans-serif: "National", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif: "Roboto Slab", Georgia, "Times New Roman", Times, serif !default;
+
+@mixin NationalLight {
+    font-family: $font-family-sans-serif;
+    font-weight: 300;
+}
+
+//@mixin NationalLightItalic {
+    //font-family: $font-family-sans-serif;
+    //font-weight: 300;
+    //font-style: italic;
+//}
+
+@mixin NationalBold {
+    font-family: $font-family-sans-serif;
+    font-weight: 700;
+}
+
+@mixin NationalBoldItalic {
+    font-family: $font-family-sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+@mixin NationalBlackItalic {
+    font-family: $font-family-sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+@mixin RobotoRegular {
+	font-family: $font-family-serif;
+	font-weight:400;
+}
+
+@mixin RobotoLight {
+	font-family: $font-family-serif;
+	font-weight: 300;
+}
+@mixin RobotoBold {
+	font-family: $font-family-serif;
+	font-weight:700;
+}
