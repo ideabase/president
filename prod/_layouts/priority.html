@@ -65,14 +65,14 @@ layout: default
 							<p class="feature-teaser__summary">{{ story.teaser }}</p>
 						</div>
 						<div class="feature-teaser__link__image">
-						  <img alt="teaser image" src="{{../../assets/img/headshot.jpg}}" />
+						  <img alt="teaser image" src="../../assets/img/headshot.jpg" />
 						</div>
 						</a>
 					</section>
 					<div class="priority-media__gallery">
 						<section class="gallery-teaser">
 							<a class='gallery-teaser__link' href="{{site.url}}/{{gallery.url}}">
-								<img class="gallery-teaser__thumb" src="{{ site.url }}/{{ gallery.image.first }}" alt="Gallery Image"/>
+								<img class="gallery-teaser__thumb" src="{{ site.url }}/{{ gallery.featured-image }}" alt="Gallery Image"/>
 								<h3 class="gallery-teaser__headline">Gallery: {{ gallery.title }}</h3>
 							</a>
 						</section>
