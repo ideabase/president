@@ -19,4 +19,4 @@ They received lectures on diseases endemic to Brazil—including malaria, lepros
 
 “The Global Health Brazil Study Abroad course was fantastic,” says Mark James, Ph.D., professor and chair of the Department of Biostatistics, Environmental Health Sciences & Epidemiology and director of global programs for the College of Public Health. “It was a big success for the students and for the college’s global image.”
 
-See http:/www.kent.edu/publichealth.
+See [www.kent.edu/publichealth](http://www.kent.edu/publichealth).

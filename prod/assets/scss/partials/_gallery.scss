@@ -7,6 +7,10 @@
   font-size: .9em;
 }
 
+.gallery-caption__description a {
+  color: $gold;
+}
+
 .section-default .gallery-title {
   color: $lightblue;
   @include NationalBoldItalic;
@@ -74,4 +78,8 @@
 
 .section-dark .gallery-caption__description {
   color: white;
+}
+
+.section-dark .gallery-caption__description a {
+  color: $gold;
 }

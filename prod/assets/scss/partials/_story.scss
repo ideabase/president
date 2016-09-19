@@ -103,6 +103,10 @@
   color: $blue;
 }
 
+.section-default .story-body p a {
+  color: $gold;
+}
+
 .section-bright .story-body__headline__level1 {
   margin-top: -4.5rem;
   line-height: 1.5;
@@ -143,6 +147,10 @@
 
 .section-bright .story-body__headline {
   text-align: right;
+}
+
+.section-bright .story-body p a {
+  color: $blue;
 }
 
 
@@ -199,4 +207,8 @@
   @media #{$medium} {
     font-size: 150%;
   }
+}
+
+.section-yellow .story-body p a {
+  color: $blue;
 }
