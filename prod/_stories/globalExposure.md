@@ -1,4 +1,4 @@
----
+]---
 title: "Global Exposure"
 layout: story
 theme: dark

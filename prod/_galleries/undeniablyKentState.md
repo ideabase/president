@@ -13,10 +13,10 @@ priority: 2
 			  </figcaption>
 			</figure>
 <figure class="gallery__item">
-			  <img class="gallery__item__image" src="../../assets/img/priority-image.jpg" alt="Photo Caption" />
+			  <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/ksusalemhealth.jpg" alt="Photo Caption" />
 			  <figcaption>
 			    <h3 class="gallery-caption__title">Kent State Salem</h3>
-			    <p class="gallery-caption__description">The Health and Sciences Wing opens at Kent State Salem.</p>
+			    <p class="gallery-caption__description">The second floor of James and Coralie Centofanti Hall openined in Fall 2015 at Kent State Salem. This beautiful health and sciences facility now features new biology and chemistry labs, a research lab, and a study area.</p>
 			  </figcaption>
 			  </figure>
 <figure class="gallery__item">
@@ -34,14 +34,14 @@ priority: 2
 			    </figcaption>
 			  </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/gameplan.JPG" alt="Photo Caption" />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/gameplan.jpg" alt="Photo Caption" />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">Athletics Vision</h3>
 			      <p class="gallery-caption__description">The Department of Intercollegiate Athletics unveiled <a href="http://www.kentstatesports.com/news/2016/3/10/general-athletics-releases-strategic-vision.aspx">The Game Plan</a>, guided by its mission to graduate student-athlets and win championships. For the ninth time in program history, Kent State was honored with the Jacoby Trophy, recognized as the top women's program in the MAC.</p>
 			    </figcaption>
 			  </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{ site.url }}/assets/img/gallery/crop/missing.JPG" alt="We hired 15 new tenure-track faculty members from diverse racial and ethnic backgrounds who were recruited as a result of our strategic investment fund." />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/diversitysalem.jpg" alt="We hired 15 new tenure-track faculty members from diverse racial and ethnic backgrounds who were recruited as a result of our strategic investment fund." />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">Invested in Enhancing Diversity</h3>
 			      <p class="gallery-caption__description">We hired 15 new tenure-track faculty members from diverse racial and ethnic backgrounds who were recruited as a result of our strategic investment fund.</p>

@@ -4,6 +4,7 @@ layout: gallery
 date: 2016-08-30 12:00:00
 gallery-id: global-compete
 priority: 3
+featured-image: assets/img/gallery/crop/recordenroll.jpg
 ---
 
 <figure class="gallery__item">

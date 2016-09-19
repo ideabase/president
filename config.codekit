@@ -2048,6 +2048,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/diversitysalem.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 260422,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/diversitysalem.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/diversitysalem.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/_site\/assets\/img\/gallery\/crop\/DKS.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2132,6 +2143,17 @@
 		"initialSize": 142103,
 		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/iuc.jpg",
 		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/iuc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154931,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2312,6 +2334,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/_site\/assets\/img\/gallery\/diversitysalem.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.30124e+07,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/diversitysalem.JPG",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/diversitysalem.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/_site\/assets\/img\/gallery\/dks.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2396,6 +2429,17 @@
 		"initialSize": 1.99276e+06,
 		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/iuc.jpg",
 		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/iuc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/gallery\/ksusalemhealth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 465073,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/ksusalemhealth.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/ksusalemhealth.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2685,6 +2729,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/convocation1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.56564e+06,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/convocation1.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/convocation1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/_site\/assets\/img\/videoThumb\/crop\/commencement.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2692,6 +2747,17 @@
 		"initialSize": 73275,
 		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/commencement.jpg",
 		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/commencement.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/crop\/convocation1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204888,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/convocation1.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/convocation1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2718,6 +2784,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/crop\/housingsummit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220306,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/housingsummit.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/housingsummit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/crop\/newcommitments.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159883,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/newcommitments.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/newcommitments.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/_site\/assets\/img\/videoThumb\/crop\/palazzo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2725,6 +2813,39 @@
 		"initialSize": 96146,
 		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/palazzo.jpg",
 		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/palazzo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/crop\/priority4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82520,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/priority4.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/priority4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/crop\/recordenroll.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186556,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/recordenroll.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/recordenroll.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/crop\/starkregional.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211286,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/starkregional.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/crop\/starkregional.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2762,6 +2883,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/housingsummit.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.46922e+07,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/housingsummit.JPG",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/housingsummit.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/newcommitments.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.69849e+07,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/newcommitments.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/newcommitments.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/_site\/assets\/img\/videoThumb\/palazzo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2769,6 +2912,39 @@
 		"initialSize": 4.17391e+06,
 		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/palazzo.png",
 		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/palazzo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/priority4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.56729e+06,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/priority4.png",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/priority4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/recordenroll.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.36827e+06,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/recordenroll.JPG",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/recordenroll.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/_site\/assets\/img\/videoThumb\/starkregional.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.01274e+06,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/starkregional.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/videoThumb\/starkregional.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3164,14 +3340,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/prod\/_site\/stories\/globalExposure\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
+	"\/prod\/_site\/stories\/globalExposure.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/prod\/_site\/stories\/globalExposure\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/prod\/_site\/stories\/globalExposure.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/prod\/_site\/stories\/globalExposure.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/prod\/_site\/stories\/mindful\/index.html": {
 		"fileType": 8192,
@@ -3818,6 +4006,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/gallery\/crop\/diversitysalem.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 260422,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/diversitysalem.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/diversitysalem.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/gallery\/crop\/DKS.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3902,6 +4101,17 @@
 		"initialSize": 142103,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/iuc.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/iuc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154931,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/crop\/ksusalemhealth.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4082,6 +4292,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/gallery\/diversitysalem.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.30124e+07,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/diversitysalem.JPG",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/diversitysalem.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/gallery\/dks.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4166,6 +4387,17 @@
 		"initialSize": 1.99276e+06,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/iuc.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/iuc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/gallery\/ksusalemhealth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 465073,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/ksusalemhealth.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/ksusalemhealth.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4455,6 +4687,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/videoThumb\/convocation1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.56564e+06,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/convocation1.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/convocation1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/videoThumb\/crop\/commencement.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4462,6 +4705,17 @@
 		"initialSize": 73275,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/commencement.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/commencement.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/videoThumb\/crop\/convocation1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204888,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/convocation1.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/convocation1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4488,6 +4742,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/videoThumb\/crop\/housingsummit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220306,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/housingsummit.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/housingsummit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/videoThumb\/crop\/newcommitments.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159883,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/newcommitments.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/newcommitments.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/videoThumb\/crop\/palazzo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4495,6 +4771,39 @@
 		"initialSize": 96146,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/palazzo.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/palazzo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/videoThumb\/crop\/priority4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82520,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/priority4.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/priority4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/videoThumb\/crop\/recordenroll.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186556,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/recordenroll.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/recordenroll.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/videoThumb\/crop\/starkregional.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211286,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/starkregional.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/starkregional.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4532,6 +4841,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/videoThumb\/housingsummit.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.46922e+07,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/housingsummit.JPG",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/housingsummit.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/videoThumb\/newcommitments.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.69849e+07,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/newcommitments.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/newcommitments.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/videoThumb\/palazzo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4539,6 +4870,39 @@
 		"initialSize": 4.17391e+06,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/palazzo.png",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/palazzo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/videoThumb\/priority4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.56729e+06,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/priority4.png",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/priority4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/videoThumb\/recordenroll.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.36827e+06,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/recordenroll.JPG",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/recordenroll.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/videoThumb\/starkregional.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.01274e+06,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/starkregional.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/starkregional.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
