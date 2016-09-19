@@ -13,7 +13,7 @@ gulp.task('gallery', function () {
       height : 800,
       crop : true,
       upscale : true,
-      quality : .8,
+      quality : .7,
       format : "jpg"
     }))
     .pipe(gulp.dest('assets/img/gallery/crop/'));
