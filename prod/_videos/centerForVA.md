@@ -5,6 +5,6 @@ layout: video
 date: 2016-08-30 12:00:00
 video-id: centerForVA
 thumb:
-videoURL: https://www.youtube.com/v/HWlOaT-ETRs
+videoURL: https://www.youtube.com/embed/HWlOaT-ETRs
 priority: 5
 ---

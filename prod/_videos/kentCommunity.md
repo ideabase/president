@@ -5,5 +5,5 @@ layout: video
 date: 2016-08-30 12:00:00
 video-id: kentCommunity
 thumb:
-videoURL: https://www.youtube.com/v/Vxbr5JzKZY8
+videoURL: https://www.youtube.com/embed/Vxbr5JzKZY8
 ---
