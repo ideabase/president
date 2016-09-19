@@ -2748,17 +2748,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/prod\/_site\/assets\/img\/Nirmala_Ghimirey_feature_image.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 209903,
-		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/Nirmala_Ghimirey_feature_image.jpg",
-		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/Nirmala_Ghimirey_feature_image.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/prod\/_site\/assets\/img\/photo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4841,17 +4830,6 @@
 		"initialSize": 147386,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/library-background.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/library-background.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/prod\/assets\/img\/Nirmala_Ghimirey_feature_image.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 209903,
-		"inputAbbreviatedPath": "\/prod\/assets\/img\/Nirmala_Ghimirey_feature_image.jpg",
-		"outputAbbreviatedPath": "\/prod\/assets\/img\/Nirmala_Ghimirey_feature_image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
