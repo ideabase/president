@@ -2000,6 +2000,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/_site\/assets\/img\/gallery\/Cricket2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.11138e+06,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/Cricket2.jpg",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/img\/gallery\/Cricket2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/_site\/assets\/img\/gallery\/crop\/A Convocation1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4031,13 +4042,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/prod\/assets\/img\/gallery\/cricket2.jpg": {
+	"\/prod\/assets\/img\/gallery\/Cricket2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3.11138e+06,
-		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/cricket2.jpg",
-		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/cricket2.jpg",
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/Cricket2.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/gallery\/Cricket2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
