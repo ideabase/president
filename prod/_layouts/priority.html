@@ -13,16 +13,18 @@ layout: default
 	<div class="section-light">
 {% endif %}
 		{% include menu-button.html %}
-		<header class="priority-header">
+		<header class="priority-header" style="background-image: url('{{site.url}}/{{page.feature-image-path}}');">
 		<section class="quote">
 		  <blockquote>{{ page.quote }}</blockquote>
 		  <cite>{{ page.cite }}</cite>
 		</section>
 		<h2 class="priority-header__heading"><span>{{ page.priority-id }}</span>{{ page.title }}</h2>
-		<video playsinline loop muted autoplay poster="{{site.url}}/assets/img/fountain-poster.jpg" class="priority-header__video" id="bgvid">
-		      <source src="{{site.url}}/assets/video/fountain-small.webm" type="video/webm" media="all and (min-width:800px)">
-		      <source src="{{site.url}}/assets/video/fountain-small.mp4" type="video/mp4" media="all and (min-width:800px)">
+		{% if page.feature-video-path %}
+		<video playsinline loop muted autoplay poster="{{site.url}}/{{page.feature-image-path}}" class="priority-header__video" id="bgvid">
+		      <source src="{{site.url}}/{{page.feature-video-path}}.webm" type="video/webm" media="all and (min-width:800px)">
+		      <source src="{{site.url}}/{{page.feature-video-path}}.mp4" type="video/mp4" media="all and (min-width:800px)">
 		</video>
+		{% endif %}
 		<button class="button-pause" id="vidpause">Pause</button>
 		</header>
 		<script>

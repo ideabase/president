@@ -9,11 +9,11 @@
       <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
       <meta name="twitter:description" content="{% if page.description %}{{ page.description }} {% else if page.teaser %}{{ page.teaser }} {% else %}{{site.description}}{% endif %}">
       <meta name="twitter:creator" content="{{site.twitter_username}}">
-      <meta name="twitter:image" content="{{site.url}}/assets/img/feature-image-twitter.jpg">
+      <meta name="twitter:image" content="{% if page.feature-image-path %}{{site.url}}/{{ page.feature-image-path }} {% else %} {{site.url}}/assets/img/feature-image-twitter.jpg {% endif %}">
       <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
       <meta property="og:type" content="article" />
       <meta property="og:url" content="{{site.url}}{{page.url}}" />
-      <meta property="og:image" content="{{site.url}}/assets/img/feature-image-facebook.jpg" />
+      <meta property="og:image" content="{% if page.feature-image-path %}{{site.url}}/{{ page.feature-image-path }} {% else %} {{site.url}}/assets/img/feature-image-facebook.jpg {% endif %}"  />
       <meta property="og:description" content="{% if page.description %}{{ page.description }} {% else if page.teaser %}{{ page.teaser }} {% else %}{{site.description}}{% endif %}" />
       <meta property="og:site_name" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
       <!--Favicons to Support All Devices-->

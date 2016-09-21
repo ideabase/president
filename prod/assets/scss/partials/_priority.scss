@@ -46,7 +46,6 @@
   padding-bottom: 7rem;
   padding-top:12rem;
   overflow: hidden;
-  background-image: url('../assets/img/fountain-poster.jpg');
   @media #{$medium} {
     padding-top: 0;
     background-position-x: 250px;
@@ -81,7 +80,6 @@
     width: auto;
     height: auto;
     transform: translateX(-50%) translateY(-50%);
-    background: url(../../assets/img/fountain-poster.jpg) no-repeat;
     background-size: cover;
   }
 }
