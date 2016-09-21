@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://president.ideabasekent.com/prod/_site" # the base hostname & protocol for your site
 twitter_username: kentstate
 future: true
-exclude: [node_modules]
+exclude: [node_modules,Gemfile,Gemfile.lock,Guardfile,gulpfile.js,assets/scss]
 
 # Build settings
 markdown: kramdown
