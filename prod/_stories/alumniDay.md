@@ -26,4 +26,4 @@ The Kent State Alumni Association continues the tradition on April 16, with volu
 * 1,096 Volunteers
 * 3,862 Hours Volunteered
 
-To volunteer for the Alumni Day of Service on April 16, contact [mailto:alumni@kent.edu](alumni@kent.edu), call 888-320-5368 or visit [http://www.ksualumni.org/dayofservice2016](www.ksualumni.org/dayofservice2016).
+To volunteer for the Alumni Day of Service on April 16, contact [alumni@kent.edu](mailto:alumni@kent.edu), call 888-320-5368 or visit [www.ksualumni.org/dayofservice2016](http://www.ksualumni.org/dayofservice2016).
