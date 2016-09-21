@@ -12,7 +12,9 @@ layout: default
 		{% include close-button.html %}
 		<header style="background-image: url( {{site.url}}/{{page.feature-image-path}});" class="story-header">
 			<h2 class="story-header__title">Feature Story</h2>
-			<h3 class="story-header__subtitle">{{ page.featuredName }}</h3>
+			{% if page.featuredName %}
+				<h3 class="story-header__subtitle">{{ page.featuredName }}</h3>
+			{% endif %}
 		</header>
 		<div class="inner-wrapper">
 			<article class="story-body">

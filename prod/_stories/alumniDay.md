@@ -1,11 +1,11 @@
 ---
-title: "Alumni Day of Service 2016"
+title: "Good Neighbor"
 layout: story
 theme: dark
 date: 2015-08-30 12:51:00
-featuredName: Kent State Alumni Association
 feature-image-path: assets/img/banner/crop/goodneighbor.jpg
 title1: Good Neighbor
+title2: Alumni Day of Service 2016
 teaser: Since the first Alumni Day of Service in 2009, Kent State University alumni and friends have given back on behalf of their alma mater.
 story-id: alumniDay
 priority: 4

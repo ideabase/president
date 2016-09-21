@@ -1,5 +1,5 @@
 ---
-title: "Bettering Society Through Service"
+title: "Bettering Society Through service, research and an inspiring example of determination"
 layout: story
 theme: dark
 date: 2015-08-30 12:51:00
@@ -8,7 +8,7 @@ feature-image-path: /dev/assets/img/Nirmala_Ghimirey_feature_image.jpg
 title1: Bettering Society
 title2: through service, research
 title3: and an inspiring example of determination
-teaser: Kent State University biology major Nirmala Ghimirey grew up in a refugee camp in Nepal.
+teaser: Biology major Nirmala Ghimirey grew up in a refugee camp in Nepal. Upon coming to the U.S. at age 14, she met her mentors who told her about the biology program at Kent.
 story-id: betteringSociety
 priority: 1
 ---

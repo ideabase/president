@@ -11,6 +11,8 @@ layout: default
 	<div class="section-default">
 {% elsif page.theme=='light' %}
 	<div class="section-light">
+{% elsif page.theme=='bright' %}
+	<div class="section-bright">
 {% endif %}
 		{% include menu-button.html %}
 		<header class="priority-header" style="background-image: url('{{site.url}}/{{page.feature-image-path}}');">

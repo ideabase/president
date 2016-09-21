@@ -76,6 +76,7 @@ gulp.task('banner', function () {
       width : 972,
       height : 328,
       crop : true,
+      gravity : "center",
       upscale : false,
       quality : .8,
       format : "jpg"
