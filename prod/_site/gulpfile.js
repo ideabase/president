@@ -73,12 +73,12 @@ gulp.task('banner', function () {
   gulp.src('assets/img/banner/*.{png,gif,jpg,JPG,JPEG}')
     .pipe(changed('assets/img/banner/crop/'))
     .pipe(imageResize({
-      width : 972,
-      height : 328,
+      width : 1944,
+      height : 656,
       crop : true,
-      gravity : "center",
-      upscale : false,
-      quality : .8,
+      gravity : "Center",
+      upscale : true,
+      quality : .7,
       format : "jpg"
     }))
     .pipe(gulp.dest('assets/img/banner/crop/'));
