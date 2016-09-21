@@ -4,6 +4,8 @@ layout: gallery
 date: 2016-08-30 12:00:00
 gallery-id: regional-impact
 priority: 4
+teaser: A gallery of photos demonstrating Kent State University's regional impact.
+
 ---
 <figure class="gallery__item">
 			  <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/housingsummit.jpg" alt="With the city of Kent, the university hosted the Housing Summit to review the Comprehensive Community Housing Study and Needs Analysis." />

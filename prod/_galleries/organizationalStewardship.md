@@ -4,6 +4,8 @@ layout: gallery
 date: 2016-08-30 12:00:00
 gallery-id: organizational-stewardship
 priority: 5
+teaser: A gallery of photos demonstrating Kent State University's organizational stewardship.
+
 ---
 
 <figure class="gallery__item">

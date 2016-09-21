@@ -1,6 +1,7 @@
 ---
 title: Message from the President
 layout: default
+description: "President Warren introduces the university's strategic roadmap."
 permalink: /message/
 ---
 <div class="section-default section-message">

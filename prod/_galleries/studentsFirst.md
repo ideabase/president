@@ -4,6 +4,8 @@ layout: gallery
 date: 2016-08-30 12:00:00
 gallery-id: students-first
 priority: 1
+teaser: A gallery of photos demonstrating Kent State University's focus on students first.
+
 ---
 <figure class="gallery__item">
 			  <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/Convocation1.jpg" alt="Photo Caption" />

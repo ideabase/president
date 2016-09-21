@@ -16,7 +16,10 @@
 <link href="{{site.url}}/assets/css/main.css" rel="stylesheet" type="text/css" media="screen" />
 <script>
   // load a file with loadJS
-  loadJS( "{{site.url}}/assets/js/min/script-min.js" );
+    loadJS( "{{site.url}}/assets/js/min/script-min.js" );
+  {% if page.layout == 'priority' or page.layout == 'default' or page.layout == 'contents' %}
+    loadJS( "{{site.url}}/assets/js/min/menu-min.js" );
+  {% endif %}
 </script>
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCQNWH"
@@ -32,5 +35,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .menu {display:block;}
     </style>
 </noscript>
+{% if page.layout == 'priority' or page.layout == 'story' %}
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57cb99422b41c627"></script>
+{% endif %}
 </body>
 </html>

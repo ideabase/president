@@ -1,6 +1,7 @@
 ---
 title: Contents
 layout: contents
+description: "A table of contents for the strategic roadmap priorities."
 permalink: /contents/
 ---
 

@@ -5,6 +5,8 @@ date: 2016-08-30 12:00:00
 gallery-id: global-compete
 priority: 3
 featured-image: assets/img/gallery/crop/recordenroll.jpg
+teaser: A gallery of photos demonstrating Kent State University's global competitiveness.
+
 ---
 
 <figure class="gallery__item">
