@@ -2376,6 +2376,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/featuredPriority\/crop\/giving.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11305,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/giving.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/giving.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/crop\/globalexposure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23756,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/globalexposure.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/globalexposure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/crop\/goodneighbor.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39780,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/goodneighbor.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/goodneighbor.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/crop\/headshot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8766,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/headshot.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/headshot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/crop\/mindfulLife.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38084,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/mindfulLife.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/mindfulLife.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/crop\/nirmala.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22928,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/nirmala.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/crop\/nirmala.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/featuredPriority\/feature-image-twitter.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2383,6 +2449,72 @@
 		"initialSize": 44475,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/feature-image-twitter.jpg",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/feature-image-twitter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/giving.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 196798,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/giving.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/giving.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/globalexposure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 479562,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/globalexposure.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/globalexposure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/goodneighbor.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 677509,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/goodneighbor.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/goodneighbor.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/headshot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11507,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/headshot.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/headshot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/mindfulLife.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.20258e+06,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/mindfulLife.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/mindfulLife.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/featuredPriority\/nirmala.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209903,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/nirmala.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/featuredPriority\/nirmala.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3321,6 +3453,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/videoThumb\/crop\/grad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73442,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/grad.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/crop\/grad.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/videoThumb\/crop\/housingsummit.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3416,6 +3559,17 @@
 		"initialSize": 3.27873e+06,
 		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/downtown.png",
 		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/downtown.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/videoThumb\/grad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21499e+06,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/grad.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/videoThumb\/grad.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4220,8 +4374,8 @@
 		},
 	"\/prod\/gulpfile.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/prod\/gulpfile.js",
 		"outputAbbreviatedPath": "\/prod\/min\/gulpfile-min.js",
 		"outputPathIsOutsideProject": 0,

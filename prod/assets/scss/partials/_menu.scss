@@ -8,9 +8,9 @@
   position: absolute;
   z-index: 50;
   right: 0;
-  background-color: transparent;
-  color: $gold;
-  border: 1px solid $gold;
+  background-color: rgba($blue,.8);
+  color: white;
+  border: 1px solid white;
   width: 125px;
   text-transform: uppercase;
   @include NationalBoldItalic;
@@ -206,12 +206,13 @@
 }
 
 .section-bright .menu-trigger {
-  border: 1px solid $blue;
-  color: $blue;
-  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  background-color: rgba($blue,.7);
   &:hover, &:focus {
     border: 1px solid white;
     color: white;
+    background-color: rgba($blue,1);
   }
 }
 

@@ -16,8 +16,16 @@
   color: white;
   @include NationalBlackItalic;
   text-transform: uppercase;
+  display: inline-block;
+  padding: .5em;
+  background-color: rgba($blue, .75);
+  margin-left: -2rem;
+  padding-left: 2rem;
+  font-size: 1.2rem;
   @media #{$large} {
-    margin-left: 3rem;
+    margin-left: inherit;
+    padding-left: 2.5rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -152,6 +160,10 @@
 
 .section-bright .story-body p a {
   color: $blue;
+}
+
+.section-bright .story-header__title {
+  background-color: rgba($cyan, .85);
 }
 
 

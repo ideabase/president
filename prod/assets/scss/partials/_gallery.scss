@@ -54,16 +54,24 @@
 }
 
 .owl-prev {
-  left: 8px;
-  background-image: url(../../assets/img/arrow-previous.svg);
+  display: none;
+  @media #{$small} {
+    left: 8px;
+    display: block;
+    background-image: url(../../assets/img/arrow-previous.svg);
+  }
   @media #{$medium} {
     left: -8px;
   }
 }
 
 .owl-next {
-  right: 0px;
-  background-image: url(../../assets/img/arrow-next.svg);
+  display: none;
+  @media #{$small} {
+    right: 0px;
+    display: block;
+    background-image: url(../../assets/img/arrow-next.svg);
+  }
   @media #{$medium} {
     right: -28px;
   }

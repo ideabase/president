@@ -46,9 +46,9 @@
   right: 0;
   text-decoration: none;
   text-align: center;
-  background-color: transparent;
-  color: $gold;
-  border: 1px solid $gold;
+  background-color: rgba($blue,.8);
+  color: white;
+  border: 1px solid white;
   width: 125px;
   text-transform: uppercase;
   @include NationalBoldItalic;
@@ -58,7 +58,7 @@
   font-size: 1.15em;
   transition: .3s all ease-in-out;
   &:hover {
-    background-color: $gold;
+    background-color: rgba($blue,1);
     color: white;
     border-color: white;
   }
