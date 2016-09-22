@@ -11,6 +11,10 @@
   color: $gold;
 }
 
+.gallery-title {
+  margin-top: 1.25em;
+}
+
 .section-default .gallery-title {
   color: $lightblue;
   @include NationalBoldItalic;

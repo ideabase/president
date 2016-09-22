@@ -84,12 +84,13 @@
 
 .priority-list {
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   display: block;
   background-color: rgba($lightblue,.8);
   transition: .3s all ease-in-out;
   @media #{$medium} {
     width: 48%;
+    margin-bottom: 1em;
   }
 }
 
@@ -121,6 +122,20 @@
   transition: .3s all ease-in-out;
   margin: 0;
   text-decoration: none;
+  position: relative;
+  &:after {
+    background-image: url(../../assets/img/arrow-next.svg);
+    background-size: 35% auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+    content: "";
+    width: 25px;
+    height: 25px;
+    right: 15px;
+    margin-top: .1em;
+    position: absolute;
+    opacity: .8
+  }
   strong {
     color: $blue;
     margin-right: .35em;
