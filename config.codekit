@@ -3333,6 +3333,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/prod\/assets\/img\/priority\/crop\/downtown.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103314,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/priority\/crop\/downtown.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/priority\/crop\/downtown.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/priority\/crop\/flags.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91893,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/priority\/crop\/flags.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/priority\/crop\/flags.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/priority\/downtown.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.58223e+06,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/priority\/downtown.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/priority\/downtown.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prod\/assets\/img\/priority\/flags.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.9098e+06,
+		"inputAbbreviatedPath": "\/prod\/assets\/img\/priority\/flags.jpg",
+		"outputAbbreviatedPath": "\/prod\/assets\/img\/priority\/flags.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/prod\/assets\/img\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -4444,6 +4488,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/prod\/min\/gulpfile-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/min\/gulpfile-min.js",
+		"outputAbbreviatedPath": "\/prod\/min\/min\/gulpfile-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/prod\/mstile-144x144.png": {
 		"fileType": 32768,

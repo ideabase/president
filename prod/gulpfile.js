@@ -84,5 +84,22 @@ gulp.task('banner', function () {
     .pipe(gulp.dest('assets/img/banner/crop/'));
 });
 
+// Priority Landing Banner Crops //
 
-gulp.task('default', ['gallery', 'thumbnail', 'videoThumb', 'featuredPriority', 'banner']);
+gulp.task('priority', function () {
+  gulp.src('assets/img/priority/*.{png,gif,jpg,JPG,JPEG}')
+    .pipe(changed('assets/img/priority/crop/'))
+    .pipe(imageResize({
+      width : 1000,
+      height : 500,
+      crop : true,
+      gravity : "Center",
+      upscale : true,
+      quality : .8,
+      format : "jpg"
+    }))
+    .pipe(gulp.dest('assets/img/priority/crop/'));
+});
+
+
+gulp.task('default', ['gallery', 'priority', 'thumbnail', 'videoThumb', 'featuredPriority', 'banner']);

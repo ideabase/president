@@ -8,11 +8,15 @@
 }
 
 .feature-teaser__link {
-  display: flex;
-  -js-display: flex; // JavaScript Fallback for IE9 //
   text-decoration: none;
-  flex-wrap: wrap;
   border: 2px solid transparent;
+  width: 100%;
+  display: block;
+  @media #{$tiny} {
+    flex-wrap: wrap;
+    display: flex;
+    -js-display: flex; // JavaScript Fallback for IE9 //
+  }
   &:hover {
     border: 2px solid white;
     transition: .3s all ease-in-out;
@@ -24,9 +28,12 @@
 
 .feature-teaser__link__text {
   padding: 1em;
-  width: 55%;
+  width: 100%;
   @media #{$tiny} {
-    width: 75%;
+    width: 65%;
+  }
+  @media #{$small} {
+    width: 60%;
   }
   @media #{$medium} {
     width: 65%;
@@ -43,14 +50,23 @@
 }
 
 .feature-teaser__link__image {
-  width: 45%;
-  text-align: right;
+  width: 100%;
   img {
-    width: 100%;
-    padding: 1em;
+    width: 60%;
+    padding: 0 1em 1em 1em;
   }
   @media #{$tiny} {
-    width: 25%;
+    width: 35%;
+    text-align: right;
+    img {
+      width: 100%;
+      text-align: right;
+      padding: 1em;
+      max-width: 200px;
+    }
+  }
+  @media #{$small} {
+    width: 40%;
   }
   @media #{$medium} {
     width: 35%;
