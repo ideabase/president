@@ -58,10 +58,10 @@ gulp.task('featuredPriority', function () {
     .pipe(changed('assets/img/featuredPriority/crop/'))
     .pipe(imageResize({
       width : 300,
-      height : 300,
+      height : 260,
       crop : true,
-      upscale : false,
-      quality : .8,
+      upscale : true,
+      quality : .7,
       format : "jpg"
     }))
     .pipe(gulp.dest('assets/img/featuredPriority/crop/'));
