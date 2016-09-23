@@ -26,8 +26,8 @@ layout: default
 		      <source src="{{site.url}}/{{page.feature-video-path}}.webm" type="video/webm" media="all and (min-width:800px)">
 		      <source src="{{site.url}}/{{page.feature-video-path}}.mp4" type="video/mp4" media="all and (min-width:800px)">
 		</video>
-		{% endif %}
 		<button class="button-pause" id="vidpause">Pause</button>
+		{% endif %}
 		</header>
 		<script>
 		// Pause/Play Embedded Video for Accessibility //
@@ -59,6 +59,10 @@ layout: default
 			<div class="priority-content">
 				<section class="priority-text">
 				<p>{{ content }}</p>
+				<section class="social-sharing">
+					<h4 class="social-sharing__title">Share</h4>
+					<div class="addthis_inline_share_toolbox"></div>
+				</section>
 				</section>
 				<section class="priority-media">
 					<section class="feature-teaser">
@@ -87,10 +91,6 @@ layout: default
 							</a>
 						</section>
 					</div>
-					<section class="social-sharing">
-					  <h4 class="social-sharing__title">Share</h4>
-					  <div class="addthis_inline_share_toolbox"></div>
-					</section>
 				</section>
 			</div>
 	</div>

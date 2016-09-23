@@ -95,7 +95,7 @@ gulp.task('priority', function () {
       crop : true,
       gravity : "Center",
       upscale : true,
-      quality : .8,
+      quality : .9,
       format : "jpg"
     }))
     .pipe(gulp.dest('assets/img/priority/crop/'));
