@@ -1649,3 +1649,8 @@ WebFontConfig = {
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })();
+
+
+// Remove TabIndex from ShareThis Buttons Because They're Garbage //
+
+$('.at-share-btn').prop('tabIndex', -1);
