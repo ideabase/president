@@ -18,20 +18,21 @@ teaser: A gallery of photos demonstrating Kent State University's regional impac
 			  <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/iuc.jpg" alt="The International Homecoming and the International Friendship Program engage international students." />
 			  <figcaption>
 			    <h3 class="gallery-caption__title">Students Advocate for KSU</h3>
-			    <p class="gallery-caption__description">Kent State students patricipate in advocacy efforts <a href="http://kent.meritpages.com/achievements/Inter-University-Council-Student-Advocacy-Day-at-the-Ohio-Statehouse-/60114"> at Inter-University Council Day in Columbus.</a></p>
+			    <p class="gallery-caption__description">
+					Kent State Students participated in <a href="http://kent.meritpages.com/achievements/Inter-University-Council-Student-Advocacy-Day-at-the-Ohio-Statehouse-/60114">Inter-University Council Student Advocacy Day</a> at the Ohio State House.  Pictured L-R: Nick Gattozzi, Executive Director of Government Relations; student Jennifer Bryant, student; John J. Eklund, Republican member of the Ohio Senate for the 18th district; Sam Graska, student; and Dr. Mark Polatajko, Senior Vice President for Finance and Administration.</p>
 			  </figcaption>
-</figure>
-<figure class="gallery__item">
-			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/fixed.jpg" alt="Biennial Capital Budget allocates $23.5 million to Kent State." />
-			    <figcaption>
-			      <h3 class="gallery-caption__title">State Dollars Support Capital Improvement</h3>
-			      <p class="gallery-caption__description">Biennial Capital Budget allocates $23.5 million to Kent State.</p>
-			    </figcaption>
 </figure>
 <figure class="gallery__item">
 			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/towngown.jpg" alt="The university hosted the annual Town-Gown Dinner on June 22, 2016 to celebrate our collaborative spirit and relationship." />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">The Town-Gown Partnership</h3>
 			      <p class="gallery-caption__description">The university hosted the annual Town-Gown Dinner on June 22, 2016 to celebrate our collaborative spirit and relationship.</p>
+			    </figcaption>
+</figure>
+<figure class="gallery__item">
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/fixed.jpg" alt="Biennial Capital Budget allocates $23.5 million to Kent State." />
+			    <figcaption>
+			      <h3 class="gallery-caption__title">State Dollars Support Capital Improvement</h3>
+			      <p class="gallery-caption__description">The Biennial Capital Budget allocated $23.5 million to Kent State.  Pictured are Kent State student leaders with Ohio Senate President Keith Faber in Columbus.</p>
 			    </figcaption>
 </figure>

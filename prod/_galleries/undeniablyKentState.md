@@ -32,8 +32,8 @@ teaser: A gallery of photos demonstrating Kent State University's distinction.
 <figure class="gallery__item">
 			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/researchcenters.jpg" alt="Research Centers of Distinction are proposed in five core areas: Brain Health; Materials Science; Environmental Science and Design; Population Health; Global Understanding" />
 			    <figcaption>
-			      <h3 class="gallery-caption__title">Researh Distinction</h3>
-			      <p class="gallery-caption__description">Research Centers of Distinction are proposed in five core areas: Brain Health; Materials Science; Environmental Science and Design; Population Health; Global Understanding</p>
+			      <h3 class="gallery-caption__title">Research Distinction</h3>
+			      <p class="gallery-caption__description">Research Centers of Distinction are proposed in five core areas: Brain Health; Materials Science; Environmental Science and Design; Population Health; and Global Understanding</p>
 			    </figcaption>
 			  </figure>
 <figure class="gallery__item">
@@ -54,6 +54,6 @@ teaser: A gallery of photos demonstrating Kent State University's distinction.
 			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/diversitysalem.jpg" alt="We hired 15 new tenure-track faculty members from diverse racial and ethnic backgrounds who were recruited as a result of our strategic investment fund." />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">Invested in Enhancing Diversity</h3>
-			      <p class="gallery-caption__description">We hired 15 new tenure-track faculty members from diverse racial and ethnic backgrounds who were recruited as a result of our strategic investment fund.</p>
+			      <p class="gallery-caption__description">We hired 16 new tenure-track faculty members from diverse racial and ethnic backgrounds who were recruited as a result of our strategic investment fund.</p>
 			    </figcaption>
 </figure>

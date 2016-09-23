@@ -18,7 +18,7 @@ teaser: A gallery of photos demonstrating Kent State University's focus on stude
 			  <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/DKS.jpg" alt="Photo Caption" />
 			  <figcaption>
 			    <h3 class="gallery-caption__title">Academically Talented</h3>
-			    <p class="gallery-caption__description">We enrolled the highest-achieving freshman class with an average 3.34 GPA and 23.02 ACT.</p>
+			    <p class="gallery-caption__description">We enrolled the highest-achieving freshman class with an average 3.34 GPA and 23 ACT.</p>
 			  </figcaption>
 </figure>
 <figure class="gallery__item">
@@ -53,6 +53,6 @@ teaser: A gallery of photos demonstrating Kent State University's focus on stude
 			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/Kupita.jpg" alt="Photo Caption" />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">Increasing Scholarship Offers</h3>
-			      <p class="gallery-caption__description">We offered $53 million in scholarships to attract the FA15 freshman class.</p>
+			      <p class="gallery-caption__description">We offered $53 million in scholarships to attract the Fall 2015 freshman class.</p>
 			    </figcaption>
 </figure>

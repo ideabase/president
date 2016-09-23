@@ -9,7 +9,7 @@ teaser: A gallery of photos demonstrating Kent State University's organizational
 ---
 
 <figure class="gallery__item">
-			  <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/newcommitments.jpg" alt="New gift commitments in FY16 totaled $29,482,652 from 20,396 donors." />
+			  <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/CPAE.jpg" alt="New gift commitments in FY16 totaled $29,482,652 from 20,396 donors." />
 			  <figcaption>
 			    <h3 class="gallery-caption__title">Growing Support for KSU</h3>
 			    <p class="gallery-caption__description">New gift commitments in FY16 totaled $29,482,652 from 20,396 donors.</p>
@@ -58,7 +58,7 @@ teaser: A gallery of photos demonstrating Kent State University's organizational
 			    </figcaption>
 </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/CPAE.jpg" alt="We celebrated the grand opening of the Center for Philanthropy and Alumni Engagement on June 3, 2016." />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/newcommitments.jpg" alt="We celebrated the grand opening of the Center for Philanthropy and Alumni Engagement on June 3, 2016." />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">A Center to Engage 230,000 Strong</h3>
 			      <p class="gallery-caption__description">We celebrated the grand opening of the Center for Philanthropy and Alumni Engagement on June 3, 2016.</p>

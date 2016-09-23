@@ -31,10 +31,10 @@ teaser: A gallery of photos demonstrating Kent State University's global competi
 		</figcaption>
 	</figure>
 <figure class="gallery__item">
-		<img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/villiage.jpg" alt="The International Village Experience brings together international and American students to live and learn in an environment supportive of cross-cultural interactions." />
+		<img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/missing.jpg" alt="The International Village Experience brings together international and American students to live and learn in an environment supportive of cross-cultural interactions." />
 		<figcaption>
 			<h3 class="gallery-caption__title">It Takes an International Village</h3>
-			<p class="gallery-caption__description">The International Village Experience brings together international and American students to live and learn in an environment supportive of cross-cultural interactions.</p>
+			<p class="gallery-caption__description">The Office of Global Education launched the Kent State Global Cup soccer tournament in April.  Eleven teams representing as many countries vied for the Championship.  Team Oman won the 2016 title.</p>
 		</figcaption>
 	</figure>
 <figure class="gallery__item">
