@@ -13,7 +13,7 @@ gulp.task('gallery', function () {
       height : 800,
       crop : true,
       upscale : true,
-      quality : .7,
+      quality : .6,
       format : "jpg"
     }))
     .pipe(gulp.dest('assets/img/gallery/crop/'));
@@ -41,11 +41,11 @@ gulp.task('videoThumb', function () {
   gulp.src('assets/img/videoThumb/*.{png,gif,jpg,JPG,JPEG}')
     .pipe(changed('assets/img/videoThumb/crop/'))
     .pipe(imageResize({
-      width : 1000,
-      height : 667,
+      width : 800,
+      height : 534,
       crop : true,
       upscale : false,
-      quality : .8,
+      quality : .7,
       format : "jpg"
     }))
     .pipe(gulp.dest('assets/img/videoThumb/crop/'));
