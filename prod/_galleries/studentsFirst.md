@@ -43,7 +43,7 @@ teaser: A gallery of photos demonstrating Kent State University's focus on stude
 			    </figcaption>
 </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/Grad7.jpg" alt="Photo Caption" />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/beaut.jpg" alt="Photo Caption" />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">Degree Completions</h3>
 			      <p class="gallery-caption__description">A record 9,563 degrees were awarded in 2015-16.</p>
