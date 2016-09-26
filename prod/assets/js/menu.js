@@ -108,17 +108,30 @@ var SidebarMenuEffects = (function() {
 
 })();
 
+// Check for when jQuery has loaded //
+
+function defer(method) {
+    if (window.jQuery)
+        method();
+    else
+        setTimeout(function() { defer(method) }, 50);
+}
+
 // Close button for menu //
 
-$(document).ready(function() {
-  var $menu = $('#oc-container'),
-    $menulink = $('.close-button');
+defer(function () {
 
-$menulink.click(function() {
-  $menulink.toggleClass('active');
-  $menu.removeClass('menu-open');
-  setTimeout( function() {
-    document.getElementById("menu-button").focus();
-  }, 200 );
-  return false;
-});});
+  $(document).ready(function() {
+    var $menu = $('#oc-container'),
+      $menulink = $('.close-button');
+
+  $menulink.click(function() {
+    $menulink.toggleClass('active');
+    $menu.removeClass('menu-open');
+    setTimeout( function() {
+      document.getElementById("menu-button").focus();
+    }, 200 );
+    return false;
+  });});
+
+});
