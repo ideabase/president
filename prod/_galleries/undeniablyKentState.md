@@ -8,7 +8,7 @@ teaser: A gallery of photos demonstrating Kent State University's distinction.
 
 ---
 <figure class="gallery__item">
-			  <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/constellation.jpg" alt="The One University Commission report and recommendations considered input from 770 participants." />
+			  <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/regional.jpg" alt="The One University Commission report and recommendations considered input from 770 participants." />
 			  <figcaption>
 			    <h3 class="gallery-caption__title">Eight Campuses, One University</h3>
 			    <p class="gallery-caption__description">The One University Commission report and recommendations considered input from 770 participants.</p>
