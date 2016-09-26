@@ -178,13 +178,25 @@
 					<div class="priority-media__gallery">
 						<section class="gallery-teaser">
 							<a class='gallery-teaser__link' href="http://president.ideabasekent.com/prod/_site/galleries/undeniablyKentState/">
-								<img class="gallery-teaser__thumb" src="http://president.ideabasekent.com/prod/_site/assets/img/videoThumb/crop/starkregional.jpg" alt="Gallery Image"/>
+								<picture>
+					                  <!-- Add Fallback for IE9 -->
+					                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+					                    <source srcset="http://president.ideabasekent.com/prod/_site/assets/img/videoThumb/crop/convocation1.jpg" media="(min-width: 39.5em)">
+					                  <!--[if IE 9]></video><![endif]-->
+					                    <img class="gallery-teaser__thumb" src="http://president.ideabasekent.com/prod/_site/assets/img/videoThumb/crop/starkregional.jpg" alt="Gallery Image" />
+					      </picture>
 								<h3 class="gallery-teaser__headline">Gallery: Celebrating Our Distinction</h3>
 							</a>
 						</section>
 						<section class="video-teaser">
 							<a class='video-teaser__link' href="http://president.ideabasekent.com/prod/_site/videos/undeniablyKSU/">
-								<img class="video-teaser__thumb" src="http://president.ideabasekent.com/prod/_site/assets/img/videoThumb/crop/undeniable.jpg" alt="Gallery Image"/>
+								<picture>
+					                  <!-- Add Fallback for IE9 -->
+					                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+					                    <source srcset="http://president.ideabasekent.com/prod/_site/assets/img/videoThumb/crop/undeniable.jpg" media="(min-width: 39.5em)">
+					                  <!--[if IE 9]></video><![endif]-->
+					                    <img class="video-teaser__thumb" src="http://president.ideabasekent.com/prod/_site/assets/img/videoThumb/crop/undeniable.jpg" alt="Gallery Image"/>
+					      </picture>
 								<h3 class="video-teaser__headline">Video: Undeniably Kent State</h3>
 							</a>
 						</section>
