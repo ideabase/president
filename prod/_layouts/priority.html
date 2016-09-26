@@ -80,13 +80,25 @@ layout: default
 					<div class="priority-media__gallery">
 						<section class="gallery-teaser">
 							<a class='gallery-teaser__link' href="{{site.url}}{{gallery.url}}">
-								<img class="gallery-teaser__thumb" src="{{ site.url }}/{{ page.galleryThumbPath }}" alt="Gallery Image"/>
+								<picture>
+					                  <!-- Add Fallback for IE9 -->
+					                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+					                    <source srcset="{{ site.url }}/{{ page.galleryThumbPath-large }}" media="(min-width: 39.5em)">
+					                  <!--[if IE 9]></video><![endif]-->
+					                    <img class="gallery-teaser__thumb" src="{{ site.url }}/{{ page.galleryThumbPath }}" alt="Gallery Image" />
+					      </picture>
 								<h3 class="gallery-teaser__headline">Gallery: {{ gallery.title }}</h3>
 							</a>
 						</section>
 						<section class="video-teaser">
 							<a class='video-teaser__link' href="{{site.url}}{{video.url}}">
-								<img class="video-teaser__thumb" src="{{ site.url }}/{{ page.videoThumbPath }}" alt="Gallery Image"/>
+								<picture>
+					                  <!-- Add Fallback for IE9 -->
+					                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+					                    <source srcset="{{ site.url }}/{{ page.videoThumbPath-large }}" media="(min-width: 39.5em)">
+					                  <!--[if IE 9]></video><![endif]-->
+					                    <img class="video-teaser__thumb" src="{{ site.url }}/{{ page.videoThumbPath }}" alt="Gallery Image"/>
+					      </picture>
 								<h3 class="video-teaser__headline">Video: {{ video.title }}</h3>
 							</a>
 						</section>
