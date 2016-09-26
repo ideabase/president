@@ -19,7 +19,7 @@ teaser: A gallery of photos demonstrating Kent State University's regional impac
 			  <figcaption>
 			    <h3 class="gallery-caption__title">Students Advocate for KSU</h3>
 			    <p class="gallery-caption__description">
-					Kent State Students participated in <a href="http://kent.meritpages.com/achievements/Inter-University-Council-Student-Advocacy-Day-at-the-Ohio-Statehouse-/60114">Inter-University Council Student Advocacy Day</a> at the Ohio State House.  Pictured L-R: Nick Gattozzi, Executive Director of Government Relations; student Jennifer Bryant, student; John J. Eklund, Republican member of the Ohio Senate for the 18th district; Sam Graska, student; and Dr. Mark Polatajko, Senior Vice President for Finance and Administration.</p>
+					Kent State Students participated in <a href="http://kent.meritpages.com/achievements/Inter-University-Council-Student-Advocacy-Day-at-the-Ohio-Statehouse-/60114">Inter-University Council Student Advocacy Day</a> at the Ohio State House.  Pictured L-R: Nick Gattozzi, Executive Director of Government Relations; Jennifer Bryant, student; John J. Eklund, Republican member of the Ohio Senate for the 18th district; Sam Graska, student; and Dr. Mark Polatajko, Senior Vice President for Finance and Administration.</p>
 			  </figcaption>
 </figure>
 <figure class="gallery__item">
