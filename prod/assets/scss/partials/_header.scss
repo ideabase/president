@@ -22,12 +22,15 @@ header[role="banner"] {
   text-decoration: none;
   color: white;
   transition: .3s all ease-in-out;
+  text-rendering: optimizeLegibility;
   @media #{$medium} {
     width: 75%;
+    text-align: right;
   }
   &:hover {
-    transform: scale(1.03, 1.03);
-    //transform-origin: right;
+    .header-title__text {
+      border-bottom-color: white;
+    }
   }
 }
 
@@ -39,12 +42,15 @@ header[role="banner"] {
   text-rendering: optimizeLegibility;
   @include NationalBoldItalic;
   letter-spacing: 1px;
-  transition: .3s all ease-in-out;
+  transition: .1s all ease-in-out;
+  display: inline-block;
   @media #{$medium} {
     text-align: right;
     margin: 0;
     padding: 0;
     font-size: 1.2em;
+    padding-bottom: .25em;
+    border-bottom: 2px solid transparent;
   }
   @media #{$large} {
     padding-right: 0;
@@ -53,8 +59,9 @@ header[role="banner"] {
 
 .header-title__text strong {
   color: $gold;
-  @include NationalBlackItalic;
+  @include NationalBoldItalic;
   display: block;
+  letter-spacing: 2px;
   @media #{$small} {
     display: inline-block;
   }

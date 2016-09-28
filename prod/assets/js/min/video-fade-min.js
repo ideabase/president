@@ -1,0 +1,1 @@
+function defer(n){window.jQuery?n():setTimeout(function(){defer(n)},50)}defer(function(){$("a").click(function(){var n=$(this).attr("href");return $("#bgvid").fadeOut(200,function(){window.location=n}),!1})});

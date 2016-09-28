@@ -35,27 +35,6 @@
   }
 }
 
-/*.section-message em {
-  @media #{$large} {
-    position: relative;
-    display: block;
-    width: 100%;
-  }
-}
-
-.section-message em:after {
-  @media #{$large} {
-    content: " ";
-    width: 105%;
-    height: 1px;
-    background-color: rgba($gold,.8);
-    display: inline-block;
-    bottom: -5px;
-    left: 0;
-    position: absolute;
-  }
-}*/
-
 .headshot {
   max-width: 125px;
   margin-bottom: 1em;

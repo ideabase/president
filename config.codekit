@@ -3561,6 +3561,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/prod\/_site\/assets\/js\/gallery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/js\/gallery.js",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/gallery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/prod\/_site\/assets\/js\/gtm.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3627,6 +3638,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/prod\/_site\/assets\/js\/min\/gallery-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/gallery-min.js",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/min\/gallery-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/prod\/_site\/assets\/js\/min\/init-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3671,6 +3693,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/prod\/_site\/assets\/js\/min\/video-fade-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/video-fade-min.js",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/min\/video-fade-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/prod\/_site\/assets\/js\/picturefill.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3710,6 +3743,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/prod\/_site\/assets\/js\/url-handler.js",
 		"outputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/url-handler-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prod\/_site\/assets\/js\/video-fade.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/_site\/assets\/js\/video-fade.js",
+		"outputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/video-fade-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -6099,6 +6143,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/prod\/assets\/js\/gallery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/assets\/js\/gallery.js",
+		"outputAbbreviatedPath": "\/prod\/assets\/js\/min\/gallery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/prod\/assets\/js\/gtm.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6165,6 +6220,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/prod\/assets\/js\/min\/gallery-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/assets\/js\/min\/gallery-min.js",
+		"outputAbbreviatedPath": "\/prod\/assets\/js\/min\/min\/gallery-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/prod\/assets\/js\/min\/init-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -6209,6 +6275,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/prod\/assets\/js\/min\/video-fade-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/assets\/js\/min\/video-fade-min.js",
+		"outputAbbreviatedPath": "\/prod\/assets\/js\/min\/min\/video-fade-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/prod\/assets\/js\/picturefill.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6248,6 +6325,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/prod\/assets\/js\/url-handler.js",
 		"outputAbbreviatedPath": "\/prod\/assets\/js\/min\/url-handler-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prod\/assets\/js\/video-fade.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prod\/assets\/js\/video-fade.js",
+		"outputAbbreviatedPath": "\/prod\/assets\/js\/min\/video-fade-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

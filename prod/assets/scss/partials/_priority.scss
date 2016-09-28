@@ -46,9 +46,10 @@
   padding-bottom: 7rem;
   padding-top:12rem;
   overflow: hidden;
+  background-position-x: 25%;
   @media #{$medium} {
     padding-top: 0;
-    background-position-x: 250px;
+    background-position: 288px 50%;
   }
   @media #{$large} {
     min-height: 375px;

@@ -15,7 +15,7 @@ layout: default
 	<div class="section-bright">
 {% endif %}
 		{% include menu-button.html %}
-		<header class="priority-header" style="background-image: url('{{site.url}}/{{page.feature-image-path}}');">
+		<header class="priority-header" id="vidfade" style="background-image: url('{{site.url}}/{{page.feature-image-path}}');">
 		<section class="quote">
 		  <blockquote>{{ page.quote }}</blockquote>
 		  <cite>{{ page.cite }}</cite>
@@ -23,12 +23,14 @@ layout: default
 		<h2 class="priority-header__heading"><span>{{ page.priority-id }}</span>{{ page.title }}</h2>
 		{% if page.feature-video-path %}
 		<video playsinline loop muted autoplay poster="{{site.url}}/{{page.feature-image-path}}" class="priority-header__video" id="bgvid">
-		      <source src="{{site.url}}/{{page.feature-video-path}}.webm" type="video/webm" media="all and (min-width:800px)">
-		      <source src="{{site.url}}/{{page.feature-video-path}}.mp4" type="video/mp4" media="all and (min-width:800px)">
+		      <source src="{{site.url}}/{{page.feature-video-path}}.webm" type="video/webm">
+		      <source src="{{site.url}}/{{page.feature-video-path}}.mp4" type="video/mp4">
 		</video>
 		<button class="button-pause" id="vidpause">Pause</button>
+		<script src="{{site.url}}/assets/js/min/video-fade-min.js"></script>
 		{% endif %}
 		</header>
+		{% if page.feature-video-path %}
 		<script>
 		// Pause/Play Embedded Video for Accessibility //
 
@@ -53,7 +55,9 @@ layout: default
 		        pauseButton.innerHTML = "Paused";
 			}
 		})
+
 		</script>
+		{% endif %}
 		<div class="inner-wrapper">
 			<p class="priority-introduction">{{ page.intro }}</p>
 			<div class="priority-content">
@@ -66,7 +70,7 @@ layout: default
 				</section>
 				<section class="priority-media">
 					<section class="feature-teaser">
-						<a class="feature-teaser__link" href="{{ site.url }}{{ story.url }}">
+						<a class="feature-teaser__link" id="fade" href="{{ site.url }}{{ story.url }}">
 						<div class="feature-teaser__link__text">
 							<h3 class="feature-teaser__header">Feature Story</h3>
 							<h4 class="feature-teaser__headline">{{ story.title }}</h4>
