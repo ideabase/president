@@ -4,7 +4,7 @@ layout: story
 theme: dark
 date: 2015-08-30 12:51:00
 featuredName: Nirmala Ghimirey
-feature-image-path: /dev/assets/img/Nirmala_Ghimirey_feature_image.jpg
+feature-image-path: assets/img/banner/crop/nirmala.jpg
 title1: Bettering Society
 title2: through service, research
 title3: and an inspiring example of determination

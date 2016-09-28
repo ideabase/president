@@ -13,5 +13,10 @@ layout: default
           <p class="gallery-caption__description">{{page.description}}</p>
         </figcaption>
       </figure>
+      {% for items in site.priorities %}
+        {% if items.priority-id == page.priority %}
+          <a class="button" href="{{site.url}}{{ items.url }}" id="close">Back to Priority {{ items.priority-id }}</a>
+        {% endif %}
+      {% endfor %}
     </div>
 </div>

@@ -3,7 +3,7 @@ title: "Giving Tuesday 2015: The greatest in Kent State history"
 layout: story
 theme: bright
 date: 2015-08-30 12:51:00
-feature-image-path: /dev/assets/img/Nirmala_Ghimirey_feature_image.jpg
+feature-image-path: assets/img/banner/crop/giving.jpg
 title1: Giving Tuesday 2015
 title2: The greatest in Kent State history
 teaser: Golden Flashes and friends were asked to give back, and they rose magnificently to the challenge.

@@ -20,6 +20,11 @@ layout: default
 			<article class="story-body">
 				<h2 class="story-body__headline"><span class="story-body__headline__level1">{{ page.title1 }}</span> <span class="story-body__headline__level2">{{ page.title2 }}</span><span class="story-body__headline__level3">{{ page.title3 }}</span></h2>
 				{{ content }}
+				{% for items in site.priorities %}
+		      {% if items.priority-id == page.priority %}
+		        <a class="button" href="{{site.url}}{{ items.url }}" id="close">Back to Priority {{ items.priority-id }}</a>
+		      {% endif %}
+		    {% endfor %}
 				<section class="social-sharing">
 					  <h4 class="social-sharing__title">Share</h4>
 					  <div class="addthis_inline_share_toolbox"></div>

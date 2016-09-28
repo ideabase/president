@@ -51,6 +51,22 @@ gulp.task('videoThumb', function () {
     .pipe(gulp.dest('assets/img/videoThumb/crop/'));
 });
 
+// Video Screenshot Crops For Large Screens //
+
+gulp.task('videoThumbLarge', function () {
+  gulp.src('assets/img/videoThumb/*.{png,gif,jpg,JPG,JPEG}')
+    .pipe(changed('assets/img/videoThumb/crop-large/'))
+    .pipe(imageResize({
+      width : 508,
+      height : 338,
+      crop : true,
+      upscale : false,
+      quality : .7,
+      format : "jpg"
+    }))
+    .pipe(gulp.dest('assets/img/videoThumb/crop-large/'));
+});
+
 // Featured Priority Crops //
 
 gulp.task('featuredPriority', function () {
@@ -62,7 +78,8 @@ gulp.task('featuredPriority', function () {
       crop : true,
       upscale : true,
       quality : .7,
-      format : "jpg"
+      format : "jpg",
+      gravity : "North",
     }))
     .pipe(gulp.dest('assets/img/featuredPriority/crop/'));
 });
@@ -76,9 +93,9 @@ gulp.task('banner', function () {
       width : 1944,
       height : 656,
       crop : true,
-      gravity : "Center",
+      gravity : "North",
       upscale : true,
-      quality : .7,
+      quality : .8,
       format : "jpg"
     }))
     .pipe(gulp.dest('assets/img/banner/crop/'));
@@ -102,4 +119,4 @@ gulp.task('priority', function () {
 });
 
 
-gulp.task('default', ['gallery', 'priority', 'thumbnail', 'videoThumb', 'featuredPriority', 'banner']);
+gulp.task('default', ['gallery', 'videoThumbLarge', 'priority', 'thumbnail', 'videoThumb', 'featuredPriority', 'banner']);
