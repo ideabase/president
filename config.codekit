@@ -3814,17 +3814,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/prod\/_site\/assets\/js\/menu.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/prod\/_site\/assets\/js\/menu.js",
-		"outputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/menu-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/prod\/_site\/assets\/js\/min\/analytics-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3864,17 +3853,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/init-min.js",
 		"outputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/min\/init-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/prod\/_site\/assets\/js\/min\/menu-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/menu-min.js",
-		"outputAbbreviatedPath": "\/prod\/_site\/assets\/js\/min\/min\/menu-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
