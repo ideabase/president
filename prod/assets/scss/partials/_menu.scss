@@ -157,6 +157,7 @@
   right: 0;
   top: 0;
   transition: transform 500ms ease 0s;
+  visibility: hidden;
 }
 
 .no-js .oc-push.menu {
@@ -178,6 +179,10 @@
   opacity: 1;
   //transition: opacity 400ms;
   width: 100%;
+}
+
+.menu-open .oc-push.menu {
+  visibility: visible;
 }
 
 
