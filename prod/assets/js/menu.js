@@ -78,7 +78,7 @@ var SidebarMenuEffects = (function() {
         }, 25 );
         setTimeout( function() {
           document.getElementById("firstitem").focus();
-        }, 1000 );
+        }, 2000 );
         document.addEventListener( eventtype, bodyClickFn );
       });
 
