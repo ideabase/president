@@ -44,25 +44,20 @@
 .menu {
   position: absolute;
   top: $globalpadding*3;
-  transition: all 400ms;
-  visibility: hidden;
-  width: 235px;
+  width: 13rem;
   z-index: 100;
   display: none;
-  right: 0;
+  @media #{$large} {
+    width: 15rem;
+  }
 }
 
 .js .menu {
   display: block;
 }
 
-.menu-open .menu {
-  @media #{$large} {
-    right: 2%;
-  }
-  @media #{$x-large} {
-    right: 10%;
-  }
+.primary-menu {
+  margin-top: 2em;
 }
 
 .primary-menu, .secondary-menu {
@@ -103,10 +98,8 @@
   height: auto;
   position: relative;
   left: 0;
-  -webkit-transition: -webkit-transform 400ms;
-  transition: transform 400ms;
+  transition: transform 600ms;
   z-index: 99;
-  overflow: hidden;
 }
 
 .oc-pusher::after {
@@ -115,18 +108,15 @@
   position: absolute;
   top: 0;
   right: 0;
-  opacity: 0;
   width: 0;
-  -webkit-transition: opacity 400ms, width 0.1s 400ms, height 0.1s 400ms;
-  transition: opacity 400ms, width 0.1s 400ms, height 0.1s 400ms;
+  transition: opacity 600ms, width 0.1s 600ms, height 0.1s 600ms;
   background: transparent;
 }
 
 .menu-open .menu::after {
   height: 0;
   opacity: 0;
-  -webkit-transition: opacity 400ms, width 0.1s 400ms, height 0.1s 400ms;
-  transition: opacity 400ms, width 0.1s 400ms, height 0.1s 400ms;
+  transition: opacity 600ms, width 0.1s 600ms, height 0.1s 600ms;
   width: 0;
 }
 
@@ -144,6 +134,7 @@
   right: inherit;
   max-width: 1150px;
   margin: 1em auto 0 auto;
+  opacity: 1;
 }
 
 .no-js .primary-menu, .no-js .secondary-menu {
@@ -163,6 +154,9 @@
 
 .oc-push.menu {
   transform: translate3d(100%, 0, 0);
+  right: 0;
+  top: 0;
+  transition: transform 500ms ease 0s;
 }
 
 .no-js .oc-push.menu {
@@ -173,20 +167,17 @@
   display: none;
 }
 .oc-push.menu-open .oc-pusher {
-  transform: translate3d(-250px, 0, 0);
+  transform: translate3d(-13.88889rem, 0, 0);
+  @media #{$large} {
+    transform: translate3d(-20rem, 0, 0);
+  }
 }
 
 .menu-open .oc-pusher::after {
   height: 100%;
   opacity: 1;
-  -webkit-transition: opacity 400ms;
-  transition: opacity 400ms;
+  //transition: opacity 400ms;
   width: 100%;
-}
-
-.oc-push.menu-open .oc-push.menu {
-  transition: transform 400ms;
-  visibility: visible;
 }
 
 
