@@ -21,8 +21,8 @@ main {
   background-color: transparent;
   box-shadow: 2px 2px 5px rgba(0,0,0,.8);
   min-height: 300px;
-  @media #{$medium} {
-    min-height: 600px;
+  @media #{$medium} and (min-height: 50em) {
+    min-height: 500px;
   }
 }
 
