@@ -13,12 +13,12 @@ header, footer {
 }
 
 .inner-wrapper {
-  padding: $globalpadding*2  $globalpadding*2 $globalpadding*2 $globalpadding*2;
+  padding: $globalpadding*2  $globalpadding*2 $globalpadding*3 $globalpadding*2;
   margin: 0 auto;
   z-index: 30;
   position: relative;
   @media #{$large} {
-    padding: .5em $globalpadding*3 $globalpadding*3 $globalpadding*3;
+    padding: .5em $globalpadding*3 $globalpadding*3.25 $globalpadding*3;
   }
   border-image: url(../../assets/img/yellow-border.svg);
   border-top: 0;

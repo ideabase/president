@@ -59,7 +59,7 @@ header[role="banner"] {
   color: $gold;
   @include NationalBoldItalic;
   display: block;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   @media #{$small} {
     display: inline-block;
   }

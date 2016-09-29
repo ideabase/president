@@ -179,6 +179,9 @@
   text-align: left;
   font-size: 130%;
   color: $secondaryyellow;
+  text-shadow: 2px 2px 3px rgba(0,0,0,.8);
+  text-rendering: optimizeLegibility;
+  letter-spacing: 2px;
   @media #{$small} {
     margin-top: -6rem;
     font-size: 200%;
@@ -188,7 +191,7 @@
     font-size: 250%;
   }
   @media #{$large} {
-    margin-top: -5rem;
+    margin-top: -5.2rem;
   }
 }
 

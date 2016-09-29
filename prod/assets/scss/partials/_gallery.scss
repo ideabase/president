@@ -6,6 +6,9 @@
 .gallery-caption__description {
   margin-top: .25em;
   font-size: .9em;
+  @media #{$medium} {
+    font-size: 1em;
+  }
 }
 
 .gallery-caption__description a {
