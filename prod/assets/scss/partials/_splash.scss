@@ -82,9 +82,9 @@
     overflow: hidden;
   }
   &:hover {
-    .splash-headline {
+    /*.splash-headline {
       margin-left:1%;
-    }
+    }*/
     .splash-image {
       //transform: scale(1.05);
     }
@@ -92,7 +92,7 @@
       //mix-blend-mode:inherit;
       opacity: 1;
     }
-    @media screen and #{$medium} {
+    /*@media screen and #{$medium} {
       &:after {
         width: 275px;
         height: 275px;
@@ -121,7 +121,7 @@
         width: 265px;
         height: 265px;
       }
-    }
+    }*/
   }
 }
 
