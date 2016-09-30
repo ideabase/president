@@ -1627,7 +1627,7 @@ $("#gallery").owlCarousel({
     singleItem : true,
     navigation : true,
     autoPlay : 10000,
-    autoPlaySpeed : 5000,
+    autoPlaySpeed : 10000,
     autoPlayTimeout : 8000,
   });
 
