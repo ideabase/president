@@ -30,10 +30,10 @@ teaser: A gallery of photos demonstrating Kent State University's organizational
 			    </figcaption>
 			  </figure>
 <figure class="gallery__item">
-			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/missing.jpg" alt="A second phase of the energy conservation project will generate annual energy savings of approximately $2.3 million and annual positive cash flow of $795000." />
+			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/caedUpdate.jpg" alt="A second phase of the energy conservation project will generate annual energy savings of approximately $2.3 million and annual positive cash flow of $795000." />
 			    <figcaption>
 			      <h3 class="gallery-caption__title">Energy Conservation</h3>
-			      <p class="gallery-caption__description">A second phase of the energy conservation project will generate annual energy savings of approximately $2.3 million and annual positive cash flow of $795,000.</p>
+			      <p class="gallery-caption__description">A second phase of the energy conservation project will generate annual energy savings of approximately $2.3 million and annual positive cash flow of $795,000. The new Center for Architecture and Environmental Design features geothermal heating and cooling made possible with 131 wells that are 405 feet deep and 300% more efficient than standard systems.</p>
 			    </figcaption>
 			  </figure>
 <figure class="gallery__item">
@@ -60,7 +60,7 @@ teaser: A gallery of photos demonstrating Kent State University's organizational
 <figure class="gallery__item">
 			    <img class="gallery__item__image" src="{{ site.url }}/assets/img/gallery/crop/newcommitments.jpg" alt="We celebrated the grand opening of the Center for Philanthropy and Alumni Engagement on June 3, 2016." />
 			    <figcaption>
-			      <h3 class="gallery-caption__title">A Center to Engage 230,000 Strong</h3>
+			      <h3 class="gallery-caption__title">A Center to Engage 234,000 Strong</h3>
 			      <p class="gallery-caption__description">We celebrated the grand opening of the Center for Philanthropy and Alumni Engagement on June 3, 2016.</p>
 			    </figcaption>
 </figure>
