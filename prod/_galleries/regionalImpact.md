@@ -19,7 +19,7 @@ teaser: A gallery of photos demonstrating Kent State University's regional impac
 			  <figcaption>
 			    <h3 class="gallery-caption__title">Community Engagement</h3>
 			    <p class="gallery-caption__description">
-					The Cleveland Urban Design Collaborative (CUDC) examined the relationships between two cities-Cleveland, Ohio and Havana, Cua. The 15-week studio, which took place in the spring of 2016, was sponsored by the Cleveland Foundation. Architecture and Environmental Design Graduate students Alexander Scorr and Jordan Fitzgerald re-envisioned the Lakeshore Coal Plant as a regional destination for industrial arts preservation and production, located in close proximity to Cleveland's University Circle arts and culture district.</p>
+					The Cleveland Urban Design Collaborative (CUDC) examined the relationships between two cities-Cleveland, Ohio and Havana, Cua. The 15-week studio, which took place in the spring of 2016, was sponsored by the Cleveland Foundation. Architecture and Environmental Design Graduate students Alexander Scott and Jordan Fitzgerald re-envisioned the Lakeshore Coal Plant as a regional destination for industrial arts preservation and production, located in close proximity to Cleveland's University Circle arts and culture district.</p>
 			  </figcaption>
 </figure>
 <figure class="gallery__item">
