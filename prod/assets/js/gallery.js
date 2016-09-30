@@ -1628,8 +1628,8 @@ $("#gallery").owlCarousel({
     navigation : true,
     autoPlay : 10000,
     autoPlaySpeed : 10000,
-    autoPlayTimeout : 8000,
+    autoPlayTimeout : 10000,
   });
 
-  
+
 });
